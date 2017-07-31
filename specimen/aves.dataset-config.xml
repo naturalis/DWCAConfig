@@ -172,6 +172,9 @@
 			<field name="eventDate" term="http://rs.tdwg.org/dwc/terms/eventDate">
 				<path>gatheringEvent.0.dateTimeBegin + " | " + gatheringEvent.0.dateTimeEnd</path>
 			</field>
+			<field name="nomenclaturalCode" term="http://rs.tdwg.org/dwc/terms/nomenclaturalCode">
+				<path>"ICZN"</path>
+			</field>
 
 			<!-- DUMMIES RECORDS
       <field name="maximumElevationInMeters" term="http://rs.tdwg.org/dwc/terms/maximumElevationInMeters">
@@ -180,9 +183,7 @@
       <field name="minimumElevationInMeters" term="http://rs.tdwg.org/dwc/terms/minimumElevationInMeters">
         <path>DummyDefault</path>
       </field>
-      <field name="nomenclaturalCode" term="http://rs.tdwg.org/dwc/terms/nomenclaturalCode">
-        <path>DummyDefault</path>
-      </field>
+     
       <field name="institutionCode" term="http://rs.tdwg.org/dwc/terms/institutionCode">
         <path>DummyDefault</path>
       </field>
