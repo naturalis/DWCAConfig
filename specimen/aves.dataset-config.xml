@@ -164,10 +164,10 @@
 				</calculator>
 			</field>
 			<field name="informationWithheld" term="http://rs.tdwg.org/dwc/terms/informationWithheld">
-				<path></path>
+				<constant></constant>
 			</field>
 			<field name="verbatimCoordinates" term="http://rs.tdwg.org/dwc/terms/verbatimCoordinates">
-				<path></path>
+				<constant></constant>
 			</field>
 			<field name="eventDate" term="http://rs.tdwg.org/dwc/terms/eventDate">
 				<path>gatheringEvent.0.dateTimeBegin + " | " + gatheringEvent.0.dateTimeEnd</path>
