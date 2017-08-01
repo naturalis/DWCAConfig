@@ -173,7 +173,7 @@
 				<path>gatheringEvent.0.dateTimeBegin + " | " + gatheringEvent.0.dateTimeEnd</path>
 			</field>-->
 			<field name="nomenclaturalCode" term="http://rs.tdwg.org/dwc/terms/nomenclaturalCode">
-				<path>"ICZN"</path>
+				<constant>ICZN</constant>
 			</field>
 
 			<!-- DUMMIES RECORDS
