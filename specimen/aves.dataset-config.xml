@@ -169,9 +169,9 @@
 			<field name="verbatimCoordinates" term="http://rs.tdwg.org/dwc/terms/verbatimCoordinates">
 				<constant></constant>
 			</field>
-			<field name="eventDate" term="http://rs.tdwg.org/dwc/terms/eventDate">
+			<!--<field name="eventDate" term="http://rs.tdwg.org/dwc/terms/eventDate">
 				<path>gatheringEvent.0.dateTimeBegin + " | " + gatheringEvent.0.dateTimeEnd</path>
-			</field>
+			</field>-->
 			<field name="nomenclaturalCode" term="http://rs.tdwg.org/dwc/terms/nomenclaturalCode">
 				<path>"ICZN"</path>
 			</field>
