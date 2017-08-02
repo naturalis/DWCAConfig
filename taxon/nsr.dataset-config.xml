@@ -139,7 +139,7 @@
 			<field name="vernacularName" term="http://rs.tdwg.org/dwc/terms/vernacularName">
 				<path relative="true">name</path>
 			</field>
-			<field name="isPreferredName" term="http://data.biodiversitydata.nl/terms/isPreferredName">
+			<field name="isPreferredName" term="http://rs.gbif.org/terms/1.0/isPreferredName">
 				<path relative="true">preferred</path>
 			</field>
 			<field name="language" term="http://purl.org/dc/terms/language">
