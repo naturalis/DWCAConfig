@@ -169,11 +169,16 @@
 			<field name="verbatimCoordinates" term="http://rs.tdwg.org/dwc/terms/verbatimCoordinates">
 				<constant></constant>
 			</field>
-			<!--<field name="eventDate" term="http://rs.tdwg.org/dwc/terms/eventDate">
-				<path>gatheringEvent.0.dateTimeBegin + " | " + gatheringEvent.0.dateTimeEnd</path>
-			</field>-->
+			<field name="eventDate" term="http://rs.tdwg.org/dwc/terms/eventDate">
+				<calculator>
+					<java-class>VerbatimEventDateCalculator</java-class>
+				</calculator>
+			</field>
 			<field name="nomenclaturalCode" term="http://rs.tdwg.org/dwc/terms/nomenclaturalCode">
 				<constant>ICZN</constant>
+			</field>
+			<field name="geodeticDatum" term="http://rs.tdwg.org/dwc/terms/geodeticDatum">
+				<constant>WGS84</constant>
 			</field>
 
 			<!-- DUMMIES RECORDS
@@ -183,19 +188,11 @@
       <field name="minimumElevationInMeters" term="http://rs.tdwg.org/dwc/terms/minimumElevationInMeters">
         <path>DummyDefault</path>
       </field>
-     
       <field name="institutionCode" term="http://rs.tdwg.org/dwc/terms/institutionCode">
-        <path>DummyDefault</path>
-      </field>
-     
-      <field name="geodeticDatum" term="http://rs.tdwg.org/dwc/terms/geodeticDatum">
         <path>DummyDefault</path>
       </field>
       <field name="habitat" term="http://rs.tdwg.org/dwc/terms/habitat">
         <path>DummyDefault</path>
-      </field>
-      <field name="higherClassification" term="http://rs.tdwg.org/dwc/terms/higherClassification">
-        <path>Dummy2</path>
       </field>
       -->
 		</mapping>

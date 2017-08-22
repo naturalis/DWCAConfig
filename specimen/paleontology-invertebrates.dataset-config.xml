@@ -163,40 +163,36 @@
 					<java-class>HigherClassificationCalculator</java-class>
 				</calculator>
 			</field>
-
+			<field name="informationWithheld" term="http://rs.tdwg.org/dwc/terms/informationWithheld">
+				<constant></constant>
+			</field>
+			<field name="verbatimCoordinates" term="http://rs.tdwg.org/dwc/terms/verbatimCoordinates">
+				<constant></constant>
+			</field>
+			<field name="eventDate" term="http://rs.tdwg.org/dwc/terms/eventDate">
+				<calculator>
+					<java-class>VerbatimEventDateCalculator</java-class>
+				</calculator>
+			</field>
+			<field name="nomenclaturalCode" term="http://rs.tdwg.org/dwc/terms/nomenclaturalCode">
+				<constant>ICZN</constant>
+			</field>
+			<field name="geodeticDatum" term="http://rs.tdwg.org/dwc/terms/geodeticDatum">
+				<constant>WGS84</constant>
+			</field>
+			
 			<!-- DUMMIES RECORDS
-      <field name="eventDate" term="http://rs.tdwg.org/dwc/terms/eventDate">
-        <path>Dummy1</path>
-      </field>
-      <field name="verbatimEventDate" term="http://rs.tdwg.org/dwc/terms/verbatimEventDate">
-        <path>Dummy4</path>
-      </field> 
-      <field name="verbatimCoordinates" term="http://rs.tdwg.org/dwc/terms/verbatimCoordinates">
-        <path>Dummy3</path>
-      </field>
       <field name="maximumElevationInMeters" term="http://rs.tdwg.org/dwc/terms/maximumElevationInMeters">
         <path>DummyDefault</path>
       </field>
       <field name="minimumElevationInMeters" term="http://rs.tdwg.org/dwc/terms/minimumElevationInMeters">
         <path>DummyDefault</path>
       </field>
-      <field name="nomenclaturalCode" term="http://rs.tdwg.org/dwc/terms/nomenclaturalCode">
-        <path>DummyDefault</path>
-      </field>
       <field name="institutionCode" term="http://rs.tdwg.org/dwc/terms/institutionCode">
-        <path>DummyDefault</path>
-      </field>
-      <field name="informationWithheld" term="http://rs.tdwg.org/dwc/terms/informationWithheld">
-        <path>DummyDefault</path>
-      </field>
-      <field name="geodeticDatum" term="http://rs.tdwg.org/dwc/terms/geodeticDatum">
         <path>DummyDefault</path>
       </field>
       <field name="habitat" term="http://rs.tdwg.org/dwc/terms/habitat">
         <path>DummyDefault</path>
-      </field>
-      <field name="higherClassification" term="http://rs.tdwg.org/dwc/terms/higherClassification">
-        <path>Dummy2</path>
       </field>
       -->
 		</mapping>
