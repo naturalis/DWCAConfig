@@ -18,7 +18,9 @@
 				<path>sourceSystemId</path>
 			</field>
 			<field name="basisOfRecord" term="http://rs.tdwg.org/dwc/terms/basisOfRecord">
-				<path>recordBasis</path>
+				<calculator>
+					<java-class>RecordBasisCalculator</java-class>
+				</calculator>
 			</field>
 			<field name="class" term="http://rs.tdwg.org/dwc/terms/class">
 				<path>identifications.0.defaultClassification.className</path>
