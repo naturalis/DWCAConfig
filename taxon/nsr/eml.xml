@@ -1,13 +1,13 @@
 <eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
          xmlns:dc="http://purl.org/dc/terms/"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.2/eml.xsd"
-         packageId="TO_BE_ANNOUNCED" system="http://gbif.org" scope="system"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+         packageId="4dd32523-a3a3-43b7-84df-4cda02f15cf7" system="http://gbif.org" scope="system"
          xml:lang="eng">
 
 <dataset>
-  <alternateIdentifier>http://api.biodiversitydata.nl/v2/taxon/dwca/dataset/nsr</alternateIdentifier>
-  <title xml:lang="eng">Checklist Dutch Species Catalog - Nederlands Soortenregister</title>
+    <alternateIdentifier>4dd32523-a3a3-43b7-84df-4cda02f15cf7</alternateIdentifier>
+    <title xml:lang="eng">Checklist Dutch Species Register - Nederlands Soortenregister</title>
 <creator>
     <individualName>
         <givenName>Jeroen</givenName>
@@ -33,7 +33,6 @@
     </individualName>
     <organizationName>Naturalis Biodiversity Center</organizationName>
     <positionName>Project manager Nederlands Soortenregister</positionName>
-	<role>author</role>
     <address>
         <deliveryPoint>PO Box 9517</deliveryPoint>
         <city>Leiden</city>
@@ -47,7 +46,7 @@
 </metadataProvider>
 <associatedParty>
     <individualName>
-        <givenName>Roy</givenName>
+      <givenName>Roy</givenName>
       <surName>Kleukers</surName>
     </individualName>
     <organizationName>EIS Kenniscentrum insecten en andere ongewervelden</organizationName>
@@ -61,7 +60,7 @@
         <country>NL</country>
     </address>
     <phone>+31.71.7519600</phone>
-    <electronicMailAddress>eis@naturalis.nl</electronicMailAddress>
+    <electronicMailAddress>soortenregister@naturalis.nl</electronicMailAddress>
     <onlineUrl>http://www.eis-nederland.nl</onlineUrl>
 </associatedParty>
 <associatedParty>
@@ -83,29 +82,39 @@
     <electronicMailAddress>berry.vanderhoorn@naturalis.nl</electronicMailAddress>
     <onlineUrl>http://science.naturalis.nl</onlineUrl>
 </associatedParty>
-<pubDate></pubDate>
+<pubDate>2017-05-17</pubDate>
 <language>Dutch</language>
+<additionalInfo>
+  <para>For occurenceStatus an internal code system is used. Currently the code labels are in Dutch, with a more detailed explanation of the system available here: http://www.nederlandsesoorten.nl/content/voorkomen. English definitions of these codes can be found at: http://www.nederlandsesoorten.nl/content/occurrence-status</para>
+</additionalInfo>
 <abstract>
-  <para>Database contains specimen records from the bird collection of the Naturalis Biodiversity Center (Leiden, Netherlands). The specimens originate from the collection of the former Naturalis National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie)  in Leiden and of the Zoological Museum Amsterdam (ZMA) and new acquisitions. This database replaces and enlarges the dataset Naturalis National Natural History Museum (NL) – Aves Types and Zoological Museum Amsterdam, University of Amsterdam (NL) - Aves which were hosted earlier on the GBIF dataportal. Furthermore the dataset contains many new and updated records, also from the ZMA collection. On request more information or pictures (if available) can be provided.</para>
+  <para>The Dutch Species Register provides a current and comprehensive overview of Dutch biodiversity. It is based on numerous published papers, reports, books and checklists provided by experts, covering all aspects of the Dutch flora and fauna. The Dutch Species Register combines this information into an authoritative and frequently updated national checklist.</para> 
+  <para>All multicellular animals, plants and fungi are included in the checklist, with the exception of species under direct supervision of humans (e.g. pets) and species not recorded since 1758 (i.e. subfossil and fossil species).</para> 
+  <para>The checklist includes available synonyms and preferred Dutch name and higher classification, including associated source and expert. Furthermore, all species and lower taxa are assigned a standardized code for their occurrence status within the Netherlands.</para>  
+  <para>The Dutch Species Register is coordinated and hosted by Naturalis Biodiversity Center in close collaboration with European Invertebrate Survey (EIS) - the Netherlands. A large number of scientific institutions, individual experts and organizations of volunteer recorders contribute to the Dutch Species Register. The project is supported by the Dutch Ministry of Economic Affairs and NLBIF.</para>
 </abstract>
-      <keywordSet>
-            <keyword>Checklist</keyword>
-        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
-      </keywordSet>
-      <keywordSet>
-            <keyword>inventoryRegional</keyword>
-        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
-      </keywordSet>
+<keywordSet>
+    <keyword>Checklist</keyword>
+	<keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+    <keyword>inventoryRegional</keyword>
+	<keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+</keywordSet>
   <intellectualRights>
-    <para>This work is licensed under a Creative Commons Attribution (CC BY) 4.0 License https://creativecommons.org/licenses/by/4.0/</para>
+    <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
   </intellectualRights>
+<purpose>
+  <para>You can download and use this checklist for any project in need of a (complete or partial) list of species occurring in The Netherlands. While not explicitly required by the license, we do appreciate seeing nice examples of how the checklist is used. You are welcome to contact us via e-mail.</para>
+</purpose>  
+  
   <coverage>
       <geographicCoverage>
           <geographicDescription>The Netherlands</geographicDescription>
           <boundingCoordinates>
-            <westBoundingCoordinate>3.347</westBoundingCoordinate>
+            <westBoundingCoordinate>2.5394</westBoundingCoordinate>
 		    <eastBoundingCoordinate>7.265</eastBoundingCoordinate>
-		    <northBoundingCoordinate>53.566</northBoundingCoordinate>
+		    <northBoundingCoordinate>55.765</northBoundingCoordinate>
             <southBoundingCoordinate>50.69</southBoundingCoordinate>
           </boundingCoordinates>
       </geographicCoverage>
@@ -115,7 +124,7 @@
 		    <calendarDate>1758-01-01</calendarDate>
 		  </beginDate>
 		  <endDate>
-		    <calendarDate>2016-09-01</calendarDate>
+		    <calendarDate>2017-05-10</calendarDate>
 		  </endDate>
 		</rangeOfDates>
 	  </temporalCoverage>
@@ -140,11 +149,11 @@
  </coverage>
  <contact>
     <individualName>
-        <givenName>Berry</givenName>
-        <surName>van der Hoorn</surName>
+        <givenName>Roy</givenName>
+        <surName>Kleukers</surName>
     </individualName>
     <organizationName>Naturalis Biodiversity Center</organizationName>
-    <positionName>Dutch Species Catalog Administrator</positionName>
+    <positionName>Dutch Species Register Administrator</positionName>
     <address>
         <deliveryPoint>PO Box 9517</deliveryPoint>
         <city>Leiden</city>
@@ -160,7 +169,7 @@
   <additionalMetadata>
     <metadata>
       <gbif>
-          <dateStamp></dateStamp>
+          <dateStamp>2016-12-12T12:00:00.000+01.00</dateStamp>
           <hierarchyLevel>dataset</hierarchyLevel>
           <resourceLogoUrl>http://www.naturalis.nl/media/library/2012/07/Naturalis_logo_staand_rood_01.jpg</resourceLogoUrl>
           <dc:replaces></dc:replaces>
