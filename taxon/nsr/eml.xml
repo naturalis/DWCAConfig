@@ -65,11 +65,11 @@
 </associatedParty>
 <associatedParty>
     <individualName>
-        <givenName>Berry</givenName>
-        <surName>van der Hoorn</surName>
+        <givenName>Sander</givenName>
+        <surName>Pieterse</surName>
     </individualName>
     <organizationName>Naturalis Biodiversity Center</organizationName>
-    <positionName>Group leader Biodiversity Discovery</positionName>
+    <positionName>Project manager Nederlands Soortenregister</positionName>
 	<role>owner</role>
     <address>
         <deliveryPoint>PO Box 9517</deliveryPoint>
@@ -79,10 +79,10 @@
         <country>NL</country>
     </address>
     <phone>+31.71.7519600</phone>
-    <electronicMailAddress>berry.vanderhoorn@naturalis.nl</electronicMailAddress>
+    <electronicMailAddress>sander.pieterse@naturalis.nl</electronicMailAddress>
     <onlineUrl>http://science.naturalis.nl</onlineUrl>
 </associatedParty>
-<pubDate>2017-05-17</pubDate>
+<pubDate>2017-12-20</pubDate>
 <language>Dutch</language>
 <additionalInfo>
   <para>For occurenceStatus an internal code system is used. Currently the code labels are in Dutch, with a more detailed explanation of the system available here: http://www.nederlandsesoorten.nl/content/voorkomen. English definitions of these codes can be found at: http://www.nederlandsesoorten.nl/content/occurrence-status</para>
@@ -124,7 +124,7 @@
 		    <calendarDate>1758-01-01</calendarDate>
 		  </beginDate>
 		  <endDate>
-		    <calendarDate>2017-05-10</calendarDate>
+		    <calendarDate>2017-12-20</calendarDate>
 		  </endDate>
 		</rangeOfDates>
 	  </temporalCoverage>
