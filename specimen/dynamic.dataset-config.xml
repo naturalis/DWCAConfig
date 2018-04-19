@@ -2,12 +2,13 @@
 <dataset-config xmlns="http://data.naturalis.nl/nba-dataset-config">
 	<shared-data-source>
 		<document>Specimen</document>
+		<!-- QuerySpec is ignored for a dynamic dwca download -->
 		<query-spec>
 			<conditions>
 				<condition>
-					<field>collectionType</field>
+					<field>field</field>
 					<operator>EQUALS</operator>
-					<value>Mollusca</value>
+					<value>value</value>
 				</condition>
 			</conditions>
 		</query-spec>
