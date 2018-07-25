@@ -7,7 +7,7 @@
 				<condition>
 					<field>collectionType</field>
 					<operator>EQUALS</operator>
-					<value>Aves</value>
+					<value>Bird sounds</value>
 				</condition>
 			</conditions>
 		</query-spec>
@@ -26,17 +26,11 @@
 			<field name="country" term="http://rs.tdwg.org/dwc/terms/country">
 				<path>gatheringEvent.country</path>
 			</field>
-			<!-- Calculator latitudeDecimal -->
 			<field name="latitudeDecimal" term="http://rs.tdwg.org/dwc/terms/decimalLatitude">
-				<calculator>
-					<java-class>LatitudeCalculator</java-class>
-				</calculator>
+				<path>gatheringEvent.siteCoordinates.latitudeDecimal</path>		
 			</field>
-			<!-- Calculator longitudeDecimal -->
 			<field name="longitudeDecimal" term="http://rs.tdwg.org/dwc/terms/decimalLongitude">
-				<calculator>
-					<java-class>LongitudeCalculator</java-class>
-				</calculator>
+				<path>gatheringEvent.siteCoordinates.longitudeDecimal</path>	
 			</field>
 			<field name="family" term="http://rs.tdwg.org/dwc/terms/family">
 				<path>identifications.0.defaultClassification.family</path>
@@ -47,7 +41,7 @@
 			<field name="infraspecificEpithet" term="http://rs.tdwg.org/dwc/terms/infraspecificEpithet">
 				<path>identifications.scientificName.infraspecificEpithet</path>
 			</field>
-			<!-- Calculator Kingdom -->
+			<!-- Calculator Kingdom -->			
 			<field name="kingdom" term="http://rs.tdwg.org/dwc/terms/kingdom">
 				<calculator>
 					<java-class>KingdomCalculator</java-class>
@@ -59,11 +53,8 @@
 			<field name="occurrenceID" term="http://rs.tdwg.org/dwc/terms/occurrenceID">
 				<path>unitGUID</path>
 			</field>
-			<!-- Calculator RecordedBy -->
 			<field name="recordedBy" term="http://rs.tdwg.org/dwc/terms/recordedBy">
-				<calculator>
-					<java-class>RecordedByCalculator</java-class>
-				</calculator>
+				<path>gatheringEvent.gatheringPersons.fullName</path>				
 			</field>
 			<field name="scientificName" term="http://rs.tdwg.org/dwc/terms/scientificName">
 				<path>identifications.0.scientificName.fullScientificName</path>
@@ -104,6 +95,36 @@
 			<field name="geodeticDatum" term="http://rs.tdwg.org/dwc/terms/geodeticDatum">
 				<path>gatheringEvent.siteCoordinates.spatialDatum</path>
 			</field>
+			<!-- extra fields -->
+			<field name="vernacularName" term="http://rs.tdwg.org/dwc/terms/#vernacularName">
+				<path>vernacularName</path>
+			</field>
+			<field name="behavior" term="http://rs.tdwg.org/dwc/terms/#behavior">
+				<path>gatheringEvent.behavior</path>
+			</field>
+			<field name="rightsHolder" term="http://rs.tdwg.org/dwc/terms/#dcterms:rightsHolder">
+				<path>owner</path>
+			</field>
+			<field name="eventDate" term="http://rs.tdwg.org/dwc/terms/#eventDate">
+				<path>gatheringEvent.dateTimeBegin</path>
+			</field>
+			<field name="eventTime" term="http://rs.tdwg.org/dwc/terms/#eventTime">
+				<path>gatheringEvent.dateTimeBegin</path>
+			</field>
+			<field name="fieldNotes" term="http://rs.tdwg.org/dwc/terms/#fieldNotes">
+				<path>notes</path>
+			</field>
+			<field name="associatedTaxa" term="http://rs.tdwg.org/dwc/terms/#associatedTaxa">
+				<path>gatheringEvent.associatedTaxa.name</path>
+			</field>
+			<field name="identificationRemarks" term="http://rs.tdwg.org/dwc/terms/#identificationRemarks">
+				<path>identifications.remarks</path>
+			</field>			
+			<field name="license" term="http://rs.tdwg.org/dwc/terms/#dcterms:license">
+				<path>license</path>
+			</field>
+			
+			
 
 			<!-- DUMMIES RECORDS
       <field name="maximumElevationInMeters" term="http://rs.tdwg.org/dwc/terms/maximumElevationInMeters">
