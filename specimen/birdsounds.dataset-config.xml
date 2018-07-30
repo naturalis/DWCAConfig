@@ -25,10 +25,12 @@
 			</field>x
 			<field name="country" term="http://rs.tdwg.org/dwc/terms/country">
 				<path>gatheringEvent.country</path>
+			<!-- CHECK latitudeDecimal wellicht via calculator ipv direct uit NDS -->
 			</field>
 			<field name="latitudeDecimal" term="http://rs.tdwg.org/dwc/terms/decimalLatitude">
 				<path>gatheringEvent.siteCoordinates.latitudeDecimal</path>		
 			</field>
+			<!-- CHECK longitudeDecimal wellicht via calculator ipv direct uit NDS -->
 			<field name="longitudeDecimal" term="http://rs.tdwg.org/dwc/terms/decimalLongitude">
 				<path>gatheringEvent.siteCoordinates.longitudeDecimal</path>	
 			</field>
