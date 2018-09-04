@@ -125,9 +125,6 @@
 			<field name="license" term="http://rs.tdwg.org/dwc/terms/#dcterms:license">
 				<path>license</path>
 			</field>
-			
-			
-
 			<!-- DUMMIES RECORDS
       <field name="maximumElevationInMeters" term="http://rs.tdwg.org/dwc/terms/maximumElevationInMeters">
         <path>DummyDefault</path>
@@ -142,6 +139,50 @@
         <path>DummyDefault</path>
       </field>
       -->
+		</mapping>
+	</entity>
+	
+	<entity name="multimedia">
+		<mapping>
+			<field name="coreID" term="http://rs.tdwg.org/dwc/terms/occurrenceID">
+				<path>AssociatedSpecimenReference</path>
+			</field>
+			<field name="catalogNumber" term="http://rs.tdwg.org/dwc/terms/catalogNumber">
+				<path>unitID</path>
+			</field>
+			<field name="Identifier" term="https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Identifier">
+				<path>recordURI</path>
+			</field>
+			<field name="type" term="https://terms.tdwg.org/wiki/Audubon_Core_Term_List#dc:type">
+				<path>type</path>
+			</field>
+			<field name="Rating" term="https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Rating">
+				<path>rating</path>
+			</field>
+			<field name="rightsHolder" term="http://rs.tdwg.org/dwc/terms/#dcterms:rightsHolder">
+				<path>owner</path>
+			</field>
+			<field name="creator" term="https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Creator">
+				<path>creator</path>
+			</field>
+			<field name="accessURI" term="https://terms.tdwg.org/wiki/Audubon_Core_Term_List#ac:accessURI">
+				<path>serviceAccessPoints.accessUri</path>
+			</field>
+			<field name="variantLiteral" term="https://terms.tdwg.org/wiki/Audubon_Core_Term_List#ac:variantLiteral">
+				<path>serviceAccessPoints.format</path>
+			</field>
+			<field name="description" term="https://terms.tdwg.org/wiki/Audubon_Core_Term_List#dcterms:description">
+				<path>description</path>
+			</field>
+			<field name="caption" term="https://terms.tdwg.org/wiki/Audubon_Core_Term_List#ac:caption">
+				<path>caption</path>
+			</field>
+			<field name="resourceCreationTechnique" term="https://terms.tdwg.org/wiki/Audubon_Core_Term_List#ac:resourceCreationTechnique">
+				<path>resourceCreationTechnique</path>
+			</field>
+			<field name="license" term="http://rs.tdwg.org/dwc/terms/#dcterms:license">
+				<path>license</path>
+			</field>
 		</mapping>
 	</entity>
 </dataset-config>
