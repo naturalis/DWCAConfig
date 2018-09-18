@@ -25,14 +25,18 @@
 			</field>x
 			<field name="country" term="http://rs.tdwg.org/dwc/terms/country">
 				<path>gatheringEvent.country</path>
-			<!-- CHECK latitudeDecimal wellicht via calculator ipv direct uit NDS -->
+			<!-- Calculator latitudeDecimal -->
 			</field>
 			<field name="latitudeDecimal" term="http://rs.tdwg.org/dwc/terms/decimalLatitude">
-				<path>gatheringEvent.siteCoordinates.latitudeDecimal</path>		
+				<calculator>
+					<java-class>LatitudeCalculator</java-class>
+				</calculator>		
 			</field>
-			<!-- CHECK longitudeDecimal wellicht via calculator ipv direct uit NDS -->
+			<!-- Calculator longitudeDecimal -->
 			<field name="longitudeDecimal" term="http://rs.tdwg.org/dwc/terms/decimalLongitude">
-				<path>gatheringEvent.siteCoordinates.longitudeDecimal</path>	
+				<calculator>
+					<java-class>LongitudeCalculator</java-class>
+				</calculator>
 			</field>
 			<field name="family" term="http://rs.tdwg.org/dwc/terms/family">
 				<path>identifications.0.defaultClassification.family</path>
@@ -41,7 +45,7 @@
 				<path>identifications.0.defaultClassification.genus</path>
 			</field>
 			<field name="infraspecificEpithet" term="http://rs.tdwg.org/dwc/terms/infraspecificEpithet">
-				<path>identifications.scientificName.infraspecificEpithet</path>
+				<path>identifications.0.scientificName.infraspecificEpithet</path>
 			</field>
 			<!-- Calculator Kingdom -->			
 			<field name="kingdom" term="http://rs.tdwg.org/dwc/terms/kingdom">
@@ -56,7 +60,7 @@
 				<path>unitGUID</path>
 			</field>
 			<field name="recordedBy" term="http://rs.tdwg.org/dwc/terms/recordedBy">
-				<path>gatheringEvent.gatheringPersons.fullName</path>				
+				<path>gatheringEvent.gatheringPersons.0.fullName</path>				
 			</field>
 			<field name="scientificName" term="http://rs.tdwg.org/dwc/terms/scientificName">
 				<path>identifications.0.scientificName.fullScientificName</path>
@@ -95,11 +99,11 @@
 				<constant>ICZN</constant>
 			</field>
 			<field name="geodeticDatum" term="http://rs.tdwg.org/dwc/terms/geodeticDatum">
-				<path>gatheringEvent.siteCoordinates.spatialDatum</path>
+				<path>gatheringEvent.siteCoordinates.0.spatialDatum</path>
 			</field>
 			<!-- extra fields -->
 			<field name="vernacularName" term="http://rs.tdwg.org/dwc/terms/#vernacularName">
-				<path>vernacularName</path>
+				<path>identifications.0.vernacularNames.0.name</path>
 			</field>
 			<field name="behavior" term="http://rs.tdwg.org/dwc/terms/#behavior">
 				<path>gatheringEvent.behavior</path>
@@ -117,10 +121,10 @@
 				<path>notes</path>
 			</field>
 			<field name="associatedTaxa" term="http://rs.tdwg.org/dwc/terms/#associatedTaxa">
-				<path>gatheringEvent.associatedTaxa.name</path>
+				<path>gatheringEvent.associatedTaxa.0.name</path>
 			</field>
 			<field name="identificationRemarks" term="http://rs.tdwg.org/dwc/terms/#identificationRemarks">
-				<path>identifications.remarks</path>
+				<path>identifications.0.remarks</path>
 			</field>			
 			<field name="license" term="http://rs.tdwg.org/dwc/terms/#dcterms:license">
 				<path>license</path>
@@ -141,7 +145,7 @@
       -->
 		</mapping>
 	</entity>
-	
+	<!--
 	<entity name="multimedia">
 		<mapping>
 			<field name="coreID" term="http://rs.tdwg.org/dwc/terms/occurrenceID">
@@ -185,4 +189,5 @@
 			</field>
 		</mapping>
 	</entity>
+-->
 </dataset-config>
