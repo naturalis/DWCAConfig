@@ -56,7 +56,7 @@
 			<field name="locality" term="http://rs.tdwg.org/dwc/terms/locality">
 				<path>gatheringEvent.locality</path>
 			</field>
-			<field name="occurrenceID" term="http://rs.tdwg.org/dwc/terms/occurrenceID">
+			<field name="references" term="http://rs.tdwg.org/dwc/terms/#dcterms:references">
 				<path>unitGUID</path>
 			</field>
 			<field name="recordedBy" term="http://rs.tdwg.org/dwc/terms/recordedBy">
@@ -111,18 +111,34 @@
 			<field name="rightsHolder" term="http://rs.tdwg.org/dwc/terms/#dcterms:rightsHolder">
 				<path>owner</path>
 			</field>
+			<!-- eventDate is gemapt naar "dateBegin" en niet naar de range "dateBegin/dateEnd" -->
 			<field name="eventDate" term="http://rs.tdwg.org/dwc/terms/#eventDate">
-				<path>gatheringEvent.dateTimeBegin</path>
+        			<calculator>
+                			<java-class>CalendarDateCalculator</java-class>
+                			<arg>gatheringEvent.dateTimeBegin</arg>
+        			</calculator>
 			</field>
+			<!-- timeDate is gemapt naar "timeBegin" en niet naar de range "timeBegin/timeEnd" -->
 			<field name="eventTime" term="http://rs.tdwg.org/dwc/terms/#eventTime">
-				<path>gatheringEvent.dateTimeBegin</path>
-			</field>
+ 			       <calculator>
+                			<java-class>RegularTimeCalculator</java-class>
+                			<arg>gatheringEvent.dateTimeBegin</arg>
+        			</calculator>
+			</field>		
 			<field name="fieldNotes" term="http://rs.tdwg.org/dwc/terms/#fieldNotes">
 				<path>notes</path>
 			</field>
-			<field name="associatedTaxa" term="http://rs.tdwg.org/dwc/terms/#associatedTaxa">
-				<path>gatheringEvent.associatedTaxa.0.name</path>
+			<!-- gecheckt moet worden of deze calculator doet wat men er van verwacht! -->
+			<field name="Associated Taxa" term="http://rs.tdwg.org/dwc/terms/#associatedTaxa">
+  			      <calculator>
+  		              		<java-class>AssociatedTaxaNameCalculator</java-class>
+ 			      </calculator>
 			</field>
+			<!-- <field name="Higher Geography" term="http://rs.tdwg.org/dwc/terms/#higherGeography"> -->
+  			<!--       <calculator> -->
+  			<!--  	        <java-class>HigherGeographyCalculator</java-class> -->
+		  	<!--       </calculator> -->
+			<!-- </field> -->
 			<field name="identificationRemarks" term="http://rs.tdwg.org/dwc/terms/#identificationRemarks">
 				<path>identifications.0.remarks</path>
 			</field>			
