@@ -66,11 +66,13 @@
 			<field name="references" term="http://rs.tdwg.org/dwc/terms/#dcterms:references">
 				<path>unitGUID</path>
 			</field>
-  <!-- Calculator RecordedBy of fieldname -->					
-      			<field name="recordedBy" term="http://rs.tdwg.org/dwc/terms/recordedBy">
-				<path>gatheringEvent.gatheringPersons.0.fullName</path>				
+			<!-- Calculator RecordedBy -->
+			<field name="recordedBy" term="http://rs.tdwg.org/dwc/terms/recordedBy">
+				<calculator>
+					<java-class>RecordedByCalculator</java-class>
+				</calculator>
 			</field>
-      			<field name="scientificName" term="http://rs.tdwg.org/dwc/terms/scientificName">
+     			<field name="scientificName" term="http://rs.tdwg.org/dwc/terms/scientificName">
 				<path>identifications.0.scientificName.fullScientificName</path>
 			</field>
 			<field name="sex" term="http://rs.tdwg.org/dwc/terms/sex">
