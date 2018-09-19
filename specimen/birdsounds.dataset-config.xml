@@ -19,10 +19,10 @@
 			</field>
 			<field name="basisOfRecord" term="http://rs.tdwg.org/dwc/terms/basisOfRecord">
 				<path>recordBasis</path>
-			</field>xx
+			</field>
 			<field name="collectionCode" term="http://rs.tdwg.org/dwc/terms/collectionCode">
 				<path>collectionType</path>
-			</field>x
+			</field>
 			<field name="country" term="http://rs.tdwg.org/dwc/terms/country">
 				<path>gatheringEvent.country</path>
 			<!-- Calculator latitudeDecimal -->
