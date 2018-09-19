@@ -23,10 +23,10 @@
 			<field name="collectionCode" term="http://rs.tdwg.org/dwc/terms/collectionCode">
 				<path>collectionType</path>
 			</field>	
-      <field name="continent" term="http://rs.tdwg.org/dwc/terms/continent">
+      			<field name="continent" term="http://rs.tdwg.org/dwc/terms/continent">
 			  <path>gatheringEvent.continent</path>
 			</field>
-      <field name="country" term="http://rs.tdwg.org/dwc/terms/country">
+      			<field name="country" term="http://rs.tdwg.org/dwc/terms/country">
 				<path>gatheringEvent.country</path>
 			<!-- Calculator latitudeDecimal -->
 			</field>
@@ -47,7 +47,7 @@
 			 <field name="individualCount" term="http://rs.tdwg.org/dwc/terms/individualCount">
 				<path>numberOfSpecimen</path>
 			</field>
-      <!-- <field name="genus" term="http://rs.tdwg.org/dwc/terms/genus"> -->
+      			<!-- <field name="genus" term="http://rs.tdwg.org/dwc/terms/genus"> -->
 			<!-- 	<path>identifications.0.defaultClassification.genus</path> -->
 			<!-- </field> -->
 			<field name="infraspecificEpithet" term="http://rs.tdwg.org/dwc/terms/infraspecificEpithet">
@@ -55,31 +55,31 @@
 			</field>
 			<!-- Calculator Kingdom vervangen door NDS field name-->			
 			<field name="kingdom" term="http://rs.tdwg.org/dwc/terms/kingdom">
-		  	<path>identifications.defaultClassification.kingdom</path>	
+		  		<path>identifications.defaultClassification.kingdom</path>	
 			</field>
 			<field name="locality" term="http://rs.tdwg.org/dwc/terms/locality">
 				<path>gatheringEvent.locality</path>
 			</field>
-      <field name="lifeStage" term="http://rs.tdwg.org/dwc/terms/lifeStage">
+      			<field name="lifeStage" term="http://rs.tdwg.org/dwc/terms/lifeStage">
 				<path>phaseOrStage</path>
 			</field>
 			<field name="references" term="http://rs.tdwg.org/dwc/terms/#dcterms:references">
 				<path>unitGUID</path>
 			</field>
   <!-- Calculator RecordedBy of fieldname -->					
-      <field name="recordedBy" term="http://rs.tdwg.org/dwc/terms/recordedBy">
+      			<field name="recordedBy" term="http://rs.tdwg.org/dwc/terms/recordedBy">
 				<path>gatheringEvent.gatheringPersons.0.fullName</path>				
 			</field>
-      <field name="scientificName" term="http://rs.tdwg.org/dwc/terms/scientificName">
+      			<field name="scientificName" term="http://rs.tdwg.org/dwc/terms/scientificName">
 				<path>identifications.0.scientificName.fullScientificName</path>
 			</field>
 			<field name="sex" term="http://rs.tdwg.org/dwc/terms/sex">
 				<path>sex</path>
 			</field>
-      <!-- <field name="specificEpithet" term="http://rs.tdwg.org/dwc/terms/specificEpithet"> -->	
+      			<!-- <field name="specificEpithet" term="http://rs.tdwg.org/dwc/terms/specificEpithet"> -->	
 			<!-- 	<path>identifications.0.defaultClassification.specificEpithet</path> -->	
 			<!-- </field> -->	
-      <field name="stateProvince" term="http://rs.tdwg.org/dwc/terms/stateProvince">
+      			<field name="stateProvince" term="http://rs.tdwg.org/dwc/terms/stateProvince">
 				<path>gatheringEvent.provinceState</path>
 			</field>
 			<field name="taxonRank" term="http://rs.tdwg.org/dwc/terms/taxonRank">
@@ -162,10 +162,10 @@
 			<field name="modified" term="http://rs.tdwg.org/dwc/terms/#dcterms:modified">
 				<path>dateLastEdited</path>
 			</field>
-      <field name="habitat" term="http://rs.tdwg.org/dwc/terms/habitat">
-        <path>gatheringEvent.biotopeText</path>
-      </field>
-      <field name="coordinateUncertaintyInMeters" term="http://rs.tdwg.org/dwc/terms/#coordinateUncertaintyInMeters">
+      			<field name="habitat" term="http://rs.tdwg.org/dwc/terms/habitat">
+      			  	<path>gatheringEvent.biotopeText</path>
+      			</field>
+      			<field name="coordinateUncertaintyInMeters" term="http://rs.tdwg.org/dwc/terms/#coordinateUncertaintyInMeters">
 				<path>gatheringEvents.siteCoordinates.coordinateErrorDistanceInMeters</path>
 			</field>
 			<field name="samplingProtocol" term="http://rs.tdwg.org/dwc/terms/#samplingProtocol">
@@ -180,37 +180,40 @@
  			<field name="establishmentMeans" term="http://rs.tdwg.org/dwc/terms/#establishmentMeans">
 				<path>gatheringEvent.EstablishmentMeans</path>
 			</field>
-   <!-- Calculator UITZOEKEN -->					    
-      <field name="higherGeography" term="http://rs.tdwg.org/dwc/terms/#higherGeography">
-				<path>gatheringEvent.areaName</path>
-			</field>      
-  <!-- Calculator  UITZOEKEN --->					    
-      <field name="municipality" term="http://rs.tdwg.org/dwc/terms/#municipality">
+   			<!-- Calculator Higher Geography NB moet field name niet higherNames zijn-->					    
+      			<field name="Higher Geography" term="http://rs.tdwg.org/dwc/terms/#higherGeography">
+        			<calculator>
+                			<java-class>HigherGeographyCalculator</java-class>
+        			</calculator>
+			</field>  
+  			<!-- Calculator Municipality --->					    
+      			<field name="Municipality" term="http://rs.tdwg.org/dwc/terms/#municipality">
 				<path>gatheringEvent.areaName</path>
 			</field>
-  <!-- Calculator  UITZOEKEN --->				      
-      <field name="previousIdentifications" term="http://rs.tdwg.org/dwc/terms/#previousIdentifications">
-				<path>identifications.scientificName.fullScientificName</path>
+  			<!-- Calculator  previousIdentifications --->				      
+      			<field name="Previous Identifications" term="http://rs.tdwg.org/dwc/terms/#previousIdentifications">
+        			<calculator>
+                			<java-class>PreviousIdentificationsCalculator</java-class>
+        			</calculator>
 			</field>
-      <field name="informationWithheld" term="http://rs.tdwg.org/dwc/terms/#informationWithheld">
+      			<field name="informationWithheld" term="http://rs.tdwg.org/dwc/terms/#informationWithheld">
 				<path>informationWithheld</path>
 			</field>
-      <field name="dataGeneralizations" term="http://rs.tdwg.org/dwc/terms/#dataGeneralizations">
+      			<field name="dataGeneralizations" term="http://rs.tdwg.org/dwc/terms/#dataGeneralizations">
 				<path>dataGeneralizations</path>
 			</field>      
-      
-			<!-- DUMMIES RECORDS
-      <field name="maximumElevationInMeters" term="http://rs.tdwg.org/dwc/terms/maximumElevationInMeters">
-        <path>DummyDefault</path>
-      </field>
-      <field name="minimumElevationInMeters" term="http://rs.tdwg.org/dwc/terms/minimumElevationInMeters">
-        <path>DummyDefault</path>
-      </field>
-      <field name="institutionCode" term="http://rs.tdwg.org/dwc/terms/institutionCode">
-        <path>DummyDefault</path>
-      </field>
-
-      -->
+			<!-- 
+			DUMMIES RECORDS
+      			<field name="maximumElevationInMeters" term="http://rs.tdwg.org/dwc/terms/maximumElevationInMeters">
+      			  <path>DummyDefault</path>
+      			</field>
+      			<field name="minimumElevationInMeters" term="http://rs.tdwg.org/dwc/terms/minimumElevationInMeters">
+				<path>DummyDefault</path>
+			 </field>
+			 <field name="institutionCode" term="http://rs.tdwg.org/dwc/terms/institutionCode">
+				<path>DummyDefault</path>
+			 </field>
+			-->
 		</mapping>
 	</entity>
 	<!--
@@ -257,5 +260,5 @@
 			</field>
 		</mapping>
 	</entity>
--->
+	-->
 </dataset-config>
