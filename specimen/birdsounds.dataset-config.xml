@@ -59,6 +59,9 @@
 			<field name="references" term="http://rs.tdwg.org/dwc/terms/#dcterms:references">
 				<path>unitGUID</path>
 			</field>
+			<field name="occurrenceID" term="http://rs.tdwg.org/dwc/terms/#dcterms:occurrenceID">
+				<path>unitGUID</path>
+			</field>
 			<field name="recordedBy" term="http://rs.tdwg.org/dwc/terms/recordedBy">
 				<path>gatheringEvent.gatheringPersons.0.fullName</path>				
 			</field>
@@ -145,20 +148,21 @@
 			<field name="license" term="http://rs.tdwg.org/dwc/terms/#dcterms:license">
 				<path>license</path>
 			</field>
-			<!-- DUMMIES RECORDS
-      <field name="maximumElevationInMeters" term="http://rs.tdwg.org/dwc/terms/maximumElevationInMeters">
-        <path>DummyDefault</path>
-      </field>
-      <field name="minimumElevationInMeters" term="http://rs.tdwg.org/dwc/terms/minimumElevationInMeters">
-        <path>DummyDefault</path>
-      </field>
-      <field name="institutionCode" term="http://rs.tdwg.org/dwc/terms/institutionCode">
-        <path>DummyDefault</path>
-      </field>
-      <field name="habitat" term="http://rs.tdwg.org/dwc/terms/habitat">
-        <path>DummyDefault</path>
-      </field>
-      -->
+			<!-- 
+			DUMMIES RECORDS
+      			<field name="maximumElevationInMeters" term="http://rs.tdwg.org/dwc/terms/maximumElevationInMeters">
+        		<path>DummyDefault</path>
+      			</field>
+      			<field name="minimumElevationInMeters" term="http://rs.tdwg.org/dwc/terms/minimumElevationInMeters">
+        		<path>DummyDefault</path>
+      			</field>
+      			<field name="institutionCode" term="http://rs.tdwg.org/dwc/terms/institutionCode">
+      			  <path>DummyDefault</path>
+      			</field>
+      			<field name="habitat" term="http://rs.tdwg.org/dwc/terms/habitat">
+      			  <path>DummyDefault</path>
+      			</field>
+     			 -->
 		</mapping>
 	</entity>
 	<!--
@@ -205,5 +209,5 @@
 			</field>
 		</mapping>
 	</entity>
--->
+	-->
 </dataset-config>
