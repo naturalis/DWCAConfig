@@ -166,7 +166,7 @@ packageId="INVULLEN" system="http://gbif.org" scope="system" xml:lang="en">
 		<description>
 		   <para></para>
 		</description>
-	<qualityControl></qualityControl>
+	</qualityControl>
   </methods>
   <project>
 	<title>Xeno-canto - bird sounds from around the world</title>
