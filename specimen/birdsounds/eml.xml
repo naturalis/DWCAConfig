@@ -1,7 +1,6 @@
 <eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 			
 xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
 packageId="INVULLEN" system="http://gbif.org" scope="system" xml:lang="en">
-
 <dataset>
   <alternateIdentifier></alternateIdentifier>
   <title>Xeno-canto - Bird sounds from around the world</title>
@@ -175,7 +174,7 @@ packageId="INVULLEN" system="http://gbif.org" scope="system" xml:lang="en">
 		   <givenName>Willem-Pier</givenName>
 		   <surName>Vellinga</surName>
 		</individualName>
-		<userId directory="http://XXXXX/"></userId>
+		<userId directory="http://XXXXX/"></userId>
 		<role>admin</role>
 	</personnel>
 	<abstract>
@@ -185,7 +184,7 @@ packageId="INVULLEN" system="http://gbif.org" scope="system" xml:lang="en">
 		<para>Server costs have been paid for by Naturalis Biodiversity Center since 2007; The foundation is also seeking donations from the general public.</para>
 	</funding>
 	<studyAreaDescription>
-		<descriptor name="generic" citableClassificationSystem="false">
+		<descriptor name="generic" citableClassificationSystem="false">
 		  <descriptorValue></descriptorValue>
 		</descriptor>
 	</studyAreaDescription>
@@ -200,9 +199,9 @@ packageId="INVULLEN" system="http://gbif.org" scope="system" xml:lang="en">
      <metadata>
        <gbif>
 	<dateStamp></dateStamp>	
-	<citation>Vellinga, W.P., Planque, R. & Xeno-canto foundation (2005- ), Xeno-canto - bird sounds from around the world. GBIF subset, accessed at .... </citation>	
+	<citation>Vellinga, W.P., Planque, R. &amp; Xeno-canto foundation (2005- ), Xeno-canto - bird sounds from around the world. GBIF subset, accessed at .... </citation>	
 	<bibliography>	
-		<citation>Vellinga, W.P. & Planque, R. (2015), CLEF2015 Working Notes, CEUR Workshop proceedings Vol-1391</citation>
+		<citation>Vellinga, W.P. &amp; Planque, R. (2015), CLEF2015 Working Notes, CEUR Workshop proceedings Vol-1391</citation>
 	</bibliography>	
 	<resourceLogoUrl></resourceLogoUrl>	
        </gbif>
