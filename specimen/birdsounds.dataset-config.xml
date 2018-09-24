@@ -56,10 +56,10 @@
 			<field name="locality" term="http://rs.tdwg.org/dwc/terms/locality">
 				<path>gatheringEvent.locality</path>
 			</field>
-			<field name="references" term="http://rs.tdwg.org/dwc/terms/#dcterms:references">
+			<field name="references" term="http://rs.tdwg.org/dwc/terms/dcterms:references">
 				<path>unitGUID</path>
 			</field>
-			<field name="occurrenceID" term="http://rs.tdwg.org/dwc/terms/#dcterms:occurrenceID">
+			<field name="occurrenceID" term="http://rs.tdwg.org/dwc/terms/dcterms:occurrenceID">
 				<path>unitGUID</path>
 			</field>
 			<field name="recordedBy" term="http://rs.tdwg.org/dwc/terms/recordedBy">
@@ -105,47 +105,47 @@
 				<path>gatheringEvent.siteCoordinates.0.spatialDatum</path>
 			</field>
 			<!-- extra fields -->
-			<field name="vernacularName" term="http://rs.tdwg.org/dwc/terms/#vernacularName">
+			<field name="vernacularName" term="http://rs.tdwg.org/dwc/terms/vernacularName">
 				<path>identifications.0.vernacularNames.0.name</path>
 			</field>
-			<field name="behavior" term="http://rs.tdwg.org/dwc/terms/#behavior">
+			<field name="behavior" term="http://rs.tdwg.org/dwc/terms/behavior">
 				<path>gatheringEvent.behavior</path>
 			</field>
-			<field name="rightsHolder" term="http://rs.tdwg.org/dwc/terms/#dcterms:rightsHolder">
+			<field name="rightsHolder" term="http://rs.tdwg.org/dwc/terms/dcterms:rightsHolder">
 				<path>owner</path>
 			</field>
 			<!-- eventDate is gemapt naar "dateBegin" en niet naar de range "dateBegin/dateEnd" -->
-			<field name="eventDate" term="http://rs.tdwg.org/dwc/terms/#eventDate">
+			<field name="eventDate" term="http://rs.tdwg.org/dwc/terms/eventDate">
         			<calculator>
                 			<java-class>CalendarDateCalculator</java-class>
                 			<arg>gatheringEvent.dateTimeBegin</arg>
         			</calculator>
 			</field>
 			<!-- timeDate is gemapt naar "timeBegin" en niet naar de range "timeBegin/timeEnd" -->
-			<field name="eventTime" term="http://rs.tdwg.org/dwc/terms/#eventTime">
+			<field name="eventTime" term="http://rs.tdwg.org/dwc/terms/eventTime">
  			       <calculator>
                 			<java-class>RegularTimeCalculator</java-class>
                 			<arg>gatheringEvent.dateTimeBegin</arg>
         			</calculator>
 			</field>		
-			<field name="fieldNotes" term="http://rs.tdwg.org/dwc/terms/#fieldNotes">
+			<field name="fieldNotes" term="http://rs.tdwg.org/dwc/terms/fieldNotes">
 				<path>notes</path>
 			</field>
 			<!-- gecheckt moet worden of deze calculator doet wat men er van verwacht! -->
-			<field name="Associated Taxa" term="http://rs.tdwg.org/dwc/terms/#associatedTaxa">
+			<field name="Associated Taxa" term="http://rs.tdwg.org/dwc/terms/associatedTaxa">
   			      <calculator>
   		              		<java-class>AssociatedTaxaNameCalculator</java-class>
  			      </calculator>
 			</field>
-			<!-- <field name="Higher Geography" term="http://rs.tdwg.org/dwc/terms/#higherGeography"> -->
+			<!-- <field name="Higher Geography" term="http://rs.tdwg.org/dwc/terms/higherGeography"> -->
   			<!--       <calculator> -->
   			<!--  	        <java-class>HigherGeographyCalculator</java-class> -->
 		  	<!--       </calculator> -->
 			<!-- </field> -->
-			<field name="identificationRemarks" term="http://rs.tdwg.org/dwc/terms/#identificationRemarks">
+			<field name="identificationRemarks" term="http://rs.tdwg.org/dwc/terms/identificationRemarks">
 				<path>identifications.0.remarks</path>
 			</field>			
-			<field name="license" term="http://rs.tdwg.org/dwc/terms/#dcterms:license">
+			<field name="license" term="http://rs.tdwg.org/dwc/terms/dcterms:license">
 				<path>license</path>
 			</field>
 			<!-- 
@@ -165,7 +165,6 @@
      			 -->
 		</mapping>
 	</entity>
-	<!--
 	<entity name="multimedia">
 		<mapping>
 			<field name="coreID" term="http://rs.tdwg.org/dwc/terms/occurrenceID">
@@ -204,7 +203,7 @@
 			<field name="resourceCreationTechnique" term="https://terms.tdwg.org/wiki/Audubon_Core_Term_List#ac:resourceCreationTechnique">
 				<path>resourceCreationTechnique</path>
 			</field>
-			<field name="license" term="http://rs.tdwg.org/dwc/terms/#dcterms:license">
+			<field name="license" term="http://rs.tdwg.org/dwc/terms/dcterms:license">
 				<path>license</path>
 			</field>
 		</mapping>
