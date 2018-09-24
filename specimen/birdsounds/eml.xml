@@ -1,8 +1,6 @@
-<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 			
-xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
-packageId="INVULLEN" system="http://gbif.org" scope="system" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="INVULLEN" scope="system" system="http://gbif.org" xml:lang="en" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd">
 <dataset>
-  <alternateIdentifier></alternateIdentifier>
+  <alternateIdentifier/>
   <title>Xeno-canto - Bird sounds from around the world</title>
   <creator>
 	<individualName>
@@ -10,15 +8,15 @@ packageId="INVULLEN" system="http://gbif.org" scope="system" xml:lang="en">
 		<surName></surName>
 	</individualName>
 	<organizationName>Stichting Xeno-canto voor Natuurgeluiden</organizationName>
-	<positionName></positionName>
+	<positionName/>
 	<address>
-		<deliveryPoint></deliveryPoint>
-		<city></city>
-		<administrativeArea></administrativeArea>
-		<postalCode></postalCode>
-		<country></country>
+		<deliveryPoint/>
+		<city/>
+		<administrativeArea/>
+		<postalCode/>
+		<country/>
 	</address>
-	<phone></phone>
+	<phone/>
 	<electronicMailAddress>contact@xeno-canto.org</electronicMailAddress>
 	<onlineUrl>www.xeno-canto.org</onlineUrl>
   </creator>
@@ -28,17 +26,17 @@ packageId="INVULLEN" system="http://gbif.org" scope="system" xml:lang="en">
 		<surName>Vellinga</surName>
 	</individualName>
 	<organizationName>Stichting Xeno-canto voor Natuurgeluiden</organizationName>
-	<positionName></positionName>
+	<positionName/>
 	<address>
-		<deliveryPoint></deliveryPoint>
-		<city></city>
-		<administrativeArea></administrativeArea>
-		<postalCode></postalCode>
-		<country></country>
+		<deliveryPoint/>
+		<city/>
+		<administrativeArea/>
+		<postalCode/>
+		<country/>
 	</address>
-	<phone></phone>
+	<phone/>
 	<electronicMailAddress>wp@xeno-canto.org</electronicMailAddress>
-	<onlineUrl></onlineUrl>
+	<onlineUrl/>
   </metadataProvider>
   <associatedParty>
 	<individualName>
@@ -46,7 +44,7 @@ packageId="INVULLEN" system="http://gbif.org" scope="system" xml:lang="en">
 		<surName></surName>
 	</individualName>
 	<organizationName>NLBIF</organizationName>
-	<positionName></positionName>
+	<positionName/>
 	<address>
 		<deliveryPoint>P.O. Box 9517</deliveryPoint>
 		<city>Leiden</city>
@@ -63,7 +61,7 @@ packageId="INVULLEN" system="http://gbif.org" scope="system" xml:lang="en">
 		<surName></surName>
 	</individualName>
 	<organizationName>Naturalis</organizationName>
-	<positionName></positionName>
+	<positionName/>
 	<address>
 		<deliveryPoint>P.O. Box 9517</deliveryPoint>
 		<city>Leiden</city>
@@ -74,7 +72,7 @@ packageId="INVULLEN" system="http://gbif.org" scope="system" xml:lang="en">
 	<onlineUrl>https://www.naturalis.nl</onlineUrl>
 	<role>DISTRIBUTOR</role>
   </associatedParty>
-  <pubDate></pubDate>
+  <pubDate>2018-09-20</pubDate>
   <language>en</language>
   <abstract>
 	<para>www.xeno-canto.org ("Xeno-canto", "XC") is a website that gives access to shared recordings of sounds of wild birds from around the world.</para>
@@ -93,15 +91,12 @@ packageId="INVULLEN" system="http://gbif.org" scope="system" xml:lang="en">
 	<keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
   </keywordSet>
   <additionalInfo>
-	<para></para>
+	<para/>
   </additionalInfo>
   <intellectualRights>
   <!-- Om geen problemen bij GBIF te krijgen moet 1 licentie gekozen worden, in de juiste machine readable manier -->
-  <!-- <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para> -->
-        	<para>
-	This work is licensed under
-	<citetitle>various Creative Commons licenses</citetitle>.
-	</para>
+  <!-- Dus de oplossing die voorgesteld is kan niet: <citetitle>various Creative Commons licenses</citetitle>. -->
+	<para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
   </intellectualRights>
   <coverage>
 	<geographicCoverage>
@@ -127,7 +122,7 @@ packageId="INVULLEN" system="http://gbif.org" scope="system" xml:lang="en">
 			<calendarDate>1977</calendarDate>
 		</beginDate>
 		<endDate>
-			<calendarDate></calendarDate>
+			<calendarDate/>
 		</endDate>
 		</rangeOfDates>
 	</temporalCoverage>
@@ -140,30 +135,30 @@ packageId="INVULLEN" system="http://gbif.org" scope="system" xml:lang="en">
 	<organizationName>Stichting Xeno-canto voor Natuurgeluiden</organizationName>
 	<positionName>admin</positionName>
 	<address>
-		<deliveryPoint></deliveryPoint>
-		<city></city>
-		<administrativeArea></administrativeArea>
-		<postalCode></postalCode>
-		<country></country>
+		<deliveryPoint/>
+		<city/>
+		<administrativeArea/>
+		<postalCode/>
+		<country/>
 	</address>
-	<phone></phone>
+	<phone/>
 	<electronicMailAddress>wp@xeno-canto.org</electronicMailAddress>
-	<onlineUrl></onlineUrl>
+	<onlineUrl/>
   </contact>
   <methods>
 	<methodStep>
 		<description>
-		   <para></para>
+		   <para/>
 		</description>
 	</methodStep>
 	<sampling>
-		<studyExtent></studyExtent>
-		<description></description>
-		<samplingDescription></samplingDescription>
+		<studyExtent/>
+		<description/>
+		<samplingDescription/>
 	</sampling>
 	<qualityControl>
 		<description>
-		   <para></para>
+		   <para/>
 		</description>
 	</qualityControl>
   </methods>
@@ -174,7 +169,7 @@ packageId="INVULLEN" system="http://gbif.org" scope="system" xml:lang="en">
 		   <givenName>Willem-Pier</givenName>
 		   <surName>Vellinga</surName>
 		</individualName>
-		<userId directory="http://XXXXX/"></userId>
+		<userId directory="http://XXXXX/"/>
 		<role>admin</role>
 	</personnel>
 	<abstract>
@@ -184,13 +179,13 @@ packageId="INVULLEN" system="http://gbif.org" scope="system" xml:lang="en">
 		<para>Server costs have been paid for by Naturalis Biodiversity Center since 2007; The foundation is also seeking donations from the general public.</para>
 	</funding>
 	<studyAreaDescription>
-		<descriptor name="generic" citableClassificationSystem="false">
-		  <descriptorValue></descriptorValue>
+		<descriptor citableClassificationSystem="false" name="generic">
+		  <descriptorValue/>
 		</descriptor>
 	</studyAreaDescription>
 	<designDescription>
 		<description>
-		   <para></para>
+		   <para/>
 		</description>
 	</designDescription>
   </project>
@@ -198,12 +193,12 @@ packageId="INVULLEN" system="http://gbif.org" scope="system" xml:lang="en">
   <additionalMetadata>
      <metadata>
        <gbif>
-	<dateStamp></dateStamp>	
+	<dateStamp/>	
 	<citation>Vellinga, W.P., Planque, R. &amp; Xeno-canto foundation (2005- ), Xeno-canto - bird sounds from around the world. GBIF subset, accessed at .... </citation>	
 	<bibliography>	
 		<citation>Vellinga, W.P. &amp; Planque, R. (2015), CLEF2015 Working Notes, CEUR Workshop proceedings Vol-1391</citation>
 	</bibliography>	
-	<resourceLogoUrl></resourceLogoUrl>	
+	<resourceLogoUrl/>	
        </gbif>
      </metadata>
   </additionalMetadata>
