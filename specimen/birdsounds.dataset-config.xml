@@ -169,6 +169,7 @@
 		<mapping>
 			<field name="coreID" term="http://rs.tdwg.org/dwc/terms/occurrenceID">
 				<path>AssociatedSpecimenReference</path>
+		<!-- http://rs.tdwg.org/ac/terms/associatedSpecimenReference -->		
 			</field>
 			<field name="catalogNumber" term="http://rs.tdwg.org/dwc/terms/catalogNumber">
 				<path>unitID</path>
@@ -176,31 +177,32 @@
 			<field name="Identifier" term="https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Identifier">
 				<path>recordURI</path>
 			</field>
-			<field name="type" term="https://terms.tdwg.org/wiki/Audubon_Core_Term_List#dc:type">
+			<field name="type" term="http://purl.org/dc/elements/1.1/type">
 				<path>type</path>
+		<!-- of http://purl.org/dc/terms/type -->	
 			</field>
-			<field name="Rating" term="https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Rating">
+			<field name="Rating" term="http://ns.adobe.com/xap/1.0/Rating">
 				<path>rating</path>
 			</field>
 			<field name="rightsHolder" term="http://purl.org/dc/terms/rightsHolder">
 				<path>owner</path>
 			</field>
-			<field name="creator" term="https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Creator">
+			<field name="creator" term="http://purl.org/dc/elements/1.1/creator">
 				<path>creator</path>
 			</field>
-			<field name="accessURI" term="https://terms.tdwg.org/wiki/Audubon_Core_Term_List#ac:accessURI">
+			<field name="accessURI" term="http://rs.tdwg.org/ac/terms/accessURI">
 				<path>serviceAccessPoints.accessUri</path>
 			</field>
-			<field name="variantLiteral" term="https://terms.tdwg.org/wiki/Audubon_Core_Term_List#ac:variantLiteral">
+			<field name="variantLiteral" term="http://rs.tdwg.org/ac/terms/variantLiteral">
 				<path>serviceAccessPoints.format</path>
 			</field>
-			<field name="description" term="https://terms.tdwg.org/wiki/Audubon_Core_Term_List#dcterms:description">
+			<field name="description" term="http://purl.org/dc/terms/description">
 				<path>description</path>
 			</field>
-			<field name="caption" term="https://terms.tdwg.org/wiki/Audubon_Core_Term_List#ac:caption">
+			<field name="caption" term="http://rs.tdwg.org/ac/terms/caption">
 				<path>caption</path>
 			</field>
-			<field name="resourceCreationTechnique" term="https://terms.tdwg.org/wiki/Audubon_Core_Term_List#ac:resourceCreationTechnique">
+			<field name="resourceCreationTechnique" term="http://rs.tdwg.org/ac/terms/resourceCreationTechnique">
 				<path>resourceCreationTechnique</path>
 			</field>
 			<field name="license" term="http://purl.org/dc/terms/license">
