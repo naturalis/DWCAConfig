@@ -174,7 +174,7 @@
 			<field name="catalogNumber" term="http://rs.tdwg.org/dwc/terms/catalogNumber">
 				<path>unitID</path>
 			</field>
-			<field name="Identifier" term="https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Identifier">
+			<field name="Identifier" term="http://purl.org/dc/terms/identifier"">
 				<path>recordURI</path>
 			</field>
 			<field name="type" term="http://purl.org/dc/elements/1.1/type">
