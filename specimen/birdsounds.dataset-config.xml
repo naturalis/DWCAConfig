@@ -74,8 +74,8 @@
 			<field name="taxonRank" term="http://rs.tdwg.org/dwc/terms/taxonRank">
 				<path>identifications.0.taxonRank</path>
 			</field>
-			<field name="altitudeUnifOfMeasurement" term="http://rs.tdwg.org/dwc/terms/verbatimElevation">
-				<path>gatheringEvent.altitudeUnifOfMeasurement</path>
+			<field name="verbatimElevation" term="http://rs.tdwg.org/dwc/terms/verbatimElevation">
+				<path>gatheringEvent.altitude</path>
 			</field>
 			<!-- Calculator associatedMedia -->
 			<field name="associatedMedia" term="http://rs.tdwg.org/dwc/terms/associatedMedia">
