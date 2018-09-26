@@ -174,7 +174,7 @@
 			<field name="catalogNumber" term="http://rs.tdwg.org/dwc/terms/catalogNumber">
 				<path>unitID</path>
 			</field>
-			<field name="Identifier" term="http://purl.org/dc/terms/identifier"">
+			<field name="Identifier" term="http://purl.org/dc/terms/identifier">
 				<path>recordURI</path>
 			</field>
 			<field name="type" term="http://purl.org/dc/elements/1.1/type">
@@ -193,6 +193,9 @@
 			<field name="accessURI" term="http://rs.tdwg.org/ac/terms/accessURI">
 				<path>serviceAccessPoints.accessUri</path>
 			</field>
+			<field name="accessURI" term="http://rs.tdwg.org/ac/terms/accessURI">
+				<path>serviceAccessPoints.format</path>
+			</field>								    
 			<field name="variantLiteral" term="http://rs.tdwg.org/ac/terms/variantLiteral">
 				<path>serviceAccessPoints.format</path>
 			</field>
