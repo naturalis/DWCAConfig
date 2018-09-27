@@ -47,11 +47,9 @@
 			<field name="infraspecificEpithet" term="http://rs.tdwg.org/dwc/terms/infraspecificEpithet">
 				<path>identifications.0.scientificName.infraspecificEpithet</path>
 			</field>
-			<!-- Calculator Kingdom -->			
+			<!-- Constant Kingdom -->			
 			<field name="kingdom" term="http://rs.tdwg.org/dwc/terms/kingdom">
-				<calculator>
-					<java-class>KingdomCalculator</java-class>
-				</calculator>
+				<constant>Animalia</constant>
 			</field>
 			<field name="locality" term="http://rs.tdwg.org/dwc/terms/locality">
 				<path>gatheringEvent.locality</path>
