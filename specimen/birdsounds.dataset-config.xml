@@ -137,40 +137,17 @@
   		              		<java-class>AssociatedTaxaNameCalculator</java-class>
  			      </calculator>
 			</field>
-			<!-- <field name="Higher Geography" term="http://rs.tdwg.org/dwc/terms/higherGeography"> -->
-  			<!--       <calculator> -->
-  			<!--  	        <java-class>HigherGeographyCalculator</java-class> -->
-		  	<!--       </calculator> -->
-			<!-- </field> -->
 			<field name="identificationRemarks" term="http://rs.tdwg.org/dwc/terms/identificationRemarks">
 				<path>identifications.0.remarks</path>
 			</field>			
 			<field name="license" term="http://purl.org/dc/terms/license">
 				<path>license</path>
 			</field>
-			<!-- 
-			DUMMIES RECORDS
-      			<field name="maximumElevationInMeters" term="http://rs.tdwg.org/dwc/terms/maximumElevationInMeters">
-        		<path>DummyDefault</path>
-      			</field>
-      			<field name="minimumElevationInMeters" term="http://rs.tdwg.org/dwc/terms/minimumElevationInMeters">
-        		<path>DummyDefault</path>
-      			</field>
-      			<field name="institutionCode" term="http://rs.tdwg.org/dwc/terms/institutionCode">
-      			  <path>DummyDefault</path>
-      			</field>
-      			<field name="habitat" term="http://rs.tdwg.org/dwc/terms/habitat">
-      			  <path>DummyDefault</path>
-      			</field>
-     			 -->
 		</mapping>
 	</entity>
+	<!--
 	<entity name="multimedia">
 		<mapping>
-			<field name="coreID" term="http://rs.tdwg.org/dwc/terms/occurrenceID">
-				<path>AssociatedSpecimenReference</path>
-		<!-- http://rs.tdwg.org/ac/terms/associatedSpecimenReference -->		
-			</field>
 			<field name="catalogNumber" term="http://rs.tdwg.org/dwc/terms/catalogNumber">
 				<path>unitID</path>
 			</field>
@@ -179,7 +156,6 @@
 			</field>
 			<field name="type" term="http://purl.org/dc/elements/1.1/type">
 				<path>type</path>
-		<!-- of http://purl.org/dc/terms/type -->	
 			</field>
 			<field name="Rating" term="http://ns.adobe.com/xap/1.0/Rating">
 				<path>rating</path>
@@ -213,4 +189,5 @@
 			</field>
 		</mapping>
 	</entity>
+	-->
 </dataset-config>
