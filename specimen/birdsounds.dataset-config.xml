@@ -122,8 +122,7 @@
 			<!-- timeDate is gemapt naar "timeBegin" en niet naar de range "timeBegin/timeEnd" -->
 			<field name="eventTime" term="http://rs.tdwg.org/dwc/terms/eventTime">
  			       <calculator>
-                			<java-class>RegularTimeCalculator</java-class>
-                			<arg>gatheringEvent.dateTimeBegin</arg>
+                			<java-class>GatheringEventTimeCalculator</java-class>
         			</calculator>
 			</field>		
 			<field name="fieldNotes" term="http://rs.tdwg.org/dwc/terms/fieldNotes">
