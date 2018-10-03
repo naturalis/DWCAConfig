@@ -81,12 +81,13 @@
 					<java-class>SpecimenMultiMediaCalculator</java-class>
 				</calculator>
 			</field>
-			<!-- Calculator verbatimCoordinates -->
+			<!-- Calculator verbatimCoordinates  NB Aanpassing 3 oktober JC: geheel weglaten
 			<field name="verbatimCoordinates" term="http://rs.tdwg.org/dwc/terms/verbatimCoordinates">
 				<calculator>
 					<java-class>VerbatimCoordinatesCalculator</java-class>
 				</calculator>
-			</field>	
+			</field>
+ 			-->
 			<field name="verbatimEventDate" term="http://rs.tdwg.org/dwc/terms/verbatimEventDate">
 				<path>gatheringEvent.dateText</path>
 			</field>
