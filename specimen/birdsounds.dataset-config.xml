@@ -40,14 +40,14 @@
 				<path>identifications.0.scientificName.fullScientificName</path>
 			</field>
 			<field name="taxonRank" term="http://rs.tdwg.org/dwc/terms/taxonRank">
-				<path>identifications.taxonRank</path>
+				<path>identifications.0.taxonRank</path>
 			</field>
 			<!-- Constant Kingdom -->	
 			<field name="kingdom" term="http://rs.tdwg.org/dwc/terms/kingdom">
 				<constant>Animalia</constant>
 			</field>
 			<field name="family" term="http://rs.tdwg.org/dwc/terms/family">
-				<path>identifications.defaultClassification.family</path>
+				<path>identifications.0.defaultClassification.family</path>
 			</field>
 			<!-- Calculator higherClassification -->
 			<field name="higherClassification" term="http://rs.tdwg.org/dwc/terms/higherClassification">
@@ -60,10 +60,10 @@
 			</field>
 			<!-- gecheckt moet worden of deze calculator doet wat men er van verwacht! -->
 			<field name="identificationRemarks" term="http://rs.tdwg.org/dwc/terms/identificationRemarks">
-				<path>identifications.remarks</path>
+				<path>identifications.0.remarks</path>
 			</field>
 			<field name="vernacularName" term="http://rs.tdwg.org/dwc/terms/vernacularName">
-				<path>identifications.vernacularNames.name</path>
+				<path>identifications.0.vernacularNames.name</path>
 			</field>			
 			<!-- GEOGRAPHY FIELDS -->				
 			<!-- Calculator longitudeDecimal -->
