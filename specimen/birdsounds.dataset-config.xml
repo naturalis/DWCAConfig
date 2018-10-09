@@ -28,7 +28,7 @@
 			</field>			
 			<!-- TAXONOMY FIELDS -->			
 			<field name="genus" term="http://rs.tdwg.org/dwc/terms/genus">
-				<path>identifications.scientificName.genusOrMonomial</path>
+				<path>identifications.0.scientificName.genusOrMonomial</path>
 			</field>
 			<field name="specificEpithet" term="http://rs.tdwg.org/dwc/terms/specificEpithet">
 				<path>identifications.scientificName.specificEpithet</path>
