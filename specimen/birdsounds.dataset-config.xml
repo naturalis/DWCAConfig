@@ -79,7 +79,7 @@
 				</calculator>		
 			</field>
 			<field name="geodeticDatum" term="http://rs.tdwg.org/dwc/terms/geodeticDatum">
-				<path>gatheringEvent.siteCoordinates.spatialDatum</path>
+				<path>gatheringEvent.siteCoordinates.0.spatialDatum</path>
 			</field>
 			<!-- Calculator verbatimCoordinates  NB Aanpassing 3 oktober JC: geheel weglaten
 			<field name="verbatimCoordinates" term="http://rs.tdwg.org/dwc/terms/verbatimCoordinates">
