@@ -31,13 +31,13 @@
 				<path>identifications.0.scientificName.genusOrMonomial</path>
 			</field>
 			<field name="specificEpithet" term="http://rs.tdwg.org/dwc/terms/specificEpithet">
-				<path>identifications.scientificName.specificEpithet</path>
+				<path>identifications.0.scientificName.specificEpithet</path>
 			</field>
 			<field name="infraspecificEpithet" term="http://rs.tdwg.org/dwc/terms/infraspecificEpithet">
-				<path>identifications.scientificName.infraspecificEpithet</path>
+				<path>identifications.0.scientificName.infraspecificEpithet</path>
 			</field>			
 			<field name="scientificName" term="http://rs.tdwg.org/dwc/terms/scientificName">
-				<path>identifications.scientificName.fullScientificName</path>
+				<path>identifications.0.scientificName.fullScientificName</path>
 			</field>
 			<field name="taxonRank" term="http://rs.tdwg.org/dwc/terms/taxonRank">
 				<path>identifications.taxonRank</path>
