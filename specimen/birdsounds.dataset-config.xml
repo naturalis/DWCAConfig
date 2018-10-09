@@ -99,7 +99,7 @@
 			</field>
 			<!-- GATHERING FIELDS -->			
 			<field name="recordedBy" term="http://rs.tdwg.org/dwc/terms/recordedBy">
-				<path>gatheringEvent.gatheringPersons.fullName</path>				
+				<path>gatheringEvent.gatheringPersons.0.fullName</path>				
 			</field>
 			<!-- eventDate is gemapt naar "dateBegin" en niet naar de range "dateBegin/dateEnd" -->
 			<field name="eventDate" term="http://rs.tdwg.org/dwc/terms/eventDate">
