@@ -37,17 +37,17 @@
 				<path>identifications.scientificName.infraspecificEpithet</path>
 			</field>			
 			<field name="scientificName" term="http://rs.tdwg.org/dwc/terms/scientificName">
-				<path>identifications.0.scientificName.fullScientificName</path>
+				<path>identifications.scientificName.fullScientificName</path>
 			</field>
 			<field name="taxonRank" term="http://rs.tdwg.org/dwc/terms/taxonRank">
-				<path>identifications.0.taxonRank</path>
+				<path>identifications.taxonRank</path>
 			</field>
 			<!-- Constant Kingdom -->	
 			<field name="kingdom" term="http://rs.tdwg.org/dwc/terms/kingdom">
 				<constant>Animalia</constant>
 			</field>
 			<field name="family" term="http://rs.tdwg.org/dwc/terms/family">
-				<path>identifications.0.defaultClassification.family</path>
+				<path>identifications.defaultClassification.family</path>
 			</field>
 			<!-- Calculator higherClassification -->
 			<field name="higherClassification" term="http://rs.tdwg.org/dwc/terms/higherClassification">
@@ -60,25 +60,26 @@
 			</field>
 			<!-- gecheckt moet worden of deze calculator doet wat men er van verwacht! -->
 			<field name="identificationRemarks" term="http://rs.tdwg.org/dwc/terms/identificationRemarks">
-				<path>identifications.0.remarks</path>
+				<path>identifications.remarks</path>
 			</field>
 			<field name="vernacularName" term="http://rs.tdwg.org/dwc/terms/vernacularName">
-				<path>identifications.0.vernacularNames.0.name</path>
+				<path>identifications.vernacularNames.name</path>
 			</field>			
-			<!-- GEOGRAPHY FIELDS -->			
-			<field name="latitudeDecimal" term="http://rs.tdwg.org/dwc/terms/decimalLatitude">
-				<calculator>
-					<java-class>LatitudeCalculator</java-class>
-				</calculator>		
-			</field>
+			<!-- GEOGRAPHY FIELDS -->				
 			<!-- Calculator longitudeDecimal -->
 			<field name="longitudeDecimal" term="http://rs.tdwg.org/dwc/terms/decimalLongitude">
 				<calculator>
 					<java-class>LongitudeCalculator</java-class>
 				</calculator>
 			</field>
+			<!-- Calculator latitudeDecimal -->
+			<field name="latitudeDecimal" term="http://rs.tdwg.org/dwc/terms/decimalLatitude">
+				<calculator>
+					<java-class>LatitudeCalculator</java-class>
+				</calculator>		
+			</field>
 			<field name="geodeticDatum" term="http://rs.tdwg.org/dwc/terms/geodeticDatum">
-				<path>gatheringEvent.siteCoordinates.0.spatialDatum</path>
+				<path>gatheringEvent.siteCoordinates.spatialDatum</path>
 			</field>
 			<!-- Calculator verbatimCoordinates  NB Aanpassing 3 oktober JC: geheel weglaten
 			<field name="verbatimCoordinates" term="http://rs.tdwg.org/dwc/terms/verbatimCoordinates">
@@ -89,7 +90,6 @@
  			-->
 			<field name="country" term="http://rs.tdwg.org/dwc/terms/country">
 				<path>gatheringEvent.country</path>
-			<!-- Calculator latitudeDecimal -->
 			</field>		
 			<field name="locality" term="http://rs.tdwg.org/dwc/terms/locality">
 				<path>gatheringEvent.locality</path>
@@ -99,7 +99,7 @@
 			</field>
 			<!-- GATHERING FIELDS -->			
 			<field name="recordedBy" term="http://rs.tdwg.org/dwc/terms/recordedBy">
-				<path>gatheringEvent.gatheringPersons.0.fullName</path>				
+				<path>gatheringEvent.gatheringPersons.fullName</path>				
 			</field>
 			<!-- eventDate is gemapt naar "dateBegin" en niet naar de range "dateBegin/dateEnd" -->
 			<field name="eventDate" term="http://rs.tdwg.org/dwc/terms/eventDate">
