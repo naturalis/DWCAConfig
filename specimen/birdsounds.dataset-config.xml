@@ -15,7 +15,7 @@
 	<entity name="specimen">
 		<mapping>
 			<field name="occurrenceID" term="http://rs.tdwg.org/dwc/terms/dcterms:occurrenceID">
-				<path>unitGUID</path>
+				<path>unitID</path>
 			</field>
 			<field name="catalogNumber" term="http://rs.tdwg.org/dwc/terms/catalogNumber">
 				<path>sourceSystemId</path>
@@ -28,13 +28,13 @@
 			</field>			
 			<!-- TAXONOMY FIELDS -->			
 			<field name="genus" term="http://rs.tdwg.org/dwc/terms/genus">
-				<path>identifications.0.defaultClassification.genus</path>
+				<path>identifications.scientificName.genusOrMonomial</path>
 			</field>
 			<field name="specificEpithet" term="http://rs.tdwg.org/dwc/terms/specificEpithet">
-				<path>identifications.0.defaultClassification.specificEpithet</path>
+				<path>identifications.scientificName.specificEpithet</path>
 			</field>
 			<field name="infraspecificEpithet" term="http://rs.tdwg.org/dwc/terms/infraspecificEpithet">
-				<path>identifications.0.scientificName.infraspecificEpithet</path>
+				<path>identifications.scientificName.infraspecificEpithet</path>
 			</field>			
 			<field name="scientificName" term="http://rs.tdwg.org/dwc/terms/scientificName">
 				<path>identifications.0.scientificName.fullScientificName</path>
