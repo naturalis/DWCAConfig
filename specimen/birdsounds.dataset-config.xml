@@ -14,6 +14,9 @@
 	</shared-data-source>
 	<entity name="specimen">
 		<mapping>
+			<field name="occurrenceID" term="http://rs.tdwg.org/dwc/terms/dcterms:occurrenceID">
+				<path>unitGUID</path>
+			</field>
 			<field name="catalogNumber" term="http://rs.tdwg.org/dwc/terms/catalogNumber">
 				<path>sourceSystemId</path>
 			</field>
@@ -22,11 +25,47 @@
 			</field>
 			<field name="collectionCode" term="http://rs.tdwg.org/dwc/terms/collectionCode">
 				<path>collectionType</path>
+			</field>			
+			<!-- TAXONOMY FIELDS -->			
+			<field name="genus" term="http://rs.tdwg.org/dwc/terms/genus">
+				<path>identifications.0.defaultClassification.genus</path>
 			</field>
-			<field name="country" term="http://rs.tdwg.org/dwc/terms/country">
-				<path>gatheringEvent.country</path>
-			<!-- Calculator latitudeDecimal -->
+			<field name="specificEpithet" term="http://rs.tdwg.org/dwc/terms/specificEpithet">
+				<path>identifications.0.defaultClassification.specificEpithet</path>
 			</field>
+			<field name="infraspecificEpithet" term="http://rs.tdwg.org/dwc/terms/infraspecificEpithet">
+				<path>identifications.0.scientificName.infraspecificEpithet</path>
+			</field>			
+			<field name="scientificName" term="http://rs.tdwg.org/dwc/terms/scientificName">
+				<path>identifications.0.scientificName.fullScientificName</path>
+			</field>
+			<field name="taxonRank" term="http://rs.tdwg.org/dwc/terms/taxonRank">
+				<path>identifications.0.taxonRank</path>
+			</field>
+			<!-- Constant Kingdom -->	
+			<field name="kingdom" term="http://rs.tdwg.org/dwc/terms/kingdom">
+				<constant>Animalia</constant>
+			</field>
+			<field name="family" term="http://rs.tdwg.org/dwc/terms/family">
+				<path>identifications.0.defaultClassification.family</path>
+			</field>
+			<!-- Calculator higherClassification -->
+			<field name="higherClassification" term="http://rs.tdwg.org/dwc/terms/higherClassification">
+				<calculator>
+					<java-class>HigherClassificationCalculator</java-class>
+				</calculator>
+			</field>
+			<field name="nomenclaturalCode" term="http://rs.tdwg.org/dwc/terms/nomenclaturalCode">
+				<constant>ICZN</constant>
+			</field>
+			<!-- gecheckt moet worden of deze calculator doet wat men er van verwacht! -->
+			<field name="identificationRemarks" term="http://rs.tdwg.org/dwc/terms/identificationRemarks">
+				<path>identifications.0.remarks</path>
+			</field>
+			<field name="vernacularName" term="http://rs.tdwg.org/dwc/terms/vernacularName">
+				<path>identifications.0.vernacularNames.0.name</path>
+			</field>			
+			<!-- GEOGRAPHY FIELDS -->			
 			<field name="latitudeDecimal" term="http://rs.tdwg.org/dwc/terms/decimalLatitude">
 				<calculator>
 					<java-class>LatitudeCalculator</java-class>
@@ -38,48 +77,8 @@
 					<java-class>LongitudeCalculator</java-class>
 				</calculator>
 			</field>
-			<field name="family" term="http://rs.tdwg.org/dwc/terms/family">
-				<path>identifications.0.defaultClassification.family</path>
-			</field>
-			<field name="genus" term="http://rs.tdwg.org/dwc/terms/genus">
-				<path>identifications.0.defaultClassification.genus</path>
-			</field>
-			<field name="infraspecificEpithet" term="http://rs.tdwg.org/dwc/terms/infraspecificEpithet">
-				<path>identifications.0.scientificName.infraspecificEpithet</path>
-			</field>
-			<!-- Constant Kingdom -->			
-			<field name="kingdom" term="http://rs.tdwg.org/dwc/terms/kingdom">
-				<constant>Animalia</constant>
-			</field>
-			<field name="locality" term="http://rs.tdwg.org/dwc/terms/locality">
-				<path>gatheringEvent.locality</path>
-			</field>
-			<field name="references" term="http://purl.org/dc/terms/references">
-				<path>unitGUID</path>
-			</field>
-			<field name="occurrenceID" term="http://rs.tdwg.org/dwc/terms/dcterms:occurrenceID">
-				<path>unitGUID</path>
-			</field>
-			<field name="recordedBy" term="http://rs.tdwg.org/dwc/terms/recordedBy">
-				<path>gatheringEvent.gatheringPersons.0.fullName</path>				
-			</field>
-			<field name="scientificName" term="http://rs.tdwg.org/dwc/terms/scientificName">
-				<path>identifications.0.scientificName.fullScientificName</path>
-			</field>
-			<field name="specificEpithet" term="http://rs.tdwg.org/dwc/terms/specificEpithet">
-				<path>identifications.0.defaultClassification.specificEpithet</path>
-			</field>
-			<field name="taxonRank" term="http://rs.tdwg.org/dwc/terms/taxonRank">
-				<path>identifications.0.taxonRank</path>
-			</field>
-			<field name="verbatimElevation" term="http://rs.tdwg.org/dwc/terms/verbatimElevation">
-				<path>gatheringEvent.altitude</path>
-			</field>
-			<!-- Calculator associatedMedia -->
-			<field name="associatedMedia" term="http://rs.tdwg.org/dwc/terms/associatedMedia">
-				<calculator>
-					<java-class>SpecimenMultiMediaCalculator</java-class>
-				</calculator>
+			<field name="geodeticDatum" term="http://rs.tdwg.org/dwc/terms/geodeticDatum">
+				<path>gatheringEvent.siteCoordinates.0.spatialDatum</path>
 			</field>
 			<!-- Calculator verbatimCoordinates  NB Aanpassing 3 oktober JC: geheel weglaten
 			<field name="verbatimCoordinates" term="http://rs.tdwg.org/dwc/terms/verbatimCoordinates">
@@ -88,30 +87,19 @@
 				</calculator>
 			</field>
  			-->
-			<field name="verbatimEventDate" term="http://rs.tdwg.org/dwc/terms/verbatimEventDate">
-				<path>gatheringEvent.dateText</path>
+			<field name="country" term="http://rs.tdwg.org/dwc/terms/country">
+				<path>gatheringEvent.country</path>
+			<!-- Calculator latitudeDecimal -->
+			</field>		
+			<field name="locality" term="http://rs.tdwg.org/dwc/terms/locality">
+				<path>gatheringEvent.locality</path>
 			</field>
-			<!-- Calculator higherClassification -->
-			<field name="higherClassification" term="http://rs.tdwg.org/dwc/terms/higherClassification">
-				<calculator>
-					<java-class>HigherClassificationCalculator</java-class>
-				</calculator>
+			<field name="verbatimElevation" term="http://rs.tdwg.org/dwc/terms/verbatimElevation">
+				<path>gatheringEvent.altitude</path>
 			</field>
-			<field name="nomenclaturalCode" term="http://rs.tdwg.org/dwc/terms/nomenclaturalCode">
-				<constant>ICZN</constant>
-			</field>
-			<field name="geodeticDatum" term="http://rs.tdwg.org/dwc/terms/geodeticDatum">
-				<path>gatheringEvent.siteCoordinates.0.spatialDatum</path>
-			</field>
-			<!-- extra fields -->
-			<field name="vernacularName" term="http://rs.tdwg.org/dwc/terms/vernacularName">
-				<path>identifications.0.vernacularNames.0.name</path>
-			</field>
-			<field name="behavior" term="http://rs.tdwg.org/dwc/terms/behavior">
-				<path>gatheringEvent.behavior</path>
-			</field>
-			<field name="rightsHolder" term="http://purl.org/dc/terms/rightsHolder">
-				<path>owner</path>
+			<!-- GATHERING FIELDS -->			
+			<field name="recordedBy" term="http://rs.tdwg.org/dwc/terms/recordedBy">
+				<path>gatheringEvent.gatheringPersons.0.fullName</path>				
 			</field>
 			<!-- eventDate is gemapt naar "dateBegin" en niet naar de range "dateBegin/dateEnd" -->
 			<field name="eventDate" term="http://rs.tdwg.org/dwc/terms/eventDate">
@@ -125,18 +113,33 @@
  			       <calculator>
                 			<java-class>GatheringEventTimeCalculator</java-class>
         			</calculator>
-			</field>		
+			</field>
+			<field name="verbatimEventDate" term="http://rs.tdwg.org/dwc/terms/verbatimEventDate">
+				<path>gatheringEvent.dateText</path>
+			</field>
 			<field name="fieldNotes" term="http://rs.tdwg.org/dwc/terms/fieldNotes">
 				<path>notes</path>
 			</field>
-			<!-- gecheckt moet worden of deze calculator doet wat men er van verwacht! -->
+			<field name="behavior" term="http://rs.tdwg.org/dwc/terms/behavior">
+				<path>gatheringEvent.behavior</path>
+			</field>
+			<!-- Calculator associatedMedia -->
+			<field name="associatedMedia" term="http://rs.tdwg.org/dwc/terms/associatedMedia">
+				<calculator>
+					<java-class>SpecimenMultiMediaCalculator</java-class>
+				</calculator>
+			</field>
+			<!-- OTHER FIELDS -->					
+			<field name="references" term="http://purl.org/dc/terms/references">
+				<path>unitGUID</path>
+			</field>
 			<field name="Associated Taxa" term="http://rs.tdwg.org/dwc/terms/associatedTaxa">
   			      <calculator>
   		              		<java-class>AssociatedTaxaNameCalculator</java-class>
  			      </calculator>
-			</field>
-			<field name="identificationRemarks" term="http://rs.tdwg.org/dwc/terms/identificationRemarks">
-				<path>identifications.0.remarks</path>
+			</field>			
+			<field name="rightsHolder" term="http://purl.org/dc/terms/rightsHolder">
+				<path>owner</path>
 			</field>			
 			<field name="license" term="http://purl.org/dc/terms/license">
 				<path>license</path>
