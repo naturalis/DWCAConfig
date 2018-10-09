@@ -14,10 +14,10 @@
 	</shared-data-source>
 	<entity name="multimedia">
 		<mapping>
-      <field name="coreId" term="http://rs.tdwg.org/dwc/terms/catalogNumber">
-				<path>unitID</path>
+			<field name="coreID" term="http://rs.tdwg.org/dwc/terms/dcterms:occurrenceID">
+				<path>unitGUID</path>
 			</field>			
-      <field name="catalogNumber" term="http://rs.tdwg.org/dwc/terms/catalogNumber">
+      			<field name="catalogNumber" term="http://rs.tdwg.org/dwc/terms/catalogNumber">
 				<path>unitID</path>
 			</field>
 			<field name="Identifier" term="http://purl.org/dc/terms/identifier">
@@ -28,10 +28,7 @@
 			</field>
 			<field name="Rating" term="http://ns.adobe.com/xap/1.0/Rating">
 				<path>rating</path>
-			</field>
-			<field name="rightsHolder" term="http://purl.org/dc/terms/rightsHolder">
-				<path>owner</path>
-			</field>
+			</field>			
 			<field name="creator" term="http://purl.org/dc/elements/1.1/creator">
 				<path>creator</path>
 			</field>
@@ -53,9 +50,12 @@
 			<field name="resourceCreationTechnique" term="http://rs.tdwg.org/ac/terms/resourceCreationTechnique">
 				<path>resourceCreationTechnique</path>
 			</field>
+			<field name="rightsHolder" term="http://purl.org/dc/terms/rightsHolder">
+				<path>owner</path>
+			</field>
 			<field name="license" term="http://purl.org/dc/terms/license">
 				<path>license</path>
 			</field>
 		</mapping>
 	</entity>
-	-->
+</dataset-config>
