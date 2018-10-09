@@ -63,7 +63,7 @@
 				<path>identifications.0.remarks</path>
 			</field>
 			<field name="vernacularName" term="http://rs.tdwg.org/dwc/terms/vernacularName">
-				<path>identifications.0.vernacularNames.name</path>
+				<path>identifications.0.vernacularNames.0.name</path>
 			</field>			
 			<!-- GEOGRAPHY FIELDS -->				
 			<!-- Calculator longitudeDecimal -->
