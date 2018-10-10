@@ -14,11 +14,16 @@
 	</shared-data-source>
 	<entity name="specimen">
 		<mapping>
+			<!--
+			<field name="id" term="?????">
+				<path>???</path>
+			</field>
+			-->
 			<field name="occurrenceID" term="http://rs.tdwg.org/dwc/terms/occurrenceID">
-				<path>unitID</path>
+				<path>unitGUID</path>
 			</field>
 			<field name="catalogNumber" term="http://rs.tdwg.org/dwc/terms/catalogNumber">
-				<path>sourceSystemId</path>
+				<path>unitID</path>
 			</field>
 			<field name="basisOfRecord" term="http://rs.tdwg.org/dwc/terms/basisOfRecord">
 				<path>recordBasis</path>
