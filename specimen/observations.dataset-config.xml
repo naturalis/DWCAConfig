@@ -143,7 +143,7 @@
                 			<java-class>RegularTimeCalculator</java-class>
                 			<arg>gatheringEvent.dateTimeBegin</arg>
         			</calculator>
-			<!-- </field> -->	
+			</field>
 			<!-- <field name="fieldNotes" term="http://rs.tdwg.org/dwc/terms/fieldNotes"> -->
 			<!-- 	<path>notes</path> -->
 			<!-- </field> -->
