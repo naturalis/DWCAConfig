@@ -191,11 +191,11 @@
                 			<java-class>HigherGeographyCalculator</java-class>
         			</calculator>
 			</field>  
-  			<!-- Calculator Municipality --->					    
+  			<!-- Calculator Municipality -->					    
       			<field name="Municipality" term="http://rs.tdwg.org/dwc/terms/municipality">
 				<path>gatheringEvent.areaName</path>
 			</field>
-  			<!-- Calculator  previousIdentifications --->				      
+  			<!-- Calculator  previousIdentifications -->				      
       			<field name="Previous Identifications" term="http://rs.tdwg.org/dwc/terms/previousIdentifications">
         			<calculator>
                 			<java-class>PreviousIdentificationsCalculator</java-class>
