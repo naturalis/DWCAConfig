@@ -14,7 +14,7 @@
 	</shared-data-source>
 	<entity name="specimen">
 		<mapping>
-			<field name="id">
+			<field name="id"  term="http://rs.tdwg.org/dwc/terms/occurrenceID">
 				<path>id</path>
 			</field>
 			<field name="occurrenceID" term="http://rs.tdwg.org/dwc/terms/occurrenceID">
