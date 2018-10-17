@@ -14,8 +14,8 @@
 	</shared-data-source>
 	<entity name="multimedia">
 		<mapping>
-			<field name="catalogNumber" term="http://rs.tdwg.org/ac/terms/providerManagedID">
-				<path>unitID</path>
+			<field name="CoreID" term="http://rs.tdwg.org/ac/terms/providerManagedID">
+				<path>associatedSpecimenReference</path>
 			</field>
 			<field name="catalogNumber" term="http://rs.tdwg.org/ac/terms/relatedResourceID">
 				<path>unitID</path>
