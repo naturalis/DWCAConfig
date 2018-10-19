@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataset-config xmlns="http://data.naturalis.nl/nba-dataset-config">
 	<shared-data-source>
-		<document>Specimen</document>
+		<document>MultiMediaObject</document>
 		<query-spec>
 			<conditions>
 				<condition>
@@ -14,15 +14,18 @@
 	</shared-data-source>
 	<entity name="multimedia">
 		<mapping>
-			<field name="CoreID" term="http://rs.tdwg.org/ac/terms/providerManagedID">
+			
+			<field name="id" term="http://rs.tdwg.org/ac/terms/providerManagedID">
 				<path>associatedSpecimenReference</path>
 			</field>
+			
 			<field name="catalogNumber" term="http://rs.tdwg.org/ac/terms/relatedResourceID">
 				<path>unitID</path>
 			</field>
 			<field name="Identifier" term="http://purl.org/dc/terms/identifier">
 				<path>recordURI</path>
 			</field>
+			
 			<field name="type" term="http://purl.org/dc/elements/1.1/type">
 				<path>type</path>
 			</field>
@@ -36,13 +39,13 @@
 				<path>creator</path>
 			</field>
 			<field name="accessURI" term="http://rs.tdwg.org/ac/terms/accessURI">
-				<path>serviceAccessPoints.accessUri</path>
+				<path>serviceAccessPoints.0.accessUri</path>
 			</field>
 			<field name="accessURI" term="http://purl.org/dc/terms/format">
-				<path>serviceAccessPoints.format</path>
+				<path>serviceAccessPoints.0.format</path>
 			</field>								    
 			<field name="variantLiteral" term="http://rs.tdwg.org/ac/terms/variantLiteral">
-				<path>serviceAccessPoints.format</path>
+				<path>serviceAccessPoints.0.format</path>
 			</field>
 			<field name="description" term="http://purl.org/dc/terms/description">
 				<path>description</path>
