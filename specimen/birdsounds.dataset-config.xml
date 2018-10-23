@@ -14,7 +14,7 @@
 	</shared-data-source>
 	<entity name="specimen">
 		<mapping>
-			<field name="id"  term="http://rs.tdwg.org/dwc/terms/catalogNumber">
+			<field name="id">  <!-- term="http://rs.tdwg.org/dwc/terms/catalogNumber" --> 
 				<calculator>
 					<java-class>DocumentIdCalculator</java-class>
 				</calculator>
