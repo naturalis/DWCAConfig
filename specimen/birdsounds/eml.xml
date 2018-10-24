@@ -163,20 +163,20 @@
 	</qualityControl>
   </methods>
   <project>
-	<title>Xeno-canto - bird sounds from around the world</title>
+	<title></title>
 	<personnel>
 		<individualName>
-		   <givenName>Willem-Pier</givenName>
-		   <surName>Vellinga</surName>
+		   <givenName></givenName>
+		   <surName></surName>
 		</individualName>
 		<userId directory="http://XXXXX/"/>
-		<role>admin</role>
+		<role></role>
 	</personnel>
 	<abstract>
-		<para>www.xeno-canto.org ("Xeno-canto", "XC") is a website that gives access to shared recordings of sounds of wild birds from around the world.The aim of Xeno-canto is to have representation of  all bird sounds, meaning all taxa, to subspecies level, their complete repertoire, all of the geographic variability, at all stages of development. Please note that due to license mismatch currently only part of the recordings are represented in the metadata stored at GBIF.</para>
+		<para></para>
 	</abstract>
 	<funding>
-		<para>Server costs have been paid for by Naturalis Biodiversity Center since 2007; The foundation is also seeking donations from the general public.</para>
+		<para></para>
 	</funding>
 	<studyAreaDescription>
 		<descriptor citableClassificationSystem="false" name="generic">
