@@ -4,8 +4,8 @@
   <title>Xeno-canto - Bird sounds from around the world</title>
   <creator>
 	<individualName>
-		<givenName></givenName>
-		<surName></surName>
+		<givenName>Willem-Pier</givenName>
+		<surName>Vellinga</surName>
 	</individualName>
 	<organizationName>Stichting Xeno-canto voor Natuurgeluiden</organizationName>
 	<positionName/>
@@ -40,18 +40,18 @@
   </metadataProvider>
   <associatedParty>
 	<individualName>
-		<givenName></givenName>
-		<surName></surName>
+		<givenName>Niels</givenName>
+		<surName>Raes</surName>
 	</individualName>
 	<organizationName>NLBIF</organizationName>
-	<positionName/>
+	<positionName>Node manager</positionName>
 	<address>
 		<deliveryPoint>P.O. Box 9517</deliveryPoint>
 		<city>Leiden</city>
 		<postalCode>NL-2300 RA</postalCode>
 		<country>NETHERLANDS</country>
 	</address>
-	<electronicMailAddress>nlbif@naturalis.nl</electronicMailAddress>
+	<electronicMailAddress>info@nlbif.nl</electronicMailAddress>
 	<onlineUrl>https://www.nlbif.nl</onlineUrl>
 	<role>PROCESSOR</role>
   </associatedParty>
@@ -68,7 +68,7 @@
 		<postalCode>NL-2300 RA</postalCode>
 		<country>NETHERLANDS</country>
 	</address>
-	<electronicMailAddress>info@naturalis.nl</electronicMailAddress>
+	<electronicMailAddress>informatiemanagement@naturalis.nl</electronicMailAddress>
 	<onlineUrl>https://www.naturalis.nl</onlineUrl>
 	<role>DISTRIBUTOR</role>
   </associatedParty>
@@ -109,7 +109,7 @@
 		</boundingCoordinates>
 	</geographicCoverage>
 	<taxonomicCoverage>
-		<generalTaxonomicCoverage>Aves</generalTaxonomicCoverage>
+		<generalTaxonomicCoverage>Birds, with taxonomy based on IOC World Bird List.</generalTaxonomicCoverage>
 		<taxonomicClassification>
 			<taxonRankName>Class</taxonRankName>
 			<taxonRankValue>Aves</taxonRankValue>
@@ -119,7 +119,7 @@
 	<temporalCoverage>
 		<rangeOfDates>
 		<beginDate>
-			<calendarDate>1977</calendarDate>
+			<calendarDate></calendarDate>
 		</beginDate>
 		<endDate>
 			<calendarDate/>
@@ -158,7 +158,7 @@
 	</sampling>
 	<qualityControl>
 		<description>
-		   <para/>
+		   <para>Identifications of recordings are subject to crowdsourced validation by the Xeno-canto community. Identifications can be discussed and flagged for review. Only recordings of which the identification is currently not under discussion are shared with GBIF.</para>
 		</description>
 	</qualityControl>
   </methods>
@@ -193,10 +193,12 @@
   <additionalMetadata>
      <metadata>
        <gbif>
-	<dateStamp/>	
-	<citation>Vellinga, W.P., Planque, R. &amp; Xeno-canto foundation (2005- ), Xeno-canto - bird sounds from around the world. GBIF subset, accessed at .... </citation>	
+	<dateStamp></dateStamp>	
+	<formationPeriod>1900-current</formationPeriod>
+	       <citation>Vellinga, W.P., Planque, R. &amp; Xeno-canto foundation (2005- ), Xeno-canto - bird sounds from around the world. GBIF subset, accessed at .... </citation>	
 	<bibliography>	
-		<citation>Vellinga, W.P. &amp; Planque, R. (2015), CLEF2015 Working Notes, CEUR Workshop proceedings Vol-1391</citation>
+		<citation>Vellinga, W.P. &amp; Planque, R. (2015), CLEF2015 Working Notes, CEUR Workshop proceedings Vol-1391.</citation>
+		<citation>Vellinga, W.P., B. Planque, S. Pieterse & J. Jongsma (2017). www.xeno-canto.org: a decade on. Neotropical Birding 21: 40-47.</citation>
 	</bibliography>	
 	<resourceLogoUrl/>	
        </gbif>
