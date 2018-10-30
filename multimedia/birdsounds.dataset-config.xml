@@ -18,14 +18,12 @@
 			<field name="id" term="http://rs.tdwg.org/ac/terms/providerManagedID">
 				<path>associatedSpecimenReference</path>
 			</field>
-			
 			<field name="catalogNumber" term="http://rs.tdwg.org/ac/terms/relatedResourceID">
 				<path>unitID</path>
 			</field>
 			<field name="Identifier" term="http://purl.org/dc/terms/identifier">
 				<path>recordURI</path>
 			</field>
-			
 			<field name="type" term="http://purl.org/dc/elements/1.1/type">
 				<path>type</path>
 			</field>
