@@ -178,7 +178,7 @@
 			<field name="accessURI" term="http://rs.tdwg.org/ac/terms/accessURI">
 				<path>serviceAccessPoints.accessUri</path>
 			</field>
-			<field name="accessURI" term="http://purl.org/dc/terms/format">
+			<field name="format" term="http://purl.org/dc/terms/format">
 				<path>serviceAccessPoints.format</path>
 			</field>								    
 			<field name="variantLiteral" term="http://rs.tdwg.org/ac/terms/variantLiteral">
