@@ -129,7 +129,7 @@
                 			<java-class>GatheringEventTimeCalculator</java-class>
         			</calculator>
 			</field>>	
-			<field name="samplingProtocol" http://rs.tdwg.org/dwc/terms/samplingProtocol">	
+			<field name="samplingProtocol" term="http://rs.tdwg.org/dwc/terms/samplingProtocol">	
 				<path>gatheringEvent.Method</path>
 			</field>	
 												     
