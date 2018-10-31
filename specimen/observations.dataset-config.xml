@@ -59,8 +59,11 @@
  			<field name="vernacularName" term="http://rs.tdwg.org/dwc/terms/vernacularName">
 				<path>identifications.0.vernacularNames.0.name</path>
 			</field>
-			<field name="individualCount" term="http://rs.tdwg.org/dwc/terms/individualCount">
-				<path>numberOfSpecimen</path>
+			<!-- Calculator PreviousIdentificationsCalculator -->
+			<field name="previousIdentifications" term="http://rs.tdwg.org/dwc/terms/#previousIdentifications">
+				<calculator>
+				<java-class>PreviousIdentificationsCalculator</java-class>
+				</calculator>
 			</field>
 			<field name="lifeStage" term="http://rs.tdwg.org/dwc/terms/lifeStage">
 				<path>phaseOrStage</path>
@@ -137,12 +140,11 @@
 			<field name="behavior" term="http://rs.tdwg.org/dwc/terms/behavior">
 				<path>gatheringEvent.behavior</path>
 			</field>									     
-			<field name="Associated Taxa" term="http://rs.tdwg.org/dwc/terms/associatedTaxa">
+			<field name="associatedTaxa" term="http://rs.tdwg.org/dwc/terms/associatedTaxa">
   			      <calculator>
   		              		<java-class>AssociatedTaxaNameCalculator</java-class>
  			      </calculator>
-			</field>									     								
-													
+			</field>									     																					
 			<field name="references" term="http://purl.org/dc/terms/references">
 				<path>unitGUID</path>
 			</field>
@@ -173,4 +175,5 @@
 				<path>informationWithheld</path>
 			</field>											   
 			-->									   
+	</mapping>
 </dataset-config>
