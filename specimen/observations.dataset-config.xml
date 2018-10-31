@@ -93,7 +93,7 @@
 				<path>dataGeneralizations</path>
 			</field>
 			<field name="coordinateUncertaintyInMeters" term="http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters">
-				<path>gatheringEvents.siteCoordinates.coordinateErrorDistanceInMeters</path>
+				<path>gatheringEvent.siteCoordinates.coordinateErrorDistanceInMeters</path>
 			</field>	
       			<field name="continent" term="http://rs.tdwg.org/dwc/terms/continent">
 			  <path>gatheringEvent.continent</path>
