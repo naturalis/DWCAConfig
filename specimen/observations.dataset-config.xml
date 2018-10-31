@@ -121,7 +121,7 @@
 				</calculator>
 			</field>
 			<field name="eventID" term="http://rs.tdwg.org/dwc/terms/eventID">
-				<path>gatheringEvent.Code</path>
+				<path>gatheringEvent.code</path>
 			</field>	
 			<field name="eventDate" term="http://rs.tdwg.org/dwc/terms/eventDate">
         			<calculator>
