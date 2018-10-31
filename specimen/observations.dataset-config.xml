@@ -87,13 +87,13 @@
 				</calculator>
 			</field>	
 			<field name="geodeticDatum" term="http://rs.tdwg.org/dwc/terms/geodeticDatum">
-				<path>gatheringEvent.siteCoordinates.spatialDatum</path>
+				<path>gatheringEvent.siteCoordinates.0.spatialDatum</path>
 			</field>
 			<field name="dataGeneralizations" term="http://rs.tdwg.org/dwc/terms/dataGeneralizations">
 				<path>dataGeneralizations</path>
 			</field>
 			<field name="coordinateUncertaintyInMeters" term="http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters">
-				<path>gatheringEvent.siteCoordinates.coordinateErrorDistanceInMeters</path>
+				<path>gatheringEvent.siteCoordinates.0.coordinateErrorDistanceInMeters</path>
 			</field>	
       			<field name="continent" term="http://rs.tdwg.org/dwc/terms/continent">
 			  <path>gatheringEvent.continent</path>
