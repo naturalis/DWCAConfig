@@ -157,7 +157,7 @@
 			</field>	
 												   
 												   
-			<-- GEBRUIKEN WE DEZE VELDEN NIET? 										
+			<!-- GEBRUIKEN WE DEZE VELDEN NIET? 										
 			<field name="establishmentMeans" term="http://rs.tdwg.org/dwc/terms/establishmentMeans">
 				<path>gatheringEvent.EstablishmentMeans</path>
 			</field>												
