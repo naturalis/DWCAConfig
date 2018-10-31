@@ -157,7 +157,7 @@
 				<path>license</path>
 			</field>
 			<field name="modified" term="http://rs.tdwg.org/dwc/terms/dcterms:modified">
-				<path>dateLastEdited</path>
+				<path>modified</path>
 			</field>	
 												   
 												   
