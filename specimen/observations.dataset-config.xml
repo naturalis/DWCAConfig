@@ -39,7 +39,6 @@
 			</field>
 			<field name="taxonRank" term="http://rs.tdwg.org/dwc/terms/taxonRank">
 				<path>identifications.0.taxonRank</path>
-			</field>
 			</field>	
 			<field name="kingdom" term="http://rs.tdwg.org/dwc/terms/kingdom">
 				<path>identifications.0.defaultClassification.kingdom</path>
@@ -86,6 +85,7 @@
 				<calculator>
 					<java-class>LatitudeCalculator</java-class>
 				</calculator>
+			</field>	
 			<field name="geodeticDatum" term="http://rs.tdwg.org/dwc/terms/geodeticDatum">
 				<path>gatheringEvent.siteCoordinates.0.spatialDatum</path>
 			</field>
