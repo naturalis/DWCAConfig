@@ -20,7 +20,9 @@
 				</calculator>
 			</field>			
 			<field name="occurrenceID" term="http://rs.tdwg.org/dwc/terms/occurrenceID">
-				<path>unitGUID</path>
+				<calculator>
+					<java-class>OccurrenceIdCalculator</java-class>
+				</calculator>
 			</field>
 			<field name="catalogNumber" term="http://rs.tdwg.org/dwc/terms/catalogNumber">
 				<path>unitID</path>
