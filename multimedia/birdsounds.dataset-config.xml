@@ -43,7 +43,7 @@
 				<path>serviceAccessPoints.0.format</path>
 			</field>								    
 			<field name="variantLiteral" term="http://rs.tdwg.org/ac/terms/variantLiteral">
-				<path>serviceAccessPoints.0.format</path>
+				<path>serviceAccessPoints.0.variant</path>
 			</field>
 			<field name="description" term="http://purl.org/dc/terms/description">
 				<path>description</path>
