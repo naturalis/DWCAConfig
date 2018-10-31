@@ -87,7 +87,7 @@
 				</calculator>
 			</field>	
 			<field name="geodeticDatum" term="http://rs.tdwg.org/dwc/terms/geodeticDatum">
-				<path>gatheringEvent.siteCoordinates.0.spatialDatum</path>
+				<path>gatheringEvent.siteCoordinates.spatialDatum</path>
 			</field>
 			<field name="dataGeneralizations" term="http://rs.tdwg.org/dwc/terms/dataGeneralizations">
 				<path>dataGeneralizations</path>
