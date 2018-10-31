@@ -135,7 +135,7 @@
         			</calculator>
 			</field>>	
 			<field name="samplingProtocol" term="http://rs.tdwg.org/dwc/terms/samplingProtocol">	
-				<path>gatheringEvent.Method</path>
+				<path>gatheringEvent.method</path>
 			</field>	
 												     
 												     
