@@ -22,6 +22,7 @@
 			<field name="occurrenceID" term="http://rs.tdwg.org/dwc/terms/occurrenceID">
 				<calculator>
 					<java-class>OccurrenceIdCalculator</java-class>
+					<arg>https://observation.org/observation/</arg>
 				</calculator>
 			</field>
 			<field name="catalogNumber" term="http://rs.tdwg.org/dwc/terms/catalogNumber">
