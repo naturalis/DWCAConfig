@@ -75,9 +75,9 @@
   <pubDate>2018-09-20</pubDate>
   <language>en</language>
   <abstract>
-	<para>www.xeno-canto.org ("Xeno-canto", "XC") is a website that gives access to shared recordings of sounds of wild birds from around the world.</para>
-	<para>The recordings are shared by thousands of recordists from around the world.</para>
-  </abstract>
+<para>Xeno-canto (XC) is an online database that provides access to sound recordings of wild birds from around the world. The recordings are shared by a growing community of thousands of recordists from around the world, amateur birdwatchers and professionals alike. The aim of Xeno-canto is to have representation of  all bird sounds, meaning all taxa, to subspecies level, their complete repertoire, all of the geographic variability, at all stages of development.</para>
+<para>The website of Xeno-canto (www.xeno-canto.org) was launched in 2005. It is run by the Xeno-canto Foundation for Nature Sounds in The Netherlands, with support from Naturalis Biodiversity Center.</para>
+<para>Please note that the Xeno-canto dataset shared on GBIF is currently a subset of the entire XC collection. Only the recordings by recordists who have given their permission to share recording metadata with GBIF are shared at the moment. We expect the dataset to increase over time, as more recordists give permission to share data with GBIF.</para>  </abstract>
   <keywordSet>
 	<keyword>aves, birds, bird sounds</keyword>
 	<keywordThesaurus>n/a</keywordThesaurus>
