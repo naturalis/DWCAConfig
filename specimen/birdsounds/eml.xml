@@ -169,7 +169,7 @@
 		   <givenName></givenName>
 		   <surName></surName>
 		</individualName>
-		<userId directory="http://XXXXX/"/>
+		<!-- <userId directory="http://XXXXX/"/> -->
 		<role></role>
 	</personnel>
 	<abstract>
@@ -195,9 +195,9 @@
        <gbif>
 	<dateStamp></dateStamp>	
 	<formationPeriod>1900-current</formationPeriod>
-	       <citation>Vellinga, W.P., Planque, R. &amp; Xeno-canto foundation (2005- ), Xeno-canto - bird sounds from around the world. GBIF subset, accessed at .... </citation>	
+	<citation>Vellinga, W.P., Planque, R. &amp; Xeno-canto foundation (2005- ), Xeno-canto - bird sounds from around the world. GBIF subset, accessed at .... </citation>	
 	<bibliography>	
-		<citation>Vellinga, W.P. &amp; Planque, R. (2015), CLEF2015 Working Notes, CEUR Workshop proceedings Vol-1391.</citation>
+		<citation>Vellinga, W.P. &amp; R. Planque (2015). CLEF2015 Working Notes, CEUR Workshop proceedings Vol-1391.</citation>
 		<citation>Vellinga, W.P., B. Planque, S. Pieterse &amp; J. Jongsma (2017). www.xeno-canto.org: a decade on. Neotropical Birding 21: 40-47.</citation>
 	</bibliography>	
 	<resourceLogoUrl/>	
