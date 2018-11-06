@@ -58,7 +58,7 @@
 		<role></role>
 	</associatedParty>
 	<associatedParty>
-				<individualName>
+		<individualName>
 			<givenName>Martine</givenName>
 			<surName>Lemmens</surName>
 		</individualName>
@@ -114,7 +114,7 @@
 		<keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
 	</keywordSet>
 	<additionalInfo>
-		<para></para>
+		<para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
 	</additionalInfo>
 	<intellectualRights>
 		<para></para>
