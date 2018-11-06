@@ -62,7 +62,7 @@
 				<path>identifications.0.vernacularNames.0.name</path>
 			</field>
 			<!-- Calculator PreviousIdentificationsCalculator -->
-			<field name="previousIdentifications" term="http://rs.tdwg.org/dwc/terms/#previousIdentifications">
+			<field name="previousIdentifications" term="http://rs.tdwg.org/dwc/terms/previousIdentifications">
 				<calculator>
 				<java-class>PreviousIdentificationsCalculator</java-class>
 				</calculator>
@@ -157,7 +157,7 @@
 			<field name="license" term="http://purl.org/dc/terms/license">
 				<path>license</path>
 			</field>
-			<field name="modified" term="http://rs.tdwg.org/dwc/terms/dcterms:modified">
+			<field name="modified" term="http://purl.org/dc/terms/modified">
 				<path>modified</path>
 			</field>	
 												   
