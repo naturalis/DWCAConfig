@@ -158,7 +158,7 @@
 	</sampling>
 	<qualityControl>
 		<description>
-		   <para>Identifications of recordings are subject to crowdsourced validation by the Xeno-canto community. Identifications can be discussed and flagged for review. When this is the case, the idenfication status is indicated in the occurrence data.</para>
+		   <para>Identifications of recordings are subject to crowdsourced validation by the Xeno-canto community. Identifications can be discussed and flagged for review. When this is the case, the identification status is indicated in the occurrence data.</para>
 		</description>
 	</qualityControl>
   </methods>
