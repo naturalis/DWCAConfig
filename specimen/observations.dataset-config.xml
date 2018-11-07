@@ -67,6 +67,9 @@
 				<java-class>PreviousIdentificationsCalculator</java-class>
 				</calculator>
 			</field>
+			<field name="individualCount" term="http://rs.tdwg.org/dwc/terms/individualCount">
+				<path>numberOfSpecimen</path>
+			</field>
 			<field name="lifeStage" term="http://rs.tdwg.org/dwc/terms/lifeStage">
 				<path>phaseOrStage</path>
 			</field>
