@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataset-config xmlns="http://data.naturalis.nl/nba-dataset-config">
-	<shared-data-source>
+	<entity name="specimen">
+	<data-source>
 		<document>Specimen</document>
 		<query-spec>
 			<conditions>
@@ -11,8 +12,7 @@
 				</condition>
 			</conditions>
 		</query-spec>
-	</shared-data-source>
-	<entity name="specimen">
+	</data-source>
 		<mapping>
 			<field name="id" term="http://rs.tdwg.org/dwc/terms/catalogNumber"> 
 				<calculator>
@@ -151,14 +151,27 @@
 			</field>
 		</mapping>
 	</entity>
-	<!--
 	<entity name="multimedia">
+		<data-source>
+			<document>MultiMediaObject</document>
+			<query-spec>
+				<conditions>
+					<condition>
+						<field>collectionType</field>
+						<operator>EQUALS</operator>
+						<value>Bird sounds</value>
+					</condition>
+					<condition>
+						<field>associatedSpecimenReference</field>
+						<operator>NOT_EQUALS</operator>
+						<value />
+					</condition>
+				</conditions>
+			</query-spec>
+		</data-source>
 		<mapping>
-			<field name="coreID" term="http://rs.tdwg.org/ac/terms/providerManagedID">
-				<path>unitID</path>
-			</field>
-			<field name="catalogNumber" term="http://rs.tdwg.org/ac/terms/relatedResourceID">
-				<path>unitID</path>
+			<field name="id" term="http://rs.tdwg.org/ac/terms/providerManagedID">
+				<path>associatedSpecimenReference</path>
 			</field>
 			<field name="Identifier" term="http://purl.org/dc/terms/identifier">
 				<path>recordURI</path>
@@ -176,13 +189,13 @@
 				<path>creator</path>
 			</field>
 			<field name="accessURI" term="http://rs.tdwg.org/ac/terms/accessURI">
-				<path>serviceAccessPoints.accessUri</path>
+				<path>serviceAccessPoints.0.accessUri</path>
 			</field>
 			<field name="format" term="http://purl.org/dc/terms/format">
-				<path>serviceAccessPoints.format</path>
+				<path>serviceAccessPoints.0.format</path>
 			</field>								    
 			<field name="variantLiteral" term="http://rs.tdwg.org/ac/terms/variantLiteral">
-				<path>serviceAccessPoints.format</path>
+				<path>serviceAccessPoints.0.variant</path>
 			</field>
 			<field name="description" term="http://purl.org/dc/terms/description">
 				<path>description</path>
@@ -198,5 +211,4 @@
 			</field>
 		</mapping>
 	</entity>
-	-->
 </dataset-config>
