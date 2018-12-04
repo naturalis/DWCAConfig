@@ -1,22 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataset-config xmlns="http://data.naturalis.nl/nba-dataset-config">
-
-	<data-sources>
-	</data-sources>
-
+	<shared-data-source>
+		<document>Specimen</document>
+		<query-spec>
+			<conditions>
+				<condition>
+					<field>collectionType</field>
+					<operator>EQUALS</operator>
+					<value>Tunicata</value>
+				</condition>
+			</conditions>
+		</query-spec>
+	</shared-data-source>
 	<entity name="specimen">
-		<data-source>
-			<document>Specimen</document>
-			<query-spec>
-				<conditions>
-					<condition>
-						<field>collectionType</field>
-						<operator>EQUALS</operator>
-						<value>Tunicata</value>
-					</condition>
-				</conditions>
-			</query-spec>
-		</data-source>
 		<mapping>
 			<field name="catalogNumber" term="http://rs.tdwg.org/dwc/terms/catalogNumber">
 				<path>sourceSystemId</path>
@@ -201,90 +197,4 @@
       -->
 		</mapping>
 	</entity>
-
-	<entity name="multimedia">
-		<data-source>
-			<document>MultiMediaObject</document>
-			<query-spec>
-				<conditions>
-					<condition>
-						<field>collectionType</field>
-						<operator>EQUALS</operator>
-						<value>Tunicata</value>
-					</condition>
-					<condition>
-						<field>associatedSpecimenReference</field>
-						<operator>NOT_EQUALS</operator>
-						<value />
-					</condition>
-				</conditions>
-			</query-spec>
-		</data-source>
-		<mapping>
-			<field name="catalogNumber" term="http://rs.tdwg.org/dwc/terms/catalogNumber">
-				<path>sourceSystemId</path>
-			</field>
-			<field name="title" term="http://rs.tdwg.org/dwc/terms/title">
-				<path>title</path>
-			</field>
-			<field name="URI" term="http://rs.tdwg.org/dwc/terms/uri">
-				<path>serviceAccessPoints.0.accessUri</path>
-			</field>
-		</mapping>
-	</entity>
-
-	<entity name="gathering_event">
-		<data-source>
-			<document>Specimen</document>
-			<query-spec>
-				<conditions>
-					<condition>
-						<field>collectionType</field>
-						<operator>EQUALS</operator>
-						<value>Tunicata</value>
-					</condition>
-					<condition>
-						<field>gatheringEvent.country</field>
-						<operator>NOT_EQUALS</operator>
-						<value />
-					</condition>
-				</conditions>
-			</query-spec>
-		</data-source>
-		<mapping>
-			<field name="catalogNumber" term="http://rs.tdwg.org/dwc/terms/catalogNumber">
-				<path>sourceSystemId</path>
-			</field>
-		</mapping>
-	</entity>
-
-	<entity name="identification">
-		<path>identifications</path>
-		<data-source>
-			<document>Specimen</document>
-			<query-spec>
-				<conditions>
-					<condition>
-						<field>collectionType</field>
-						<operator>EQUALS</operator>
-						<value>Tunicata</value>
-					</condition>
-					<condition>
-						<field>gatheringEvent.country</field>
-						<operator>NOT_EQUALS</operator>
-						<value />
-					</condition>
-				</conditions>
-			</query-spec>
-		</data-source>
-		<mapping>
-			<field name="catalogNumber" term="http://rs.tdwg.org/dwc/terms/catalogNumber">
-				<path>sourceSystemId</path>
-			</field>
-				<field name="fullScientificName" term="http://rs.tdwg.org/dwc/terms/vernacularName">
-				<path relative="true">scientificName.fullScientificName</path>
-			</field>
-		</mapping>
-	</entity>
-
 </dataset-config>
