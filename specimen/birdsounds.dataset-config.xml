@@ -14,7 +14,7 @@
 		</query-spec>
 	</data-source>
 		<mapping>
-			<field name="id" term="http://rs.tdwg.org/dwc/terms/catalogNumber"> 
+			<field name="id"> 
 				<calculator>
 					<java-class>DocumentIdCalculator</java-class>
 				</calculator>
