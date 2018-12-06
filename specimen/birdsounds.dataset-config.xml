@@ -14,7 +14,7 @@
 		</query-spec>
 	</data-source>
 		<mapping>
-			<field name="id"> 
+			<field name="id" term=""> 
 				<calculator>
 					<java-class>DocumentIdCalculator</java-class>
 				</calculator>
