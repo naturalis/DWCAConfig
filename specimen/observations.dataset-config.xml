@@ -34,7 +34,8 @@
 			<field name="collectionCode" term="http://rs.tdwg.org/dwc/terms/collectionCode">
 				<path>collectionType</path>
 			</field>			
-<!-- TAXONOMY AND RELATED FIELDS -->
+			
+			<!-- TAXONOMY AND RELATED FIELDS -->
 			<field name="scientificName" term="http://rs.tdwg.org/dwc/terms/scientificName">
 				<path>identifications.0.scientificName.fullScientificName</path>
 			</field>
@@ -77,7 +78,7 @@
 				<path>sex</path>
 			</field>	
 		
-<!-- GEOGRAPHY FIELDS -->
+			<!-- GEOGRAPHY FIELDS -->
 			<!-- Calculator longitudeDecimal -->
 			<field name="longitudeDecimal" term="http://rs.tdwg.org/dwc/terms/decimalLongitude">
 				<calculator>
@@ -117,7 +118,8 @@
 			<field name="habitat" term="http://rs.tdwg.org/dwc/terms/habitat">
 				<path>gatheringEvent.biotopeText</path>
 			</field>	
-<!-- Other fields -->			
+			
+			<!-- Other fields -->			
 			<!-- Calculator RecordedBy -->
 			<field name="recordedBy" term="http://rs.tdwg.org/dwc/terms/recordedBy">
 				<calculator>
@@ -163,24 +165,6 @@
 			<field name="modified" term="http://purl.org/dc/terms/modified">
 				<path>modified</path>
 			</field>	
-												   
-												   
-			<!-- GEBRUIKEN WE DEZE VELDEN NIET? 										
-			<field name="establishmentMeans" term="http://rs.tdwg.org/dwc/terms/establishmentMeans">
-				<path>gatheringEvent.EstablishmentMeans</path>
-			</field>												
-      			<field name="Municipality" term="http://rs.tdwg.org/dwc/terms/municipality">
-				<path>gatheringEvent.areaName</path>
-			</field> -->		
-			<!-- <field name="Higher Geography" term="http://rs.tdwg.org/dwc/terms/higherGeography"> -->
-  			<!--       <calculator> -->
-  			<!--  	        <java-class>HigherGeographyCalculator</java-class> -->
-		  	<!--       </calculator> -->
-			<!-- </field> -->											   
-			<!-- <field name="informationWithheld" term="http://rs.tdwg.org/dwc/terms/informationWithheld">
-				<path>informationWithheld</path>
-			</field>											   
-			-->									   
 		</mapping>
     </entity>
 	<entity name="multimedia">

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataset-config xmlns="http://data.naturalis.nl/nba-dataset-config">
 	<entity name="specimen">
-	<data-source>
-		<document>Specimen</document>
-		<query-spec>
-			<conditions>
-				<condition>
-					<field>collectionType</field>
-					<operator>EQUALS</operator>
-					<value>Bird sounds</value>
-				</condition>
-			</conditions>
-		</query-spec>
-	</data-source>
+			<data-source>
+				<document>Specimen</document>
+				<query-spec>
+					<conditions>
+						<condition>
+							<field>collectionType</field>
+							<operator>EQUALS</operator>
+							<value>Bird sounds</value>
+						</condition>
+					</conditions>
+				</query-spec>
+			</data-source>
 		<mapping>
-			<field name="id" term=""> 
+			<field name="id" term="http://rs.tdwg.org/dwc/terms/catalogNumber"> 
 				<calculator>
 					<java-class>DocumentIdCalculator</java-class>
 				</calculator>
@@ -86,13 +86,6 @@
 			<field name="geodeticDatum" term="http://rs.tdwg.org/dwc/terms/geodeticDatum">
 				<path>gatheringEvent.siteCoordinates.0.spatialDatum</path>
 			</field>
-			<!-- Calculator verbatimCoordinates  NB Aanpassing 3 oktober JC: geheel weglaten
-			<field name="verbatimCoordinates" term="http://rs.tdwg.org/dwc/terms/verbatimCoordinates">
-				<calculator>
-					<java-class>VerbatimCoordinatesCalculator</java-class>
-				</calculator>
-			</field>
- 			-->
 			<field name="country" term="http://rs.tdwg.org/dwc/terms/country">
 				<path>gatheringEvent.country</path>
 			</field>		
@@ -151,6 +144,7 @@
 			</field>
 		</mapping>
 	</entity>
+	
 	<entity name="multimedia">
 		<data-source>
 			<document>MultiMediaObject</document>
@@ -164,12 +158,11 @@
 					<condition>
 						<field>associatedSpecimenReference</field>
 						<operator>NOT_EQUALS</operator>
-						<value />
 					</condition>
 				</conditions>
 			</query-spec>
 		</data-source>
-		<mapping>
+		<mapping>			
 			<field name="id" term="http://rs.tdwg.org/ac/terms/providerManagedID">
 				<path>associatedSpecimenReference</path>
 			</field>
@@ -211,4 +204,5 @@
 			</field>
 		</mapping>
 	</entity>
+	
 </dataset-config>
