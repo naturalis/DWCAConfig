@@ -54,7 +54,7 @@
 		</address>
 		<phone>+316 415 21 260</phone>
 		<electronicMailAddress>timo@waarneming.nl</electronicMailAddress>
-		<onlineUrl>https://waarneming.nl</onlineUrl>
+		<onlineUrl></onlineUrl>
 		<role></role>
 	</associatedParty>
 	<associatedParty>
@@ -132,32 +132,7 @@
 	 <generalTaxonomicCoverage>The dataset contains >20.000 species of all kingdoms</generalTaxonomicCoverage>
 	    <taxonomicClassification>
           <taxonRankName>Kingdom</taxonRankName>
-          <taxonRankValue>Fungi</taxonRankValue>
-          <commonName></commonName>
-        </taxonomicClassification>
-	    <taxonomicClassification>
-          <taxonRankName>Kingdom</taxonRankName>
-          <taxonRankValue>Plantae</taxonRankValue>
-          <commonName></commonName>
-        </taxonomicClassification>
-	    <taxonomicClassification>
-          <taxonRankName>Kingdom</taxonRankName>
-          <taxonRankValue>Animalia</taxonRankValue>
-          <commonName></commonName>
-        </taxonomicClassification>
-	    <taxonomicClassification>
-          <taxonRankName>Kingdom</taxonRankName>
-          <taxonRankValue>Protista</taxonRankValue>
-          <commonName></commonName>
-        </taxonomicClassification>
-	    <taxonomicClassification>
-          <taxonRankName>Kingdom</taxonRankName>
-          <taxonRankValue>Chromista</taxonRankValue>
-          <commonName></commonName>
-        </taxonomicClassification>
-	    <taxonomicClassification>
-          <taxonRankName>Kingdom</taxonRankName>
-          <taxonRankValue>Bacteria</taxonRankValue>
+          <taxonRankValue>Fungi,Plantae,Animalia,Protista,Chromista,Bacteria</taxonRankValue>
           <commonName></commonName>
         </taxonomicClassification>
         <taxonomicClassification>
@@ -282,8 +257,8 @@ Brachiopoda</taxonRankValue>
 			<para>Naturalis Biodiversity Centre</para>
 		</funding>
 		<studyAreaDescription>
-			<descriptor name="generic" citableClassificationSystem="false">
-				<descriptorValue></descriptorValue>
+			<descriptor citableClassificationSystem="false" name="generic">
+				<descriptorValue/>
 			</descriptor>
 		</studyAreaDescription>
 		<designDescription>
@@ -297,7 +272,6 @@ Brachiopoda</taxonRankValue>
 	<metadata>
 		<gbif>
 			<dateStamp></dateStamp>
-			<formationPeriod></formationPeriod>
 			<citation></citation>
 			<bibliography>
 				<citation></citation>
