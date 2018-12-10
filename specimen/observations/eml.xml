@@ -73,7 +73,7 @@
 		</address>
 		<phone>+31475 386 470</phone>
 		<electronicMailAddress>martine.lemmens@nhgl.nl</electronicMailAddress>
-		<onlineUrl>https://waarneming.nl</onlineUrl>
+		<onlineUrl>https://observation.org</onlineUrl>
 		<role></role>
 	</associatedParty>
 	<pubDate></pubDate>
@@ -102,7 +102,7 @@
 		<keyword>Diptera</keyword>
 		<keyword>Algae</keyword>
 		<keyword>Weeds</keyword>
-		<keywordThesaurus></keywordThesaurus>
+		<keywordThesaurus>n/a</keywordThesaurus>
 	</keywordSet>
 	<keywordSet>
 		<keyword>occurrence</keyword>
