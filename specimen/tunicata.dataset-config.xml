@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataset-config xmlns="http://data.naturalis.nl/nba-dataset-config">
 	<shared-data-source>
 		<document>Specimen</document>
@@ -164,9 +164,6 @@
 				</calculator>
 			</field>
 			<field name="informationWithheld" term="http://rs.tdwg.org/dwc/terms/informationWithheld">
-				<constant></constant>
-			</field>
-			<field name="verbatimCoordinates" term="http://rs.tdwg.org/dwc/terms/verbatimCoordinates">
 				<constant></constant>
 			</field>
 			<field name="eventDate" term="http://rs.tdwg.org/dwc/terms/eventDate">
