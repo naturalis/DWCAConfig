@@ -79,8 +79,7 @@
 	<pubDate></pubDate>
 	<language>en</language>
 	<abstract>
-		<para>Waarneming.nl is a citizen science organisation collecting plant, animal and other nature observations in The Netherlands. The aim of Waarneming.nl is to provide an updated insight into Dutch biodiversity. For this purpose “waarnemingen”, the Dutch word for observations, are collected from thousands of amateur and professional nature lovers. The observations concern all living species but are mainly birds, mammals, amphibians and reptiles, butterflies (butterflies are a separate category), dragonflies, other arthropods, fish, molluscs, fungi, mosses / lichens and other plants. Observational records can be enhanced with pictures and / or sounds that are linked to the primary observations. Data quality is based on a system of taxonomic experts. A network of admins and coordinators provides the network with a steady, dynamic data-flow. Observers can insert their photographs with a species they can’t indentify. Our fully automatic recognition system ObsIdentify recognizes 16,000+ species for them.</para>
-		<para>Most of the observations presented on the website of Waarneming.nl are open to the public. In order to prevent poaching or damage to rare species, detailed location information is sometimes obscured or observations are placed under embargo. Waarneming.nl started in 2005 as the work of a small group of volunteers but has grown into a very successful organisation generating millions of species observations each year. In 2018 we reach the total of 58.000.000 observations in the Netherlands. There are many cooperative structures in place with other Dutch data organisations such as Sovon and the Dutch National database on Flora and Fauna (NDFF). Local groups use the platform for their own purpose but also at the international level the straightforward set-up of Waarneming.nl is being appreciated and there are many international versions of the original site (e.g. Waarnemingen.be for Belgium). The common international version of Waarneming.nl operates under the name of Observation.org and reach the total of 100.000.000 observations in 2018</para>
+		<para>This dataset contains occurrence data of flora and fauna species in the Netherlands on a 5 x 5 km scale. It summarizes the observations recorded by >80.000 volunteers.</para>
 	</abstract>
 	<keywordSet>
 		<keyword>Birds</keyword>
@@ -103,7 +102,7 @@
 		<keyword>Diptera</keyword>
 		<keyword>Algae</keyword>
 		<keyword>Weeds</keyword>
-		<keywordThesaurus></keywordThesaurus>
+		<keywordThesaurus>n/a</keywordThesaurus>
 	</keywordSet>
 	<keywordSet>
 		<keyword>occurrence</keyword>
@@ -133,32 +132,7 @@
 	 <generalTaxonomicCoverage>The dataset contains >20.000 species of all kingdoms</generalTaxonomicCoverage>
 	    <taxonomicClassification>
           <taxonRankName>Kingdom</taxonRankName>
-          <taxonRankValue>Fungi</taxonRankValue>
-          <commonName></commonName>
-        </taxonomicClassification>
-	    <taxonomicClassification>
-          <taxonRankName>Kingdom</taxonRankName>
-          <taxonRankValue>Plantae</taxonRankValue>
-          <commonName></commonName>
-        </taxonomicClassification>
-	    <taxonomicClassification>
-          <taxonRankName>Kingdom</taxonRankName>
-          <taxonRankValue>Animalia</taxonRankValue>
-          <commonName></commonName>
-        </taxonomicClassification>
-	    <taxonomicClassification>
-          <taxonRankName>Kingdom</taxonRankName>
-          <taxonRankValue>Protista</taxonRankValue>
-          <commonName></commonName>
-        </taxonomicClassification>
-	    <taxonomicClassification>
-          <taxonRankName>Kingdom</taxonRankName>
-          <taxonRankValue>Chromista</taxonRankValue>
-          <commonName></commonName>
-        </taxonomicClassification>
-	    <taxonomicClassification>
-          <taxonRankName>Kingdom</taxonRankName>
-          <taxonRankValue>Bacteria</taxonRankValue>
+          <taxonRankValue>Fungi,Plantae,Animalia,Protista,Chromista,Bacteria</taxonRankValue>
           <commonName></commonName>
         </taxonomicClassification>
         <taxonomicClassification>
@@ -223,10 +197,10 @@ Brachiopoda</taxonRankValue>
 	<temporalCoverage>
 		<rangeOfDates>
 			<beginDate>
-				<calendarDate></calendarDate>
+				<calendarDate>1900-01-01</calendarDate>
 			</beginDate>
 			<endDate>
-				<calendarDate></calendarDate>
+				<calendarDate>2019-01-01</calendarDate>
 			</endDate>
 		</rangeOfDates>
 	</temporalCoverage>
@@ -267,7 +241,7 @@ Brachiopoda</taxonRankValue>
 		</qualityControl>
 	</methods>
 	<project>
-		<title>Waarneming.nl data 1900-present</title>
+		<title>Waarneming.nl data 1900-2018 on a 5 x 5 km scale</title>
 		<personnel>
 			<individualName>
 				<givenName></givenName>
@@ -283,8 +257,8 @@ Brachiopoda</taxonRankValue>
 			<para>Naturalis Biodiversity Centre</para>
 		</funding>
 		<studyAreaDescription>
-			<descriptor name="generic" citableClassificationSystem="false">
-				<descriptorValue></descriptorValue>
+			<descriptor citableClassificationSystem="false" name="generic">
+				<descriptorValue/>
 			</descriptor>
 		</studyAreaDescription>
 		<designDescription>
@@ -298,7 +272,6 @@ Brachiopoda</taxonRankValue>
 	<metadata>
 		<gbif>
 			<dateStamp></dateStamp>
-			<formationPeriod>1900-current</formationPeriod>
 			<citation></citation>
 			<bibliography>
 				<citation></citation>

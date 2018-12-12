@@ -168,9 +168,6 @@
 			<field name="informationWithheld" term="http://rs.tdwg.org/dwc/terms/informationWithheld">
 				<constant></constant>
 			</field>
-			<field name="verbatimCoordinates" term="http://rs.tdwg.org/dwc/terms/verbatimCoordinates">
-				<constant></constant>
-			</field>
 			<field name="eventDate" term="http://rs.tdwg.org/dwc/terms/eventDate">
 				<calculator>
 					<java-class>VerbatimEventDateCalculator</java-class>
