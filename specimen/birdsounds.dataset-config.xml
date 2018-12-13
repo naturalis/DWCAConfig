@@ -14,7 +14,7 @@
 				</query-spec>
 			</data-source>
 		<mapping>
-			<field name="id" term="http://rs.tdwg.org/dwc/terms/catalogNumber"> 
+			<field name="id" term="id"> 
 				<calculator>
 					<java-class>DocumentIdCalculator</java-class>
 				</calculator>
@@ -163,7 +163,7 @@
 			</query-spec>
 		</data-source>
 		<mapping>			
-			<field name="id" term="http://rs.tdwg.org/ac/terms/providerManagedID">
+			<field name="CoreId" term="CoreId">
 				<path>associatedSpecimenReference</path>
 			</field>
 			<field name="Identifier" term="http://purl.org/dc/terms/identifier">
