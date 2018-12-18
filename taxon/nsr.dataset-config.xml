@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataset-config xmlns="http://data.naturalis.nl/nba-dataset-config">
 	<shared-data-source>
-			<document>Taxon</document>
-			<query-spec>
-				<conditions>
-					<condition>
-						<field>sourceSystem.code</field>
-						<operator>EQUALS</operator>
-						<value>NSR</value>
-					</condition>
-				</conditions>
-			</query-spec>
+		<document>Taxon</document>
+		<query-spec>
+			<conditions>
+				<condition>						
+					<field>sourceSystem.code</field>
+					<operator>EQUALS</operator>
+					<value>NSR</value>
+				</condition>
+			</conditions>
+		</query-spec>
 	</shared-data-source>
 	<entity name="taxon">
 		<mapping>
