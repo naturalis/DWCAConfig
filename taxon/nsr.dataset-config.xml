@@ -4,7 +4,7 @@
 		<document>Taxon</document>
 		<query-spec>
 			<conditions>
-				<condition>						
+				<condition>
 					<field>sourceSystem.code</field>
 					<operator>EQUALS</operator>
 					<value>NSR</value>
