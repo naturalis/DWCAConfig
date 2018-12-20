@@ -116,7 +116,7 @@
 			<commonName>Birds</commonName>
 		</taxonomicClassification>
 	</taxonomicCoverage>
-	<temporalCoverage>
+	<!-- <temporalCoverage> DONT USE THIS  IF FORMATION PERIOD IS USED?? 
 		<rangeOfDates>
 		<beginDate>
 			<calendarDate></calendarDate>
@@ -125,7 +125,7 @@
 			<calendarDate/>
 		</endDate>
 		</rangeOfDates>
-	</temporalCoverage>
+	</temporalCoverage> -->
   </coverage>
   <contact>
 	<individualName>
