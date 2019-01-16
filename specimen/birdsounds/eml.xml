@@ -72,7 +72,7 @@
 	<onlineUrl>https://www.naturalis.nl</onlineUrl>
 	<role>DISTRIBUTOR</role>
   </associatedParty>
-  <pubDate>2018-09-20</pubDate>
+  <pubDate>2019-01-16</pubDate>
   <language>en</language>
   <abstract>
 <para>Xeno-canto (XC) is an online database that provides access to sound recordings of wild birds from around the world. The recordings are shared by a growing community of thousands of recordists from around the world, amateur birdwatchers and professionals alike. The aim of Xeno-canto is to have representation of  all bird sounds, meaning all taxa, to subspecies level, their complete repertoire, all of the geographic variability, at all stages of development.</para>
@@ -94,8 +94,6 @@
 	<para/>
   </additionalInfo>
   <intellectualRights>
-  <!-- Om geen problemen bij GBIF te krijgen moet 1 licentie gekozen worden, in de juiste machine readable manier -->
-  <!-- Dus de oplossing die voorgesteld is kan niet: <citetitle>various Creative Commons licenses</citetitle>. -->
 	<para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
   </intellectualRights>
   <coverage>
@@ -116,16 +114,7 @@
 			<commonName>Birds</commonName>
 		</taxonomicClassification>
 	</taxonomicCoverage>
-	<!-- <temporalCoverage> DONT USE THIS  IF FORMATION PERIOD IS USED?? 
-		<rangeOfDates>
-		<beginDate>
-			<calendarDate></calendarDate>
-		</beginDate>
-		<endDate>
-			<calendarDate/>
-		</endDate>
-		</rangeOfDates>
-	</temporalCoverage> -->
+	<!-- No <temporalCoverage></temporalCoverage> because Formation period has been used -->
   </coverage>
   <contact>
 	<individualName>
@@ -169,7 +158,6 @@
 		   <givenName></givenName>
 		   <surName></surName>
 		</individualName>
-		<!-- <userId directory="http://XXXXX/"/> -->
 		<role></role>
 	</personnel>
 	<abstract>
