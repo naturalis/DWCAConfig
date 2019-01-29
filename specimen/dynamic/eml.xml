@@ -34,6 +34,7 @@
 <language>mul</language>
 <abstract>
     <para>Dataset may contain selected records from zoological, botanical and paleontogical collections of the Naturalis Biodiversity Center (Leiden, Netherlands), observational records of Observation.org (Waarneming.nl) and sound records of Xeno-canto (www.xeno-canto.org).</para>
+    <para>For information about the Naturalis records, please contact informatiemanagement@naturalis.nl. For the data from the Obervations.org database contact Hisko de Vries at hiskodevries@gmail.com and for the Xeno-canto data use: contact@xeno-canto.org</para>
 </abstract>
 <keywordSet>
     <keyword>Occurrence</keyword>
