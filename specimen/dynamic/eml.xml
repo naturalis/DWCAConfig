@@ -3,12 +3,8 @@
 		 <dataset>
   <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Dynamic download</title>
 <creator>
-    <individualName>
-        <givenName>Jeroen</givenName>
-        <surName>Creuwels</surName>
-    </individualName>
+    <individualName></individualName>
     <organizationName>Naturalis Biodiversity Center</organizationName>
-    <positionName>Data manager</positionName>
     <address>
         <deliveryPoint>PO Box 9517</deliveryPoint>
         <city>Leiden</city>
@@ -18,15 +14,11 @@
     </address>
     <phone>+31.71.7519600</phone>
     <electronicMailAddress>informatiemanagement@naturalis.nl</electronicMailAddress>
-    <onlineUrl>http://science.naturalis.nl</onlineUrl>
+    <onlineUrl>https://www.naturalis.nl/</onlineUrl>
 </creator>
 <metadataProvider>
-    <individualName>
-        <givenName>Jeroen</givenName>
-        <surName>Creuwels</surName>
-    </individualName>
+    <individualName></individualName>
     <organizationName>Naturalis Biodiversity Center</organizationName>
-    <positionName>Data manager</positionName>
     <address>
         <deliveryPoint>PO Box 9517</deliveryPoint>
         <city>Leiden</city>
@@ -36,33 +28,24 @@
     </address>
     <phone>+31.71.7519600</phone>
     <electronicMailAddress>informatiemanagement@naturalis.nl</electronicMailAddress>
-    <onlineUrl>http://science.naturalis.nl</onlineUrl>
+    <onlineUrl>https://www.naturalis.nl/</onlineUrl>
 </metadataProvider>
 <pubDate></pubDate>
 <language>mul</language>
 <abstract>
-    <para>Dataset contains selected records from all specimen collections of the Naturalis Biodiversity Center (Leiden, Netherlands).</para>
+    <para>Dataset may contain selected records from zoological, botanical and paleontogical collections of the Naturalis Biodiversity Center (Leiden, Netherlands), observational records of Observation.org (Waarneming.nl) and sound records of Xeno-canto (www.xeno-canto.org).</para>
 </abstract>
 <keywordSet>
     <keyword>Occurrence</keyword>
     <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
 </keywordSet>
-<keywordSet>
-    <keyword>Specimen</keyword>
-    <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
-</keywordSet>
 <intellectualRights>
-    <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+    <para>Due to different data sources licenses vary between datasets. All records have at least a Creative Common license CC-BY-NC, under which data are made available for any use provided that attribution is appropriately given and provided the use is not for commercial purposes. For the exact license of each record check the original record.</para>
 </intellectualRights>
-<coverage>
-</coverage>
+<coverage></coverage>
 <contact>
-    <individualName>
-        <givenName>Jeroen</givenName>
-        <surName>Snijders</surName>
-    </individualName>
-    <organizationName>Naturalis Biodiversity Center</organizationName>
-    <positionName>Deputy Director collections</positionName>
+    <individualName></individualName>   
+    <organizationName>Informatiemanagement, Naturalis Biodiversity Center</organizationName>
     <address>
         <deliveryPoint>PO Box 9517</deliveryPoint>
         <city>Leiden</city>
@@ -71,8 +54,8 @@
         <country>NL</country>
     </address>
     <phone>+31.71.7519600</phone>
-    <electronicMailAddress>collectie@naturalis.nl</electronicMailAddress>
-    <onlineUrl>http://science.naturalis.nl</onlineUrl>
+    <electronicMailAddress>informatiemanagement@naturalis.nl</electronicMailAddress>
+    <onlineUrl>https://www.naturalis.nl/</onlineUrl>
 </contact>
 </dataset>
 </eml:eml>
