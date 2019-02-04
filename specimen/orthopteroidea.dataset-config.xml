@@ -182,7 +182,7 @@
 			<!-- Calculator verbatimEventDate -->
 			<field name="verbatimEventDate" term="http://rs.tdwg.org/dwc/terms/verbatimEventDate">
 				<calculator>
-					<java-class>gatheringEvents.dateText</java-class>
+					<path>gatheringEvents.dateText</path>
 				</calculator>
 			</field>
 			<field name="otherCatalogNumbers" term="http://rs.tdwg.org/dwc/terms/otherCatalogNumbers">
