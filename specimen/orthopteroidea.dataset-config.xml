@@ -54,10 +54,10 @@
 			</field>
 			<field name="taxonRank" term="http://rs.tdwg.org/dwc/terms/taxonRank">
 				<path>identifications.0.taxonRank</path>
-			</field>
+			<!-- </field>
 			<field name="taxonRank" term="http://rs.tdwg.org/dwc/terms/verbatimTaxonRank">
 				<path>identifications.0.taxonRank</path>
-			</field>
+			</field> -->
 			<!-- Calculator Kingdom -->
 			<field name="kingdom" term="http://rs.tdwg.org/dwc/terms/kingdom">
 				<calculator>
@@ -82,7 +82,6 @@
 					<java-class>HigherClassificationCalculator</java-class>
 				</calculator>
 			</field>
-<!-- UITZOEKEN -->
 			<!-- Calculator identifiedBy -->
 			<field name="identifiedBy" term="http://rs.tdwg.org/dwc/terms/identifiedBy">
 				<calculator>
@@ -112,12 +111,12 @@
 			<field name="preparations" term="http://rs.tdwg.org/dwc/terms/preparations">
 				<path>preparationType</path>
 			</field>
-<!-- UITZOEKEN OF DIT WEL BESTAAT -->
+			<!-- REMARKS niet gevuld in NDS
 			<field name="remarks" term="http://rs.tdwg.org/dwc/terms/taxonRemarks">
 				<calculator>
 					<java-class>TaxonRemarksCalculator</java-class>
 				</calculator>
-			</field>
+			</field> -->
 			<!-- Calculator latitudeDecimal -->
 			<field name="latitudeDecimal" term="http://rs.tdwg.org/dwc/terms/decimalLatitude">
 				<calculator>
@@ -160,9 +159,8 @@
 			<field name="habitat" term="http://rs.tdwg.org/dwc/terms/habitat">
 				<path>gatheringEvent.biotopeText</path>
 			</field>
-<!-- UITZOEKEN NDS/GBIF DIT LIJKT NIET TE KLOPPEN -->
-			<field name="altitudeUnifOfMeasurement" term="http://rs.tdwg.org/dwc/terms/verbatimElevation">
-				<path>gatheringEvent.altitudeUnifOfMeasurement</path>
+			<field name="altitude" term="http://rs.tdwg.org/dwc/terms/verbatimElevation">
+				<path>gatheringEvent.altitude</path>
 			</field>
 			<field name="depth" term="http://rs.tdwg.org/dwc/terms/verbatimDepth">
 				<path>gatheringEvent.depth</path>
@@ -186,13 +184,13 @@
 			<field name="otherCatalogNumbers" term="http://rs.tdwg.org/dwc/terms/otherCatalogNumbers">
 				<path>previousUnitsText</path>
 			</field>
-<!-- UITZOEKEN nog nodig???-->
-			<!-- Calculator associatedMedia -->
+			<!-- niet meer nodig vanwege multimedia extension-->
+			<!-- Calculator associatedMedia
 			<field name="associatedMedia" term="http://rs.tdwg.org/dwc/terms/associatedMedia">
 				<calculator>
 					<java-class>SpecimenMultiMediaCalculator</java-class>
 				</calculator>
-			</field>
+			</field> -->
 			<field name="informationWithheld" term="http://rs.tdwg.org/dwc/terms/informationWithheld">
 				<constant></constant>
 			</field>
