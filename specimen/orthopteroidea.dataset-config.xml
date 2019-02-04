@@ -181,9 +181,7 @@
 <!-- UITZOEKEN want verbatim-->
 			<!-- Calculator verbatimEventDate -->
 			<field name="verbatimEventDate" term="http://rs.tdwg.org/dwc/terms/verbatimEventDate">
-				<calculator>
-					<path>gatheringEvents.dateText</path>
-				</calculator>
+				<path>gatheringEvent.dateText</path>
 			</field>
 			<field name="otherCatalogNumbers" term="http://rs.tdwg.org/dwc/terms/otherCatalogNumbers">
 				<path>previousUnitsText</path>
@@ -197,9 +195,6 @@
 			</field>
 			<field name="informationWithheld" term="http://rs.tdwg.org/dwc/terms/informationWithheld">
 				<constant></constant>
-			</field>
-			<field name="institutionID" term="http://rs.tdwg.org/dwc/terms/institutionID">
-				<path>sourceInstitutionID</path>
 			</field>
 			<field name="institutionID" term="http://rs.tdwg.org/dwc/terms/institutionID">
 				<path>sourceInstitutionID</path>
@@ -235,7 +230,6 @@
 					<condition>
 						<field>associatedSpecimenReference</field>
 						<operator>NOT_EQUALS</operator>
-						<value />
 					</condition>
 				</conditions>
 			</query-spec>
