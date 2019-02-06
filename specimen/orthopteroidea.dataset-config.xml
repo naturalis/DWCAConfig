@@ -256,7 +256,7 @@
 			<field name="format" term="http://purl.org/dc/terms/format">
 				<path>serviceAccessPoints.0.format</path>
 			</field>
-			<field name="variantLiteral" term="http://rs.tdwg.org/ac/terms/variant">
+			<field name="variant" term="http://rs.tdwg.org/ac/terms/variant">
 			<!-- field name="variantLiteral" term="http://rs.tdwg.org/ac/terms/variant"> -->
 			<!-- <path>serviceAccessPoints.0.variant</path> -->
 				<constant>ac:GoodQuality</constant>	
