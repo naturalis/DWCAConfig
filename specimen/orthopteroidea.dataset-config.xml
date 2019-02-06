@@ -256,10 +256,10 @@
 			<field name="format" term="http://purl.org/dc/terms/format">
 				<path>serviceAccessPoints.0.format</path>
 			</field>
-			<field name="variantLiteral" term="http://rs.tdwg.org/ac/terms/variantLiteral">
+			<field name="variant" term="http://rs.tdwg.org/ac/terms/variant">
 			<!-- field name="variantLiteral" term="http://rs.tdwg.org/ac/terms/variant"> -->
 			<!-- <path>serviceAccessPoints.0.variant</path> -->
-				<constant>Good Quality</constant>	
+				<constant>ac:GoodQuality</constant>	
 			</field>
 			<field name="license" term="http://purl.org/dc/terms/rights">
 				<path>license</path>
