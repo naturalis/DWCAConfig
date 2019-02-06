@@ -54,8 +54,8 @@
 			</field>
 			<field name="taxonRank" term="http://rs.tdwg.org/dwc/terms/taxonRank">
 				<path>identifications.0.taxonRank</path>
-			<!-- </field>
-			<field name="taxonRank" term="http://rs.tdwg.org/dwc/terms/verbatimTaxonRank">
+			</field>
+			<!--<field name="taxonRank" term="http://rs.tdwg.org/dwc/terms/verbatimTaxonRank">
 				<path>identifications.0.taxonRank</path>
 			</field> -->
 			<!-- Calculator Kingdom -->
