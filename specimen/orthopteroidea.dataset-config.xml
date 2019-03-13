@@ -131,7 +131,7 @@
 			</field>
 			<field name="geodeticDatum" term="http://rs.tdwg.org/dwc/terms/geodeticDatum">
 				<constant>WGS84</constant>
-			</field>			
+			</field>
 			<!-- NBADATA-39 -->
 			<field name="coordinateUncertaintyInMeters" term="http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters">
 				<path>gatheringEvent.siteCoordinates.0.coordinateErrorDistanceInMeters</path>
