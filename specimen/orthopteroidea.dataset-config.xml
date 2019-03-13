@@ -132,6 +132,10 @@
 			<field name="geodeticDatum" term="http://rs.tdwg.org/dwc/terms/geodeticDatum">
 				<constant>WGS84</constant>
 			</field>			
+			<!-- NBADATA-39 -->
+			<field name="coordinateUncertaintyInMeters" term="http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters">
+				<path>gatheringEvent.siteCoordinates.0.coordinateErrorDistanceInMeters</path>
+			</field>
 			<!-- Calculator verbatimCoordinates -->
 			<field name="verbatimCoordinates" term="http://rs.tdwg.org/dwc/terms/verbatimCoordinates">
 				<calculator>
