@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataset-config xmlns="http://data.naturalis.nl/nba-dataset-config">
 	<entity name="specimen">
 	<data-source>
@@ -8,7 +8,7 @@
 				<condition>
 					<field>collectionType</field>
 					<operator>EQUALS</operator>
-					<value>Orthopteroidea</value>
+					<value>XXXXX</value>
 				</condition>
 			</conditions>
 		</query-spec>
@@ -94,7 +94,7 @@
 				<path>identifications.0.dateIdentified</path>
 			</field>
 			<field name="nomenclaturalCode" term="http://rs.tdwg.org/dwc/terms/nomenclaturalCode">
-				<constant>ICZN</constant>
+				<constant>XXXXX</constant>
 			</field>
 			<field name="individualCount" term="http://rs.tdwg.org/dwc/terms/individualCount">
 				<path>numberOfSpecimen</path>
@@ -229,7 +229,7 @@
 					<condition>
 						<field>collectionType</field>
 						<operator>EQUALS</operator>
-						<value>Orthopteroidea</value>
+						<value>XXXXX</value>
 					</condition>
 					<condition>
 						<field>associatedSpecimenReference</field>
