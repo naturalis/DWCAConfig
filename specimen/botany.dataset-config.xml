@@ -8,7 +8,7 @@
 				<condition>
 					<field>collectionType</field>
 					<operator>EQUALS</operator>
-					<value>BRAHMS</value>
+					<value>Botany</value>
 				</condition>
 			</conditions>
 		</query-spec>
