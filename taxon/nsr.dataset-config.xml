@@ -220,7 +220,7 @@
 				<path>serviceAccessPoints.0.variant</path>
 			</field>
 			<field name="LocationShown" term="http://iptc.org/std/Iptc4xmpExt/2008-02-29/LocationShown">
-				<path>gatheringEvents.localityText</path>
+				<path>gatheringEvents.0.localityText</path>
 			</field>
 			<field name="comments" term="http://rs.tdwg.org/ac/terms/comments">
 				<path>description</path>
