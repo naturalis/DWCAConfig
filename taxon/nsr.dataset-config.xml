@@ -97,7 +97,8 @@
 				<path relative="true">authorshipVerbatim</path>
 			</field>
 			<field name="taxonomicStatus" term="http://rs.tdwg.org/dwc/terms/taxonomicStatus">
-				<constant>synonym</constant>
+	<!--			<constant>synonym</constant> -->
+				<path relative="true">taxonomicStatus</path>
 			</field>
 			<field name="taxonRank" term="http://rs.tdwg.org/dwc/terms/taxonRank">
 				<constant></constant>
