@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataset-config xmlns="http://data.naturalis.nl/nba-dataset-config">
-	<shared-data-source>
-		<document>Taxon</document>
-		<query-spec>
-			<conditions>
-				<condition>
-					<field>sourceSystem.code</field>
-					<operator>EQUALS</operator>
-					<value>NSR</value>
-				</condition>
-			</conditions>
-		</query-spec>
-	</shared-data-source>
 	<entity name="taxon">
+		<data-source>
+			<document>Taxon</document>
+			<query-spec>
+				<conditions>
+					<condition>
+						<field>sourceSystem.code</field>
+						<operator>EQUALS</operator>
+						<value>NSR</value>
+					</condition>
+				</conditions>
+			</query-spec>
+		</data-source>
 		<mapping>
 			<field name="taxonID" term="http://rs.tdwg.org/dwc/terms/taxonID">
 				<path>sourceSystemId</path>
@@ -67,7 +67,19 @@
 			</field>
 		</mapping>
 	</entity>
-	<entity name="synonym">
+	<entity name="synonym">	
+		<data-source>
+			<document>Taxon</document>
+			<query-spec>
+				<conditions>
+					<condition>
+						<field>sourceSystem.code</field>
+						<operator>EQUALS</operator>
+						<value>NSR</value>
+					</condition>
+				</conditions>
+			</query-spec>
+		</data-source>
 		<path>synonyms</path>
 		<mapping>
 			<field name="taxonID" term="http://rs.tdwg.org/dwc/terms/taxonID">
@@ -85,7 +97,8 @@
 				<path relative="true">authorshipVerbatim</path>
 			</field>
 			<field name="taxonomicStatus" term="http://rs.tdwg.org/dwc/terms/taxonomicStatus">
-				<constant>synonym</constant>
+	<!--			<constant>synonym</constant> -->
+				<path relative="true">taxonomicStatus</path>
 			</field>
 			<field name="taxonRank" term="http://rs.tdwg.org/dwc/terms/taxonRank">
 				<constant></constant>
@@ -126,6 +139,18 @@
 		</mapping>
 	</entity>
 	<entity name="vernacular_name">
+		<data-source>
+			<document>Taxon</document>
+			<query-spec>
+				<conditions>
+					<condition>
+						<field>sourceSystem.code</field>
+						<operator>EQUALS</operator>
+						<value>NSR</value>
+					</condition>
+				</conditions>
+			</query-spec>
+		</data-source>
 		<path>vernacularNames</path>
 		<filter>
 			<java-class>SimpleEntityFilter</java-class>
@@ -147,4 +172,63 @@
 			</field>
 		</mapping>
 	</entity>
+	<entity name="multimedia">
+		<data-source>
+			<document>MultiMediaObject</document>
+			<query-spec>
+				<conditions>
+					<condition>
+						<field>sourceSystem.code</field>
+						<operator>EQUALS</operator>
+						<value>NSR</value>
+					</condition>
+					<condition>
+						<field>associatedTaxonReference</field>
+						<operator>NOT_EQUALS</operator>
+						<value />
+					</condition>
+				</conditions>
+			</query-spec>
+		</data-source>
+		<mapping>
+			<field name="id">
+				<calculator>
+					<java-class>AssociatedTaxonReferenceIdCalculator</java-class>
+				</calculator>
+			</field>
+			<field name="Identifier" term="http://purl.org/dc/terms/identifier">
+				<path>serviceAccessPoints.0.accessUri</path>
+			</field>
+			<field name="type" term="http://purl.org/dc/elements/1.1/type">
+				<constant>StillImage</constant>
+			</field>
+			<field name="rightsHolder" term="http://ns.adobe.com/xap/1.0/rights/Owner">
+				<path>creator</path>
+			</field>
+			<field name="creator" term="http://purl.org/dc/elements/1.1/creator">
+				<path>creator</path>
+			</field>
+			<field name="CreateDate" term="http://ns.adobe.com/xap/1.0/CreateDate">
+				<path>gatheringEvents.0.dateTimeBegin</path>
+			</field>
+			<field name="accessURI" term="http://rs.tdwg.org/ac/terms/accessURI">
+				<path>serviceAccessPoints.0.accessUri</path>
+			</field>
+			<field name="format" term="http://purl.org/dc/terms/format">
+				<path>serviceAccessPoints.0.format</path>
+			</field>								    
+			<field name="variant" term="http://rs.tdwg.org/ac/terms/variant">
+				<constant>ac:BestQuality</constant>
+			</field>
+			<field name="LocationShown" term="http://iptc.org/std/Iptc4xmpExt/2008-02-29/LocationShown">
+				<path>gatheringEvents.0.localityText</path>
+			</field>
+			<field name="comments" term="http://rs.tdwg.org/ac/terms/comments">
+				<path>description</path>
+			</field>
+			<field name="license" term="http://purl.org/dc/terms/rights">
+				<path>license</path>
+			</field>
+		</mapping>
+	</entity> 
 </dataset-config>
