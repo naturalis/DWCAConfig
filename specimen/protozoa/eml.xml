@@ -7,7 +7,7 @@
 
 <dataset>
   <alternateIdentifier>doi:10.15468/2vuq5t</alternateIdentifier>
-  <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Porifera</title>
+  <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Protozoa</title>
 <creator>
     <individualName>
         <givenName>Jeroen</givenName>
@@ -23,8 +23,8 @@
         <country>NL</country>
     </address>
     <phone>+31.71.7519600</phone>
-    <electronicMailAddress>informatiemanagement@naturalis.nl</electronicMailAddress>
-    <onlineUrl>http://science.naturalis.nl</onlineUrl>
+    <electronicMailAddress>collectiemanagement@naturalis.nl</electronicMailAddress>
+    <onlineUrl>https://www.naturalis.nl</onlineUrl>
 </creator>
 <metadataProvider>
     <individualName>
@@ -41,15 +41,15 @@
         <country>NL</country>
     </address>
     <phone>+31.71.7519600</phone>
-    <electronicMailAddress>informatiemanagement@naturalis.nl</electronicMailAddress>
-    <onlineUrl>http://science.naturalis.nl</onlineUrl>
+    <electronicMailAddress>collectiemanagement@naturalis.nl</electronicMailAddress>
+    <onlineUrl>https://www.naturalis.nl</onlineUrl>
 </metadataProvider>
 <pubDate>
-      	2017-03-28
+      	2020-02-20
 </pubDate>
 <language>mul</language>
 <abstract>
-  <para>Database contains specimen records from the Protista collection of the Naturalis Biodiversity Center (Leiden, Netherlands). These specimens originate from the collections of the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden and of the former Zoological Museum Amsterdam (ZMA). Records of the XXX collection are included. On request more information or pictures (if available) can be provided.</para>
+  <para>Database contains specimen records from the Protozoa collection of the Naturalis Biodiversity Center (Leiden, Netherlands). These specimens originate from the collections of the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden and of the former Zoological Museum Amsterdam (ZMA). Records of the dataset  Zoological Museum Amsterdam, University of Amsterdam (NL) - Protozoa (https://www.gbif.org/dataset/f2836770-6166-11de-84bf-b8a03c50a862) are included in this dataset. On request more information or pictures (if available) can be provided.</para>
 </abstract>
       <keywordSet>
             <keyword>Occurrence</keyword>
@@ -75,11 +75,11 @@
   </coverage>
   <contact>
     <individualName>
-        <givenName>Steven</givenName>
-      <surName>van der Mije</surName>
+      <givenName>Schollaardt</givenName>
+      <surName>Christel</surName>
     </individualName>
     <organizationName>Naturalis Biodiversity Center</organizationName>
-    <positionName>Head Invertebrate collections</positionName>
+    <positionName>Head Collections</positionName>
     <address>
         <deliveryPoint>PO Box 9517</deliveryPoint>
         <city>Leiden</city>
@@ -88,8 +88,8 @@
         <country>NL</country>
     </address>
     <phone>+31.71.7519600</phone>
-    <electronicMailAddress>collectie@naturalis.nl</electronicMailAddress>
-    <onlineUrl>https://science.naturalis.nl/en/collection/naturalis-collections/</onlineUrl>
+    <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+    <onlineUrl>https://www.naturalis.nl/en/collection</onlineUrl>
   </contact>
 </dataset>
   <additionalMetadata>
