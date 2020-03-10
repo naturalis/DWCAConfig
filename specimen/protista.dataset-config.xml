@@ -8,7 +8,7 @@
 				<condition>
 					<field>collectionType</field>
 					<operator>EQUALS</operator>
-					<value>Protozoa</value>
+					<value>Protista</value>
 				</condition>
 			</conditions>
 		</query-spec>
@@ -232,7 +232,7 @@
 					<condition>
 						<field>collectionType</field>
 						<operator>EQUALS</operator>
-						<value>Porifera</value>
+						<value>Protista</value>
 					</condition>
 					<condition>
 						<field>associatedSpecimenReference</field>
