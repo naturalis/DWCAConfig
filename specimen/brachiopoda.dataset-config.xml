@@ -190,7 +190,10 @@
 			<field name="otherCatalogNumbers" term="http://rs.tdwg.org/dwc/terms/otherCatalogNumbers">
 				<path>previousUnitsText</path>
 			</field>
-			<!-- niet meer nodig vanwege multimedia extension-->
+			<field name="recordNumber" term="http://rs.tdwg.org/dwc/terms/recordNumber">
+				<path>collectorsFieldNumber</path>
+			</field>
+		 	<!-- niet meer nodig vanwege multimedia extension-->
 			<!-- Calculator associatedMedia
 			<field name="associatedMedia" term="http://rs.tdwg.org/dwc/terms/associatedMedia">
 				<calculator>
