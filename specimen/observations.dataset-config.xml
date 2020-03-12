@@ -167,7 +167,7 @@
 			</field>	
 		</mapping>
     </entity>
-<!--	<entity name="multimedia"> 
+	<entity name="multimedia"> 
 		<data-source> 
 			<document>MultiMediaObject</document> 
 			<query-spec> 
@@ -214,5 +214,5 @@
 				<path>license</path>
 			</field>
 		</mapping>
-	</entity> -->
+	</entity> 
 </dataset-config>
