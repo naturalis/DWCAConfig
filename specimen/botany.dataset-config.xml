@@ -11,7 +11,7 @@
 					<value>Botany</value>
 				</condition>
 			</conditions>
-			<size>100</size>
+			<size>1000000</size>
 		</query-spec>
 	</data-source>
 	<mapping>
@@ -240,7 +240,7 @@
 						<operator>NOT_EQUALS</operator>
 					</condition>
 				</conditions>
-				<size>100</size>
+				<size>1000000</size>
 			</query-spec>
 		</data-source>
 		<mapping>	
