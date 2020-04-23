@@ -240,6 +240,7 @@
 						<operator>NOT_EQUALS</operator>
 					</condition>
 				</conditions>
+				<size>100</size>
 			</query-spec>
 		</data-source>
 		<mapping>	
