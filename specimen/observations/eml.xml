@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="INVULLEN" scope="system" system="http://gbif.org" xml:lang="en" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd">
 <dataset>
 	<alternateIdentifier></alternateIdentifier>
-	<title>Observation.org, Nature data from the Netherlands</title>
+	<title>Observation.org, Nature data from around the World</title>
 	<creator>
 		<individualName>
 			<givenName>Hisko</givenName>
@@ -58,7 +58,7 @@
 		<role></role>
 	</associatedParty>
 	<associatedParty>
-		<individualName>
+				<individualName>
 			<givenName>Martine</givenName>
 			<surName>Lemmens</surName>
 		</individualName>
@@ -76,10 +76,10 @@
 		<onlineUrl>https://observation.org</onlineUrl>
 		<role></role>
 	</associatedParty>
-	<pubDate></pubDate>
+	<pubDate> </pubDate>
 	<language>en</language>
 	<abstract>
-		<para>This dataset contains occurrence data of flora and fauna species in the Netherlands on a 5 x 5 km scale. It summarizes the observations recorded by >80.000 volunteers.</para>
+		<para>This dataset contains occurrence data of flora and fauna species. From the Netherlands on a 5 x 5 km scale, data from other countries are exact. Observations from Belgium are excluded and can be accessed on GBIF through Natuurpunt and Natagora.  It summarizes the observations recorded by >175.000 volunteers.</para>
 	</abstract>
 	<keywordSet>
 		<keyword>Birds</keyword>
@@ -102,7 +102,7 @@
 		<keyword>Diptera</keyword>
 		<keyword>Algae</keyword>
 		<keyword>Weeds</keyword>
-		<keywordThesaurus>n/a</keywordThesaurus>
+		<keywordThesaurus></keywordThesaurus>
 	</keywordSet>
 	<keywordSet>
 		<keyword>occurrence</keyword>
@@ -116,81 +116,118 @@
 		<para></para>
 	</additionalInfo>
 	<intellectualRights>
-		<para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+		<para></para>
 	</intellectualRights>
 	<coverage>
 	<geographicCoverage>
-          <geographicDescription>The Netherlands</geographicDescription>
+          <geographicDescription>The World</geographicDescription>
         <boundingCoordinates>
-          <westBoundingCoordinate>3.3</westBoundingCoordinate>
-          <eastBoundingCoordinate>7.3</eastBoundingCoordinate>
-          <northBoundingCoordinate>53.6</northBoundingCoordinate>
-          <southBoundingCoordinate>50.7</southBoundingCoordinate>
+          <westBoundingCoordinate>-180</westBoundingCoordinate>
+          <eastBoundingCoordinate>180</eastBoundingCoordinate>
+          <northBoundingCoordinate>-90</northBoundingCoordinate>
+          <southBoundingCoordinate>90</southBoundingCoordinate>
         </boundingCoordinates>
-	</geographicCoverage>
+      </geographicCoverage>
+	
 	<taxonomicCoverage>
-	 <generalTaxonomicCoverage>The dataset contains >20.000 species of all kingdoms</generalTaxonomicCoverage>
+	 <generalTaxonomicCoverage>The dataset contains >135.000 species of all kingdoms</generalTaxonomicCoverage>
 	    <taxonomicClassification>
           <taxonRankName>Kingdom</taxonRankName>
-          <taxonRankValue>Fungi,Plantae,Animalia,Protista,Chromista,Bacteria</taxonRankValue>
+          <taxonRankValue>Fungi,Plantea,Animalia,Protista,Chromista,Bacteria</taxonRankValue>
           <commonName></commonName>
         </taxonomicClassification>
         <taxonomicClassification>
           <taxonRankName>Phylum</taxonRankName>
-          <taxonRankValue>Ascomycota,Arthropoda,Chlorophyta (Green algae),Haptophyta,Ciliophora,Chordata,Sac Fungi (Ascomycetes),Telonemia,Mollusca,Phoronida (Phoronids),Haplosporidia,Entoprocta,Bryophyta,Basidiomycota,Annelida (Annelids),
-Euglenozoa,
-Apicomplexa,
-Dinoflagellata,
-Nematoda,
-Tardigrada,
-Cercozoa,
-Cryptohyta,
-Charophyta,
-Rhizaria,
-Ochrophyta,
-Rotifera,
-Gastrotricha,
-Kinorhyncha,
-Hemichordata,
-Gnathostomulida,
-Bryozoa,
-Chytridiomycota,
-Percolozoa,
-Myxomycota,
-Cnidaria,
-Porifera,
-Tracheophyta,
-Oomycota,
-Marchantiophyta,
-Zygomycota,
-Cryptista,
-Amoebozoa,
-Plasmodiophoromycota,
-Acanthocephala,
-Proteobacteria,
-Planctomycetes,
-Dinophyta,
-Choanozoa,
-Eubacteria,
-Chlorobi,
-Glaucophyta,
-Echiura,
-Platyhelminthes,
-Rhodophyta,
-Sipuncula,
-Priapulids,
-Nemertea,
-Nemotomorpha,
-Echinodermata,
-Cycliophora,
-Chaetognatha,
-Ctenophora,
-Foraminifera,
-Glomeromycota,
-Cyanobacteria,
-Bigyra,
+          <taxonRankValue>Acanthocephala,
 Actinobacteria,
-Brachiopoda</taxonRankValue>
+Amoebozoa,
+Anamorphic Fungi,
+Annelida,
+Apicomplexa,
+Arthropoda,
+Ascomycetes,
+Ascomycota,
+Bacillariophyta,
+Basidiomycota,
+Bigyra,
+Brachiopoda,
+Bryophyta,
+Bryozoa,
+Cercozoa,
+Chaetognatha,
+Charophyta,
+Chlorobi,
+Chlorophyta,
+Choanozoa,
+Chordata,
+Chrysophyta,
+Chytridiomycota,
+Ciliophora,
+Cnidaria,
+Cryptista,
+Cryptophyta,
+Ctenophora,
+Cyanobacteria,
+Cycliophora,
+Dictyosteliomycota,
+Dicyemida,
+Dinocaridida,
+Dinoflagellata,
+Dinophyta,
+Echinodermata,
+Echiura,
+Entoprocta,
+Eubacteria,
+Euglenophyta,
+Euglenozoa,
+Foraminifera,
+Gastrotricha,
+Glaucophyta,
+Glomeromycota,
+Gnathostomulida,
+Haplosporidia,
+Haptophyta,
+Hemichordata,
+Heterokontophyta,
+Hyolitha,
+Katablepharidophyta,
+Kinorhyncha,
+Lobopodia,
+Loricifera,
+Marchantiophyta,
+Micrognathozoa,
+Mollusca,
+Mycetozoa,
+Myxomycota,
+Myzozoa,
+Nematoda,
+Nematomorpha,
+Nemertini,
+Ochrophyta,
+Onychophora,
+Oomycota,
+Orthonectida,
+Percolozoa,
+Phaeophyta,
+Phoronida,
+Placozoa,
+Planctomycetes,
+Plasmodiophoromycota,
+Platyhelminthes,
+Porifera,
+Priapulida,
+Proteobacteria,
+Rhizaria,
+Rhodophyta,
+Rotifera,
+Sipuncula,
+Tardigrada,
+Telonemia,
+Tracheophyta,
+Vetulicolia,
+Xanthophyta,
+Xenacoelomorpha,
+Zygomycota</taxonRankValue>
           <commonName></commonName>
         </taxonomicClassification>
 	</taxonomicCoverage>
@@ -200,7 +237,7 @@ Brachiopoda</taxonRankValue>
 				<calendarDate>1900-01-01</calendarDate>
 			</beginDate>
 			<endDate>
-				<calendarDate>2019-01-01</calendarDate>
+				<calendarDate>2020-01-01</calendarDate>
 			</endDate>
 		</rangeOfDates>
 	</temporalCoverage>
@@ -226,7 +263,10 @@ Brachiopoda</taxonRankValue>
 	<methods>
 		<methodStep>
 			<description>
-			   <para>Opportunistic records from the original database of Waarneming.nl. The records in this dataset present the summed numbers of live individuals per 5 km square. Locations refer to the geographical center points of these squares.</para>
+			   <para>Opportunistic records from the original database of Waarneming.nl and Observation.org. 
+			   For the Netherlands the records in this dataset present the summed numbers of live individuals per 5 km square. Locations refer to the geographical center points of these squares.
+			   Data from other countries are as exact as possible.
+			   </para>
 			</description>
 		</methodStep>
 		<sampling>
@@ -241,11 +281,11 @@ Brachiopoda</taxonRankValue>
 		</qualityControl>
 	</methods>
 	<project>
-		<title>Waarneming.nl data 1900-2018 on a 5 x 5 km scale</title>
+		<title>Observation.org data 1900-</title>
 		<personnel>
 			<individualName>
-				<givenName></givenName>
-				<surName></surName>
+			   <givenName></givenName>
+			   <surName></surName>
 			</individualName>
 			<userId/>
 			<role></role>
@@ -257,13 +297,13 @@ Brachiopoda</taxonRankValue>
 			<para>Naturalis Biodiversity Centre</para>
 		</funding>
 		<studyAreaDescription>
-			<descriptor citableClassificationSystem="false" name="generic">
-				<descriptorValue/>
+			<descriptor name="generic" citableClassificationSystem="false">
+			<descriptorValue></descriptorValue>
 			</descriptor>
 		</studyAreaDescription>
 		<designDescription>
 			<description>
-				<para></para>
+			   <para></para>
 			</description>
 		</designDescription>
 	</project>
