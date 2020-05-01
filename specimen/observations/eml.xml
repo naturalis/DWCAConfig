@@ -297,8 +297,9 @@ Zygomycota</taxonRankValue>
 			<para>Naturalis Biodiversity Centre</para>
 		</funding>
 		<studyAreaDescription>
-			<descriptor name="generic" citableClassificationSystem="false">
-			<descriptorValue></descriptorValue>
+			<descriptor citableClassificationSystem="false" name="generic">
+				<descriptorValue />
+				<citation />
 			</descriptor>
 		</studyAreaDescription>
 		<designDescription>
