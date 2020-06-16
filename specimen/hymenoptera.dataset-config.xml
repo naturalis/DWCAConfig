@@ -250,7 +250,6 @@
 			<!-- path later: recordURI -->
 				</field>
 			<field name="type" term="http://purl.org/dc/elements/1.1/type">
-				<!-- <constant>StillImage</constant> -->
 				<calculator>
 					<java-class>MultiMediaTypeCalculator</java-class>
 				</calculator>
