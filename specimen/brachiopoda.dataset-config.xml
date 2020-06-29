@@ -182,7 +182,6 @@
 					<java-class>VerbatimEventDateCalculator</java-class>
 				</calculator>
 			</field>
-<!-- UITZOEKEN want verbatim-->
 			<!-- Calculator verbatimEventDate -->
 			<field name="verbatimEventDate" term="http://rs.tdwg.org/dwc/terms/verbatimEventDate">
 				<path>gatheringEvent.dateText</path>
@@ -193,13 +192,6 @@
 			<field name="recordNumber" term="http://rs.tdwg.org/dwc/terms/recordNumber">
 				<path>collectorsFieldNumber</path>
 			</field>
-		 	<!-- niet meer nodig vanwege multimedia extension-->
-			<!-- Calculator associatedMedia
-			<field name="associatedMedia" term="http://rs.tdwg.org/dwc/terms/associatedMedia">
-				<calculator>
-					<java-class>SpecimenMultiMediaCalculator</java-class>
-				</calculator>
-			</field> -->
 			<field name="informationWithheld" term="http://rs.tdwg.org/dwc/terms/informationWithheld">
 				<constant></constant>
 			</field>
@@ -215,13 +207,6 @@
 			<field name="modified" term="http://purl.org/dc/terms/modified">
 				<path>modified</path>
 			</field>
-<!-- UITZOEKEN BRAHMS DUMMIES RECORDS
-      <field name="maximumElevationInMeters" term="http://rs.tdwg.org/dwc/terms/maximumElevationInMeters">
-        <path>DummyDefault</path>
-      </field>
-      <field name="minimumElevationInMeters" term="http://rs.tdwg.org/dwc/terms/minimumElevationInMeters">
-        <path>DummyDefault</path>
-      </field>-->
 		</mapping>
 	</entity>
 <entity name="multimedia"> 
