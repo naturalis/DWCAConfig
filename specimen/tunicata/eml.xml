@@ -97,7 +97,7 @@
       <gbif>
           <dateStamp>2016-08-03T09:00:00.000+01:00</dateStamp>
           <hierarchyLevel>dataset</hierarchyLevel>
-          <resourceLogoUrl>https://images.naturalis.nl/original/logo/logo_naturalis_rood_w200.jpg</resourceLogoUrl>
+          <resourceLogoUrl>http://ipt.nlbif.nl/resources/logo_Naturalis_rood.png</resourceLogoUrl>
           <dc:replaces></dc:replaces>
       </gbif>
     </metadata>
