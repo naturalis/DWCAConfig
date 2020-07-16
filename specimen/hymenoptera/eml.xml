@@ -141,7 +141,7 @@
       <gbif>
           <dateStamp>2013-01-10T12:45:10.459+00:00</dateStamp>
           <hierarchyLevel>dataset</hierarchyLevel>
-          <resourceLogoUrl>http://www.naturalis.nl/media/library/2012/07/Naturalis_logo_staand_rood_01.jpg</resourceLogoUrl>
+          <resourceLogoUrl>http://ipt.nlbif.nl/resources/logo_Naturalis_rood.png</resourceLogoUrl>
             <formationPeriod>The private collection of Prof. Oskar Vogt was acquired in 1960 by the former Zoological Museum Amsterdam</formationPeriod>
               <livingTimePeriod>Specimens collected from before 1900 until present.</livingTimePeriod>
           <dc:replaces></dc:replaces>
