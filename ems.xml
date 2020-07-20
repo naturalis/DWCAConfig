@@ -7,7 +7,7 @@
 			<givenName>Hisko</givenName>
 			<surName>de Vries</surName>
 		</individualName>
-		<organizationName>Observation.org</organizationName>
+		<organizationName>Observation International</organizationName>
 		<positionName>Manager</positionName>
 		<address>
 			<deliveryPoint>Pieter Nieuwlandstraat 46</deliveryPoint>
@@ -22,28 +22,29 @@
 	</creator>
 	<metadataProvider>
 		<individualName>
-			<givenName>Hisko</givenName>
-			<surName>de Vries</surName>
+			<givenName>Martine</givenName>
+			<surName>Lemmens</surName>
 		</individualName>
-		<organizationName>Observation.org</organizationName>
-		<positionName>People Manager</positionName>
+		<organizationName>Observation International</organizationName>
+		<positionName>Business development</positionName>
 		<address>
-			<deliveryPoint>Pieter Nieuwlandstraat 46</deliveryPoint>
-			<city>Utrecht</city>
-			<administrativeArea>Utrecht</administrativeArea>
-			<postalCode>3514 HJ</postalCode>
+			<deliveryPoint>Kapellerpoort 1</deliveryPoint>
+			<city>Roermond</city>
+			<administrativeArea>Limburg</administrativeArea>
+			<postalCode>6041 HZ</postalCode>
 			<country>Netherlands</country>
 		</address>
-		<phone>+316 13 44 86 63</phone>
-		<electronicMailAddress>hiskodevries@gmail.com</electronicMailAddress>
-		<onlineUrl>https://waarneming.nl</onlineUrl>
+		<phone>+31638271326</phone>
+		<electronicMailAddress>martine@waarneming.nl</electronicMailAddress>
+		<onlineUrl>https://observation.org</onlineUrl>
+		<role></role>
 	</metadataProvider>
 	<associatedParty>
 		<individualName>
 			<givenName>Timo</givenName>
 			<surName>Roeke</surName>
 		</individualName>
-		<organizationName>Observation.org</organizationName>
+		<organizationName>Observation International</organizationName>
 		<positionName>Project Leader</positionName>
 		<address>
 			<deliveryPoint>Oude Deldensestraat 8</deliveryPoint>
@@ -55,25 +56,6 @@
 		<phone>+316 415 21 260</phone>
 		<electronicMailAddress>timo@waarneming.nl</electronicMailAddress>
 		<onlineUrl></onlineUrl>
-		<role></role>
-	</associatedParty>
-	<associatedParty>
-				<individualName>
-			<givenName>Martine</givenName>
-			<surName>Lemmens</surName>
-		</individualName>
-		<organizationName>Natuurbank Limburg</organizationName>
-		<positionName>Coördinator waarnemingsgegevens NatuurBank Limburg</positionName>
-		<address>
-			<deliveryPoint>Kapellerpoort 1</deliveryPoint>
-			<city>Roermond</city>
-			<administrativeArea>Limburg</administrativeArea>
-			<postalCode>6041 HZ</postalCode>
-			<country>Netherlands</country>
-		</address>
-		<phone>+31475 386 470</phone>
-		<electronicMailAddress>martine.lemmens@nhgl.nl</electronicMailAddress>
-		<onlineUrl>https://observation.org</onlineUrl>
 		<role></role>
 	</associatedParty>
 	<pubDate> </pubDate>
