@@ -276,12 +276,11 @@ Zygomycota</taxonRankValue>
 			<para></para>
 		</abstract>
 		<funding>
-			<para>Naturalis Biodiversity Center</para>
+			<para>Naturalis Biodiversity Centre</para>
 		</funding>
 		<studyAreaDescription>
-			<descriptor citableClassificationSystem="false" name="generic">
-				<descriptorValue />
-				<citation />
+			<descriptor name="generic" citableClassificationSystem="false" />
+			<descriptorValue></descriptorValue>
 			</descriptor>
 		</studyAreaDescription>
 		<designDescription>
