@@ -61,7 +61,7 @@
         <country>NL</country>
     </address>
     <phone></phone>
-    <electronicMailAddress></electronicMailAddress>
+    <electronicMailAddress>soortenregister@naturalis.nl</electronicMailAddress>
     <onlineUrl>http://www.eis-nederland.nl</onlineUrl>
 </associatedParty>
 <associatedParty>
@@ -81,7 +81,7 @@
     </address>
     <phone>+31.71.7519600</phone>
     <electronicMailAddress>sander.pieterse@naturalis.nl</electronicMailAddress>
-    <onlineUrl>http://science.naturalis.nl</onlineUrl>
+    <onlineUrl>http://www.nederlandsesoorten.nl</onlineUrl>
 </associatedParty>
 <pubDate>2017-12-20</pubDate>
 <language>Dutch</language>
