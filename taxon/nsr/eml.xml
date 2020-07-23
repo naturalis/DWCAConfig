@@ -118,16 +118,6 @@
             <southBoundingCoordinate>50.69</southBoundingCoordinate>
           </boundingCoordinates>
       </geographicCoverage>
-	  <temporalCoverage>
-		<rangeOfDates>
-		  <beginDate>
-		    <calendarDate>1758-01-01</calendarDate>
-		  </beginDate>
-		  <endDate>
-		    <calendarDate>2017-12-20</calendarDate>
-		  </endDate>
-		</rangeOfDates>
-	  </temporalCoverage>
 	  <taxonomicCoverage>
 		<generalTaxonomicCoverage>All multicellular animals, plants and fungi, with the exception of species under direct supervision of humans (e.g. pets) and species not recorded since 1758 (i.e. subfossil and fossil species).</generalTaxonomicCoverage>
 		<taxonomicClassification>
@@ -172,6 +162,7 @@
           <dateStamp>2016-12-12T12:00:00.000+01.00</dateStamp>
           <hierarchyLevel>dataset</hierarchyLevel>
           <resourceLogoUrl>http://ipt.nlbif.nl/resources/logo_Naturalis_rood.png</resourceLogoUrl>
+	  <formationPeriod>1758-current</formationPeriod>
           <dc:replaces></dc:replaces>
       </gbif>
     </metadata>
