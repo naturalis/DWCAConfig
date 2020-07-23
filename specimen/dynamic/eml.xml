@@ -11,9 +11,9 @@
         <postalCode>NL-2300 RA</postalCode>
         <country>NL</country>
     </address>
-    <phone>+31.71.7519600</phone>
-    <electronicMailAddress>informatiemanagement@naturalis.nl</electronicMailAddress>
-    <onlineUrl>https://www.naturalis.nl/</onlineUrl>
+    <phone></phone>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
 </creator>
 <metadataProvider>
     <individualName></individualName>
@@ -26,8 +26,8 @@
         <country>NL</country>
     </address>
     <phone>+31.71.7519600</phone>
-    <electronicMailAddress>informatiemanagement@naturalis.nl</electronicMailAddress>
-    <onlineUrl>https://www.naturalis.nl/</onlineUrl>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
 </metadataProvider>
 <pubDate></pubDate>
 <language>mul</language>
@@ -54,8 +54,8 @@
         <country>NL</country>
     </address>
     <phone>+31.71.7519600</phone>
-    <electronicMailAddress>informatiemanagement@naturalis.nl</electronicMailAddress>
-    <onlineUrl>https://www.naturalis.nl/</onlineUrl>
+    <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+    <onlineUrl>https://naturalis.nl/en/collection</onlineUrl>
 </contact>
 </dataset>
 </eml:eml>
