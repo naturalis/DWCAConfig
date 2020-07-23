@@ -40,7 +40,7 @@
     <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
 </keywordSet>
 <intellectualRights>
-    <para>Due to different data sources licenses vary between datasets. All records have at least a Creative Common license CC-BY-NC, under which data are made available for any use provided that attribution is appropriately given and provided the use is not for commercial purposes. For the exact license of each record check the original database.</para>
+    <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction</para>
 </intellectualRights>
 <coverage></coverage>
 <contact>
