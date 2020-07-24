@@ -60,6 +60,9 @@
 	</associatedParty>
 	<pubDate> </pubDate>
 	<language>en</language>
+	<intellectualRights>
+      		<para>This work is licensed under a <ulink url="https://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+  	</intellectualRights>
 	<abstract>
 		<para>This dataset contains occurrence data of flora and fauna species. From the Netherlands on a 5 x 5 km scale, data from other countries are exact. Observations from Belgium are excluded and can be accessed on GBIF through Natuurpunt and Natagora.  It summarizes the observations recorded by >175.000 volunteers.</para>
 	</abstract>
