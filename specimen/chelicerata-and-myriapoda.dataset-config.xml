@@ -250,9 +250,9 @@
 			<!-- path later: recordURI -->
 				</field>
 			<field name="type" term="http://purl.org/dc/elements/1.1/type">
-				<constant>StillImage</constant>
-			<!-- later path: type  -->
-			</field>
+				<calculator>
+					<java-class>MultiMediaTypeCalculator</java-class>
+				</calculator>
 			<field name="rightsHolder" term="http://ns.adobe.com/xap/1.0/rights/Owner">
 				<path>owner</path>
 			</field>
