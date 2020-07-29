@@ -252,9 +252,7 @@
 			<field name="type" term="http://purl.org/dc/elements/1.1/type">
 				<calculator>
 					<java-class>MultiMediaTypeCalculator</java-class>
-					<arg>serviceAccessPoints.0.format</arg>
 				</calculator>
-			<!-- later path: type  -->
 			</field>
 			<field name="rightsHolder" term="http://ns.adobe.com/xap/1.0/rights/Owner">
 				<path>owner</path>
