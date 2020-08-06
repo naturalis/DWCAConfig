@@ -4,10 +4,28 @@
          xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
          packageId="fccafd83-a934-4021-a112-4ae5fd39c14b" system="http://gbif.org" scope="system"
          xml:lang="eng">
-
+		 
 <dataset>
   <alternateIdentifier>doi:10.15468/ythnjq</alternateIdentifier>
   <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Amphibia and Reptilia</title>
+<creator>
+    <individualName>
+        <givenName>Esther</givenName>
+      <surName>Dondorp</surName>
+    </individualName>
+    <organizationName>Naturalis Biodiversity Center</organizationName>
+    <positionName>Curator</positionName>
+    <address>
+        <deliveryPoint>PO Box 9517</deliveryPoint>
+        <city>Leiden</city>
+        <administrativeArea>Zuid Holland</administrativeArea>
+        <postalCode>NL-2300 RA</postalCode>
+        <country>NL</country>
+    </address>
+    <phone></phone>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
+</creator>
 <creator>
     <individualName>
         <givenName>Jeroen</givenName>
@@ -22,17 +40,18 @@
         <postalCode>NL-2300 RA</postalCode>
         <country>NL</country>
     </address>
-    <phone>+31.71.7519600</phone>
-    <electronicMailAddress>informatiemanagement@naturalis.nl</electronicMailAddress>
-    <onlineUrl>http://science.naturalis.nl</onlineUrl>
+    <phone></phone>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
+    <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
 </creator>
 <metadataProvider>
     <individualName>
-        <givenName>Jeroen</givenName>
-      <surName>Creuwels</surName>
+        <givenName>Esther</givenName>
+      <surName>Dondorp</surName>
     </individualName>
     <organizationName>Naturalis Biodiversity Center</organizationName>
-    <positionName>Data manager</positionName>
+    <positionName>Curator</positionName>
     <address>
         <deliveryPoint>PO Box 9517</deliveryPoint>
         <city>Leiden</city>
@@ -40,9 +59,9 @@
         <postalCode>NL-2300 RA</postalCode>
         <country>NL</country>
     </address>
-    <phone>+31.71.7519600</phone>
-    <electronicMailAddress>informatiemanagement@naturalis.nl</electronicMailAddress>
-    <onlineUrl>http://science.naturalis.nl</onlineUrl>
+    <phone></phone>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
 </metadataProvider>
 <pubDate>
       	2017-04-18
@@ -75,11 +94,11 @@
   </coverage>
   <contact>
     <individualName>
-        <givenName>Steven</givenName>
-      <surName>van der Mije</surName>
+        <givenName>Esther</givenName>
+      <surName>Dondorp</surName>
     </individualName>
     <organizationName>Naturalis Biodiversity Center</organizationName>
-    <positionName>Head Vertebrate collections</positionName>
+    <positionName>Curator</positionName>
     <address>
         <deliveryPoint>PO Box 9517</deliveryPoint>
         <city>Leiden</city>
@@ -88,8 +107,8 @@
         <country>NL</country>
     </address>
     <phone>+31.71.7519600</phone>
-    <electronicMailAddress>collectie@naturalis.nl</electronicMailAddress>
-    <onlineUrl>http://science.naturalis.nl</onlineUrl>
+    <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+    <onlineUrl>https://naturalis.nl/en/collection</onlineUrl>
   </contact>
 </dataset>
   <additionalMetadata>
@@ -97,7 +116,7 @@
       <gbif>
           <dateStamp>2014-08-19T11:01:14.072+00:00</dateStamp>
           <hierarchyLevel>dataset</hierarchyLevel>
-          <resourceLogoUrl>http://www.naturalis.nl/media/library/2012/07/Naturalis_logo_staand_rood_01.jpg</resourceLogoUrl>
+          <resourceLogoUrl>http://ipt.nlbif.nl/resources/logo_Naturalis_rood.png</resourceLogoUrl>
           <dc:replaces></dc:replaces>
       </gbif>
     </metadata>

@@ -1,4 +1,4 @@
-﻿<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
          xmlns:dc="http://purl.org/dc/terms/"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
@@ -10,7 +10,25 @@
   <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Diptera</title>
 <creator>
     <individualName>
-        <givenName>Jeroen</givenName>
+      <givenName>Pasquale</givenName>
+      <surName>Ciliberti</surName>
+    </individualName>
+    <organizationName>Naturalis</organizationName>
+    <positionName>Curator</positionName>
+    <address>
+      <deliveryPoint>PO Box 9517</deliveryPoint>
+      <city>Leiden</city>
+      <administrativeArea>Zuid Holland</administrativeArea>
+      <postalCode>NL-2300 RA</postalCode>
+      <country>NL</country>
+    </address>
+    <phone></phone>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
+</creator>
+<creator>
+    <individualName>
+      <givenName>Jeroen</givenName>
       <surName>Creuwels</surName>
     </individualName>
     <organizationName>Naturalis Biodiversity Center</organizationName>
@@ -22,34 +40,35 @@
         <postalCode>NL-2300 RA</postalCode>
         <country>NL</country>
     </address>
-    <phone>+31.71.7519600</phone>
-    <electronicMailAddress>informatiemanagement@naturalis.nl</electronicMailAddress>
-    <onlineUrl>http://science.naturalis.nl</onlineUrl>
+    <phone></phone>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
+    <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
 </creator>
 <metadataProvider>
     <individualName>
-        <givenName>Jeroen</givenName>
-      <surName>Creuwels</surName>
+      <givenName>Pasquale</givenName>
+      <surName>Ciliberti</surName>
     </individualName>
-    <organizationName>Naturalis Biodiversity Center</organizationName>
-    <positionName>Data manager</positionName>
+    <organizationName>Naturalis</organizationName>
+    <positionName>Curator</positionName>
     <address>
-        <deliveryPoint>PO Box 9517</deliveryPoint>
-        <city>Leiden</city>
-        <administrativeArea>Zuid Holland</administrativeArea>
-        <postalCode>NL-2300 RA</postalCode>
-        <country>NL</country>
+      <deliveryPoint>PO Box 9517</deliveryPoint>
+      <city>Leiden</city>
+      <administrativeArea>Zuid Holland</administrativeArea>
+      <postalCode>NL-2300 RA</postalCode>
+      <country>NL</country>
     </address>
-    <phone>+31.71.7519600</phone>
-    <electronicMailAddress>informatiemanagement@naturalis.nl</electronicMailAddress>
-    <onlineUrl>http://science.naturalis.nl</onlineUrl>
+    <phone></phone>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
 </metadataProvider>
 <pubDate>
-      	2017-03-28
+      2017-03-28
 </pubDate>
 <language>mul</language>
 <abstract>
-  <para>Database contains specimen records from the Diptera collection of the Naturalis Biodiversity Center (Leiden, Netherlands). These specimens originate from collections of the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden, and of the former Zoological Museum Amsterdam (ZMA). On request more information or pictures (if available) can be provided.</para>
+  <para>Database contains specimen records from the Diptera collection of the Naturalis Biodiversity Center (Leiden, Netherlands). These specimens originate from collections of the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden, and of the former Zoological Museum Amsterdam (ZMA). On request more information can be provided.</para>
 </abstract>
       <keywordSet>
             <keyword>Occurrence</keyword>
@@ -75,21 +94,21 @@
   </coverage>
   <contact>
     <individualName>
-        <givenName>Steven</givenName>
-      <surName>van der Mije</surName>
+      <givenName>Pasquale</givenName>
+      <surName>Ciliberti</surName>
     </individualName>
-    <organizationName>Naturalis Biodiversity Center</organizationName>
-    <positionName>Head Invertebrate collections</positionName>
+    <organizationName>Naturalis</organizationName>
+    <positionName>Curator</positionName>
     <address>
-        <deliveryPoint>PO Box 9517</deliveryPoint>
-        <city>Leiden</city>
-        <administrativeArea>Zuid Holland</administrativeArea>
-        <postalCode>NL-2300 RA</postalCode>
-        <country>NL</country>
+      <deliveryPoint>PO Box 9517</deliveryPoint>
+      <city>Leiden</city>
+      <administrativeArea>Zuid Holland</administrativeArea>
+      <postalCode>NL-2300 RA</postalCode>
+      <country>NL</country>
     </address>
     <phone>+31.71.7519600</phone>
-    <electronicMailAddress>collectie@naturalis.nl</electronicMailAddress>
-    <onlineUrl>https://science.naturalis.nl/en/collection/naturalis-collections/</onlineUrl>
+    <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+    <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
   </contact>
 </dataset>
   <additionalMetadata>
@@ -97,7 +116,7 @@
       <gbif>
           <dateStamp>2015-12-02T16:57:14.072+01:00</dateStamp>
           <hierarchyLevel>dataset</hierarchyLevel>
-          <resourceLogoUrl>http://www.naturalis.nl/media/library/2012/07/Naturalis_logo_staand_rood_01.jpg</resourceLogoUrl>
+          <resourceLogoUrl>http://ipt.nlbif.nl/resources/logo_Naturalis_rood.png</resourceLogoUrl>
           <dc:replaces></dc:replaces>
       </gbif>
     </metadata>

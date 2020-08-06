@@ -22,9 +22,10 @@
         <postalCode>NL-2300 RA</postalCode>
         <country>NL</country>
     </address>
-    <phone>+31.71.7519600</phone>
-    <electronicMailAddress>informatiemanagement@naturalis.nl</electronicMailAddress>
-    <onlineUrl>http://science.naturalis.nl</onlineUrl>
+    <phone></phone>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
+    <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
 </creator>
 <metadataProvider>
     <individualName>
@@ -40,9 +41,9 @@
         <postalCode>NL-2300 RA</postalCode>
         <country>NL</country>
     </address>
-    <phone>+31.71.7519600</phone>
-    <electronicMailAddress>sander.pieterse@naturalis.nl</electronicMailAddress>
-    <onlineUrl>http://science.naturalis.nl</onlineUrl>
+    <phone></phone>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
 </metadataProvider>
 <associatedParty>
     <individualName>
@@ -59,7 +60,7 @@
         <postalCode>NL-2300 RA</postalCode>
         <country>NL</country>
     </address>
-    <phone>+31.71.7519600</phone>
+    <phone></phone>
     <electronicMailAddress>soortenregister@naturalis.nl</electronicMailAddress>
     <onlineUrl>http://www.eis-nederland.nl</onlineUrl>
 </associatedParty>
@@ -80,7 +81,7 @@
     </address>
     <phone>+31.71.7519600</phone>
     <electronicMailAddress>sander.pieterse@naturalis.nl</electronicMailAddress>
-    <onlineUrl>http://science.naturalis.nl</onlineUrl>
+    <onlineUrl>http://www.nederlandsesoorten.nl</onlineUrl>
 </associatedParty>
 <pubDate>2017-12-20</pubDate>
 <language>Dutch</language>
@@ -118,16 +119,6 @@
             <southBoundingCoordinate>50.69</southBoundingCoordinate>
           </boundingCoordinates>
       </geographicCoverage>
-	  <temporalCoverage>
-		<rangeOfDates>
-		  <beginDate>
-		    <calendarDate>1758-01-01</calendarDate>
-		  </beginDate>
-		  <endDate>
-		    <calendarDate>2017-12-20</calendarDate>
-		  </endDate>
-		</rangeOfDates>
-	  </temporalCoverage>
 	  <taxonomicCoverage>
 		<generalTaxonomicCoverage>All multicellular animals, plants and fungi, with the exception of species under direct supervision of humans (e.g. pets) and species not recorded since 1758 (i.e. subfossil and fossil species).</generalTaxonomicCoverage>
 		<taxonomicClassification>
@@ -171,7 +162,8 @@
       <gbif>
           <dateStamp>2016-12-12T12:00:00.000+01.00</dateStamp>
           <hierarchyLevel>dataset</hierarchyLevel>
-          <resourceLogoUrl>http://www.naturalis.nl/media/library/2012/07/Naturalis_logo_staand_rood_01.jpg</resourceLogoUrl>
+          <resourceLogoUrl>http://ipt.nlbif.nl/resources/logo_Naturalis_rood.png</resourceLogoUrl>
+	  <formationPeriod>1758-current</formationPeriod>
           <dc:replaces></dc:replaces>
       </gbif>
     </metadata>

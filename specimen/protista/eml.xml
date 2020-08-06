@@ -11,10 +11,10 @@
 <creator>
     <individualName>
         <givenName>Jeroen</givenName>
-      <surName>Creuwels</surName>
+      <surName>Goud</surName>
     </individualName>
     <organizationName>Naturalis Biodiversity Center</organizationName>
-    <positionName>Data manager</positionName>
+    <positionName>Curator</positionName>
     <address>
         <deliveryPoint>PO Box 9517</deliveryPoint>
         <city>Leiden</city>
@@ -22,11 +22,28 @@
         <postalCode>NL-2300 RA</postalCode>
         <country>NL</country>
     </address>
-    <phone>+31.71.7519600</phone>
-    <electronicMailAddress>collectiemanagement@naturalis.nl</electronicMailAddress>
-    <onlineUrl>https://www.naturalis.nl</onlineUrl>
+    <phone></phone>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
 </creator>
-<metadataProvider>
+    <individualName>
+        <givenName>Bram</givenName>
+      <surName>van der Bijl</surName>
+    </individualName>
+    <organizationName>Naturalis Biodiversity Center</organizationName>
+    <positionName>Curator</positionName>
+    <address>
+        <deliveryPoint>PO Box 9517</deliveryPoint>
+        <city>Leiden</city>
+        <administrativeArea>Zuid Holland</administrativeArea>
+        <postalCode>NL-2300 RA</postalCode>
+        <country>NL</country>
+    </address>
+    <phone></phone>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
+</creator>
+<creator>
     <individualName>
         <givenName>Jeroen</givenName>
       <surName>Creuwels</surName>
@@ -40,16 +57,53 @@
         <postalCode>NL-2300 RA</postalCode>
         <country>NL</country>
     </address>
-    <phone>+31.71.7519600</phone>
-    <electronicMailAddress>collectiemanagement@naturalis.nl</electronicMailAddress>
-    <onlineUrl>https://www.naturalis.nl</onlineUrl>
+    <phone></phone>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
+    <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
+</creator>
+<metadataProvider>
+    <individualName>
+        <givenName>Jeroen</givenName>
+      <surName>Goud</surName>
+    </individualName>
+    <organizationName>Naturalis Biodiversity Center</organizationName>
+    <positionName>Curator</positionName>
+    <address>
+        <deliveryPoint>PO Box 9517</deliveryPoint>
+        <city>Leiden</city>
+        <administrativeArea>Zuid Holland</administrativeArea>
+        <postalCode>NL-2300 RA</postalCode>
+        <country>NL</country>
+    </address>
+    <phone></phone>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
+</metadataProvider>
+<metadataProvider>
+    <individualName>
+        <givenName>Bram</givenName>
+      <surName>van der Bijl</surName>
+    </individualName>
+    <organizationName>Naturalis Biodiversity Center</organizationName>
+    <positionName>Curator</positionName>
+    <address>
+        <deliveryPoint>PO Box 9517</deliveryPoint>
+        <city>Leiden</city>
+        <administrativeArea>Zuid Holland</administrativeArea>
+        <postalCode>NL-2300 RA</postalCode>
+        <country>NL</country>
+    </address>
+    <phone></phone>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
 </metadataProvider>
 <pubDate>
       	2020-02-20
 </pubDate>
 <language>mul</language>
 <abstract>
-  <para>Database contains specimen records from the Protozoa collection of the Naturalis Biodiversity Center (Leiden, Netherlands). These specimens originate from the collections of the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden and of the former Zoological Museum Amsterdam (ZMA). Records of the dataset  Zoological Museum Amsterdam, University of Amsterdam (NL) - Protozoa (https://www.gbif.org/dataset/f2836770-6166-11de-84bf-b8a03c50a862) are included in this dataset. On request more information or pictures (if available) can be provided.</para>
+  <para>Database contains specimen records from the Protozoa collection of the Naturalis Biodiversity Center (Leiden, Netherlands). These specimens originate from the collections of the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden and of the former Zoological Museum Amsterdam (ZMA). Records of the dataset  Zoological Museum Amsterdam, University of Amsterdam (NL) - Protozoa (https://www.gbif.org/dataset/f2836770-6166-11de-84bf-b8a03c50a862) are included in this dataset. On request more information can be provided.</para>
 </abstract>
       <keywordSet>
             <keyword>Occurrence</keyword>
@@ -75,11 +129,11 @@
   </coverage>
   <contact>
     <individualName>
-      <givenName>Schollaardt</givenName>
-      <surName>Christel</surName>
+        <givenName>Jeroen</givenName>
+      <surName>Goud</surName>
     </individualName>
     <organizationName>Naturalis Biodiversity Center</organizationName>
-    <positionName>Head Collections</positionName>
+    <positionName>Curator</positionName>
     <address>
         <deliveryPoint>PO Box 9517</deliveryPoint>
         <city>Leiden</city>
@@ -89,7 +143,25 @@
     </address>
     <phone>+31.71.7519600</phone>
     <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
-    <onlineUrl>https://www.naturalis.nl/en/collection</onlineUrl>
+    <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
+  </contact>
+  <contact>
+    <individualName>
+        <givenName>Bram</givenName>
+      <surName>van der Bijl</surName>
+    </individualName>
+    <organizationName>Naturalis Biodiversity Center</organizationName>
+    <positionName>Curator</positionName>
+    <address>
+        <deliveryPoint>PO Box 9517</deliveryPoint>
+        <city>Leiden</city>
+        <administrativeArea>Zuid Holland</administrativeArea>
+        <postalCode>NL-2300 RA</postalCode>
+        <country>NL</country>
+    </address>
+    <phone>+31.71.7519600</phone>
+    <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+    <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
   </contact>
 </dataset>
   <additionalMetadata>
@@ -97,7 +169,7 @@
       <gbif>
           <dateStamp>2015-12-02T16:57:14.072+01:00</dateStamp>
           <hierarchyLevel>dataset</hierarchyLevel>
-          <resourceLogoUrl>http://www.naturalis.nl/media/library/2012/07/Naturalis_logo_staand_rood_01.jpg</resourceLogoUrl>
+          <resourceLogoUrl>http://ipt.nlbif.nl/resources/logo_Naturalis_rood.png</resourceLogoUrl>
           <dc:replaces></dc:replaces>
       </gbif>
     </metadata>

@@ -10,7 +10,25 @@
   <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Hymenoptera</title>
 <creator>
     <individualName>
-        <givenName>Jeroen</givenName>
+      <givenName>Frederique</givenName>
+      <surName>Bakker</surName>
+    </individualName>
+    <organizationName>Naturalis</organizationName>
+    <positionName>Curator</positionName>
+    <address>
+      <deliveryPoint>PO Box 9517</deliveryPoint>
+      <city>Leiden</city>
+      <administrativeArea>Zuid Holland</administrativeArea>
+      <postalCode>NL-2300 RA</postalCode>
+      <country>NL</country>
+    </address>
+    <phone></phone>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
+</creator>
+<creator>
+    <individualName>
+      <givenName>Jeroen</givenName>
       <surName>Creuwels</surName>
     </individualName>
     <organizationName>Naturalis Biodiversity Center</organizationName>
@@ -22,27 +40,28 @@
         <postalCode>NL-2300 RA</postalCode>
         <country>NL</country>
     </address>
-    <phone>+31.71.7519600</phone>
-    <electronicMailAddress>informatiemanagement@naturalis.nl</electronicMailAddress>
-    <onlineUrl>http://science.naturalis.nl</onlineUrl>
+    <phone></phone>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
+    <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
 </creator>
 <metadataProvider>
     <individualName>
-        <givenName>Jeroen</givenName>
-      <surName>Creuwels</surName>
+      <givenName>Frederique</givenName>
+      <surName>Bakker</surName>
     </individualName>
-    <organizationName>Naturalis Biodiversity Center</organizationName>
-    <positionName>Data manager</positionName>
+    <organizationName>Naturalis</organizationName>
+    <positionName>Curator</positionName>
     <address>
-        <deliveryPoint>PO Box 9517</deliveryPoint>
-        <city>Leiden</city>
-        <administrativeArea>Zuid Holland</administrativeArea>
-        <postalCode>NL-2300 RA</postalCode>
-        <country>NL</country>
+      <deliveryPoint>PO Box 9517</deliveryPoint>
+      <city>Leiden</city>
+      <administrativeArea>Zuid Holland</administrativeArea>
+      <postalCode>NL-2300 RA</postalCode>
+      <country>NL</country>
     </address>
-    <phone>Data manager</phone>
-    <electronicMailAddress>informatiemanagement@naturalis.nl</electronicMailAddress>
-    <onlineUrl>http://science.naturalis.nl</onlineUrl>
+    <phone></phone>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
 </metadataProvider>
 <pubDate>
       	2017-04-12
@@ -102,21 +121,21 @@
   </coverage>
   <contact>
     <individualName>
-        <givenName>Luc</givenName>
-      <surName>Willemse</surName>
+      <givenName>Frederique</givenName>
+      <surName>Bakker</surName>
     </individualName>
-    <organizationName>Naturalis Biodiversity Center</organizationName>
-    <positionName>Head Entomological collections</positionName>
+    <organizationName>Naturalis</organizationName>
+    <positionName>Curator</positionName>
     <address>
-        <deliveryPoint>PO Box 9517</deliveryPoint>
-        <city>Leiden</city>
-        <administrativeArea>Zuid Holland</administrativeArea>
-        <postalCode>NL-2300 RA</postalCode>
-        <country>NL</country>
+      <deliveryPoint>PO Box 9517</deliveryPoint>
+      <city>Leiden</city>
+      <administrativeArea>Zuid Holland</administrativeArea>
+      <postalCode>NL-2300 RA</postalCode>
+      <country>NL</country>
     </address>
     <phone>+31.71.7519600</phone>
-    <electronicMailAddress>collectie@naturalis.nl</electronicMailAddress>
-    <onlineUrl>http://science.naturalis.nl</onlineUrl>
+    <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+    <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
   </contact>
   <methods>
         <methodStep>
@@ -141,7 +160,7 @@
       <gbif>
           <dateStamp>2013-01-10T12:45:10.459+00:00</dateStamp>
           <hierarchyLevel>dataset</hierarchyLevel>
-          <resourceLogoUrl>http://www.naturalis.nl/media/library/2012/07/Naturalis_logo_staand_rood_01.jpg</resourceLogoUrl>
+          <resourceLogoUrl>http://ipt.nlbif.nl/resources/logo_Naturalis_rood.png</resourceLogoUrl>
             <formationPeriod>The private collection of Prof. Oskar Vogt was acquired in 1960 by the former Zoological Museum Amsterdam</formationPeriod>
               <livingTimePeriod>Specimens collected from before 1900 until present.</livingTimePeriod>
           <dc:replaces></dc:replaces>

@@ -10,11 +10,11 @@
   <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Mammalia</title>
 <creator>
     <individualName>
-        <givenName>Jeroen</givenName>
-      <surName>Creuwels</surName>
+        <givenName>Pepijn</givenName>
+      <surName>Kamminga</surName>
     </individualName>
     <organizationName>Naturalis Biodiversity Center</organizationName>
-    <positionName>Data manager</positionName>
+    <positionName>Curator</positionName>
     <address>
         <deliveryPoint>PO Box 9517</deliveryPoint>
         <city>Leiden</city>
@@ -22,11 +22,11 @@
         <postalCode>NL-2300 RA</postalCode>
         <country>NL</country>
     </address>
-    <phone>+31.71.7519600</phone>
-    <electronicMailAddress>informatiemanagement@naturalis.nl</electronicMailAddress>
-    <onlineUrl>http://science.naturalis.nl</onlineUrl>
+    <phone></phone>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
 </creator>
-<metadataProvider>
+<creator>
     <individualName>
         <givenName>Jeroen</givenName>
       <surName>Creuwels</surName>
@@ -40,9 +40,28 @@
         <postalCode>NL-2300 RA</postalCode>
         <country>NL</country>
     </address>
-    <phone>+31.71.7519600</phone>
-    <electronicMailAddress>informatiemanagement@naturalis.nl</electronicMailAddress>
-    <onlineUrl>http://science.naturalis.nl</onlineUrl>
+    <phone></phone>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
+    <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
+</creator>
+<metadataProvider>
+    <individualName>
+        <givenName>Pepijn</givenName>
+      <surName>Kamminga</surName>
+    </individualName>
+    <organizationName>Naturalis Biodiversity Center</organizationName>
+    <positionName>Curator</positionName>
+    <address>
+        <deliveryPoint>PO Box 9517</deliveryPoint>
+        <city>Leiden</city>
+        <administrativeArea>Zuid Holland</administrativeArea>
+        <postalCode>NL-2300 RA</postalCode>
+        <country>NL</country>
+    </address>
+    <phone></phone>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
 </metadataProvider>
 <pubDate>
       2017-04-18
@@ -82,21 +101,21 @@
   </coverage>
   <contact>
     <individualName>
-        <givenName>Steven</givenName>
-      <surName>van der Mije</surName>
+        <givenName>Pepijn</givenName>
+      <surName>Kamminga</surName>
     </individualName>
     <organizationName>Naturalis Biodiversity Center</organizationName>
-    <positionName>Head vertebrate collections</positionName>
+    <positionName>Curator</positionName>
     <address>
         <deliveryPoint>PO Box 9517</deliveryPoint>
         <city>Leiden</city>
         <administrativeArea>Zuid Holland</administrativeArea>
-        <postalCode>NL 2300 RA</postalCode>
+        <postalCode>NL-2300 RA</postalCode>
         <country>NL</country>
     </address>
     <phone>+31.71.7519600</phone>
-    <electronicMailAddress>collectie@naturalis.nl</electronicMailAddress>
-    <onlineUrl>http://science.naturalis.nl</onlineUrl>
+    <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+    <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
   </contact>
 </dataset>
   <additionalMetadata>
@@ -104,7 +123,7 @@
       <gbif>
           <dateStamp>2013-12-04T12:37:12.730+00:00</dateStamp>
           <hierarchyLevel>dataset</hierarchyLevel>
-          <resourceLogoUrl>http://www.naturalis.nl/media/library/2012/07/Naturalis_logo_staand_rood_01.jpg</resourceLogoUrl>
+          <resourceLogoUrl>http://ipt.nlbif.nl/resources/logo_Naturalis_rood.png</resourceLogoUrl>
           <dc:replaces></dc:replaces>
       </gbif>
     </metadata>
