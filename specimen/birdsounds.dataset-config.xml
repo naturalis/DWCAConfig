@@ -168,6 +168,7 @@
 			</field>
 			<field name="Identifier" term="http://purl.org/dc/terms/identifier">
 				<path>recordURI</path>
+			</field>
 			<field name="type" term="http://purl.org/dc/elements/1.1/type">
 				<calculator>
 					<java-class>MultiMediaTypeCalculator</java-class>
