@@ -5,120 +5,134 @@
          packageId="f598ca19-7c37-47e4-9a64-bcfe526847c1" system="http://gbif.org" scope="system"
          xml:lang="eng">
 
-<dataset>
-  <alternateIdentifier>doi:10.15468/z5z7w7</alternateIdentifier>
-  <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Echinodermata</title>
-<creator>
-    <individualName>
-      <givenName>Joke</givenName>
-      <surName>Bleeker</surName>
-    </individualName>
-    <organizationName>Naturalis</organizationName>
-    <positionName>Curator</positionName>
-    <address>
-      <deliveryPoint>PO Box 9517</deliveryPoint>
-      <city>Leiden</city>
-      <administrativeArea>Zuid Holland</administrativeArea>
-      <postalCode>NL-2300 RA</postalCode>
-      <country>NL</country>
-    </address>
-    <phone></phone>
-    <electronicMailAddress></electronicMailAddress>
-    <onlineUrl></onlineUrl>
-</creator>
-<creator>
-    <individualName>
-      <givenName>Jeroen</givenName>
-      <surName>Creuwels</surName>
-    </individualName>
-    <organizationName>Naturalis Biodiversity Center</organizationName>
-    <positionName>Data manager</positionName>
-    <address>
-        <deliveryPoint>PO Box 9517</deliveryPoint>
-        <city>Leiden</city>
-        <administrativeArea>Zuid Holland</administrativeArea>
-        <postalCode>NL-2300 RA</postalCode>
-        <country>NL</country>
-    </address>
-    <phone></phone>
-    <electronicMailAddress></electronicMailAddress>
-    <onlineUrl></onlineUrl>
-    <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
-</creator>
-<metadataProvider>
-    <individualName>
-      <givenName>Joke</givenName>
-      <surName>Bleeker</surName>
-    </individualName>
-    <organizationName>Naturalis</organizationName>
-    <positionName>Curator</positionName>
-    <address>
-      <deliveryPoint>PO Box 9517</deliveryPoint>
-      <city>Leiden</city>
-      <administrativeArea>Zuid Holland</administrativeArea>
-      <postalCode>NL-2300 RA</postalCode>
-      <country>NL</country>
-    </address>
-    <phone></phone>
-    <electronicMailAddress></electronicMailAddress>
-    <onlineUrl></onlineUrl>
-</metadataProvider>
-<pubDate>
-      	2017-03-28
-</pubDate>
-<language>mul</language>
-<abstract>
-  <para>Database contains specimen records from the Echinodermata collection of the Naturalis Biodiversity Center (Leiden, Netherlands). These specimens originate from the collections of the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden and of the former Zoological Museum Amsterdam (ZMA). On request more information can be provided.</para>
-</abstract>
-      <keywordSet>
+    <dataset>
+        <alternateIdentifier>doi:10.15468/z5z7w7</alternateIdentifier>
+        <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Echinodermata</title>
+        <creator>
+            <individualName>
+                <givenName>Joke</givenName>
+                <surName>Bleeker</surName>
+            </individualName>
+            <organizationName>Naturalis</organizationName>
+            <positionName>Curator</positionName>
+            <address>
+                <deliveryPoint>PO Box 9517</deliveryPoint>
+                <city>Leiden</city>
+                <administrativeArea>Zuid Holland</administrativeArea>
+                <postalCode>NL-2300 RA</postalCode>
+                <country>NL</country>
+            </address>
+            <phone />
+            <electronicMailAddress />
+            <onlineUrl />
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Jeroen</givenName>
+                <surName>Creuwels</surName>
+            </individualName>
+            <organizationName>Naturalis Biodiversity Center</organizationName>
+            <positionName>Data manager</positionName>
+            <address>
+                <deliveryPoint>PO Box 9517</deliveryPoint>
+                <city>Leiden</city>
+                <administrativeArea>Zuid Holland</administrativeArea>
+                <postalCode>NL-2300 RA</postalCode>
+                <country>NL</country>
+            </address>
+            <phone />
+            <electronicMailAddress />
+            <onlineUrl />
+            <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
+        </creator>
+        <metadataProvider>
+            <individualName>
+                <givenName>Joke</givenName>
+                <surName>Bleeker</surName>
+            </individualName>
+            <organizationName>Naturalis</organizationName>
+            <positionName>Curator</positionName>
+            <address>
+                <deliveryPoint>PO Box 9517</deliveryPoint>
+                <city>Leiden</city>
+                <administrativeArea>Zuid Holland</administrativeArea>
+                <postalCode>NL-2300 RA</postalCode>
+                <country>NL</country>
+            </address>
+            <phone />
+            <electronicMailAddress />
+            <onlineUrl />
+        </metadataProvider>
+        <pubDate>
+            2017-03-28
+        </pubDate>
+        <language>mul</language>
+        <abstract>
+            <para>Database contains specimen records from the Echinodermata collection of the Naturalis Biodiversity
+                Center (Leiden, Netherlands). These specimens originate from the collections of the National Museum of
+                Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History,
+                Naturalis in Leiden and of the former Zoological Museum Amsterdam (ZMA). On request more information can
+                be provided.
+            </para>
+        </abstract>
+        <keywordSet>
             <keyword>Occurrence</keyword>
-        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
-      </keywordSet>
-      <keywordSet>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml
+            </keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
             <keyword>Specimen</keyword>
-        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
-      </keywordSet>
-  <intellectualRights>
-    <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction</para>
-  </intellectualRights>
-  <coverage>
-      <geographicCoverage>
-          <geographicDescription>Global coverage</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-180</westBoundingCoordinate>
-          <eastBoundingCoordinate>180</eastBoundingCoordinate>
-          <northBoundingCoordinate>90</northBoundingCoordinate>
-          <southBoundingCoordinate>-90</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-  </coverage>
-  <contact>
-    <individualName>
-      <givenName>Joke</givenName>
-      <surName>Bleeker</surName>
-    </individualName>
-    <organizationName>Naturalis</organizationName>
-    <positionName>Curator</positionName>
-    <address>
-      <deliveryPoint>PO Box 9517</deliveryPoint>
-      <city>Leiden</city>
-      <administrativeArea>Zuid Holland</administrativeArea>
-      <postalCode>NL-2300 RA</postalCode>
-      <country>NL</country>
-    </address>
-    <phone>+31.71.7519600</phone>
-    <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
-    <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
-  </contact>
-</dataset>
-  <additionalMetadata>
-    <metadata>
-      <gbif>
-          <dateStamp>2016-08-03T09:00:00.000+01:00</dateStamp>
-          <hierarchyLevel>dataset</hierarchyLevel>
-          <resourceLogoUrl>http://ipt.nlbif.nl/resources/logo_Naturalis_rood.png</resourceLogoUrl>
-          <dc:replaces></dc:replaces>
-      </gbif>
-    </metadata>
-  </additionalMetadata>
+            <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml
+            </keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated
+                them to the
+                <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode">
+                    <citetitle>Public Domain (CC0 1.0)</citetitle>
+                </ulink>
+                . Users may copy, modify, distribute and use the work, including for commercial purposes, without
+                restriction
+            </para>
+        </intellectualRights>
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>Global coverage</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>-180</westBoundingCoordinate>
+                    <eastBoundingCoordinate>180</eastBoundingCoordinate>
+                    <northBoundingCoordinate>90</northBoundingCoordinate>
+                    <southBoundingCoordinate>-90</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+        </coverage>
+        <contact>
+            <individualName>
+                <givenName>Joke</givenName>
+                <surName>Bleeker</surName>
+            </individualName>
+            <organizationName>Naturalis</organizationName>
+            <positionName>Curator</positionName>
+            <address>
+                <deliveryPoint>PO Box 9517</deliveryPoint>
+                <city>Leiden</city>
+                <administrativeArea>Zuid Holland</administrativeArea>
+                <postalCode>NL-2300 RA</postalCode>
+                <country>NL</country>
+            </address>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
+        </contact>
+    </dataset>
+    <additionalMetadata>
+        <metadata>
+            <gbif>
+                <dateStamp>2016-08-03T09:00:00.000+01:00</dateStamp>
+                <hierarchyLevel>dataset</hierarchyLevel>
+                <resourceLogoUrl>http://ipt.nlbif.nl/resources/logo_Naturalis_rood.png</resourceLogoUrl>
+                <dc:replaces />
+            </gbif>
+        </metadata>
+    </additionalMetadata>
 </eml:eml>

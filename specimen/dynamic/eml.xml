@@ -1,61 +1,79 @@
-<?xml version="1.0" encoding="UTF-8"?><eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:dc="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="NA" scope="system" system="http://gbif.org" xml:lang="eng" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd">
-<dataset>
-<title xml:lang="eng">Naturalis Biodiversity Center (NL) - Dynamic download</title>
-<creator>
-    <individualName></individualName>
-    <organizationName>Naturalis Biodiversity Center</organizationName>
-    <address>
-        <deliveryPoint>PO Box 9517</deliveryPoint>
-        <city>Leiden</city>
-        <administrativeArea>Zuid Holland</administrativeArea>
-        <postalCode>NL-2300 RA</postalCode>
-        <country>NL</country>
-    </address>
-    <phone></phone>
-    <electronicMailAddress></electronicMailAddress>
-    <onlineUrl></onlineUrl>
-</creator>
-<metadataProvider>
-    <individualName></individualName>
-    <organizationName>Naturalis Biodiversity Center</organizationName>
-    <address>
-        <deliveryPoint>PO Box 9517</deliveryPoint>
-        <city>Leiden</city>
-        <administrativeArea>Zuid Holland</administrativeArea>
-        <postalCode>NL-2300 RA</postalCode>
-        <country>NL</country>
-    </address>
-    <phone>+31.71.7519600</phone>
-    <electronicMailAddress></electronicMailAddress>
-    <onlineUrl></onlineUrl>
-</metadataProvider>
-<pubDate></pubDate>
-<language>mul</language>
-<abstract>
-    <para>Dataset may contain selected records from zoological, botanical and paleontogical collections of the Naturalis Biodiversity Center (Leiden, Netherlands), observational records of Observation.org (Waarneming.nl) and sound records of Xeno-canto (www.xeno-canto.org).</para>
-    <para>For information about the Naturalis records, please contact informatiemanagement@naturalis.nl. For the data from the Obervations.org database contact Hisko de Vries at hiskodevries@gmail.com and for the Xeno-canto data use: contact@xeno-canto.org</para>
-</abstract>
-<keywordSet>
-    <keyword>Occurrence</keyword>
-    <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
-</keywordSet>
-<intellectualRights>
-    <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction</para>
-</intellectualRights>
-<coverage></coverage>
-<contact>
-    <individualName></individualName>   
-    <organizationName>Naturalis Biodiversity Center</organizationName>
-    <address>
-        <deliveryPoint>PO Box 9517</deliveryPoint>
-        <city>Leiden</city>
-        <administrativeArea>Zuid Holland</administrativeArea>
-        <postalCode>NL-2300 RA</postalCode>
-        <country>NL</country>
-    </address>
-    <phone>+31.71.7519600</phone>
-    <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
-    <onlineUrl>https://naturalis.nl/en/collection</onlineUrl>
-</contact>
-</dataset>
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="NA" scope="system" system="http://gbif.org"
+         xml:lang="eng"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd">
+    <dataset>
+        <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Dynamic download</title>
+        <creator>
+            <individualName/>
+            <organizationName>Naturalis Biodiversity Center</organizationName>
+            <address>
+                <deliveryPoint>PO Box 9517</deliveryPoint>
+                <city>Leiden</city>
+                <administrativeArea>Zuid Holland</administrativeArea>
+                <postalCode>NL-2300 RA</postalCode>
+                <country>NL</country>
+            </address>
+            <phone/>
+            <electronicMailAddress/>
+            <onlineUrl/>
+        </creator>
+        <metadataProvider>
+            <individualName/>
+            <organizationName>Naturalis Biodiversity Center</organizationName>
+            <address>
+                <deliveryPoint>PO Box 9517</deliveryPoint>
+                <city>Leiden</city>
+                <administrativeArea>Zuid Holland</administrativeArea>
+                <postalCode>NL-2300 RA</postalCode>
+                <country>NL</country>
+            </address>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress/>
+            <onlineUrl/>
+        </metadataProvider>
+        <pubDate/>
+        <language>mul</language>
+        <abstract>
+            <para>Dataset may contain selected records from zoological, botanical and paleontogical collections of the
+                Naturalis Biodiversity Center (Leiden, Netherlands), observational records of Observation.org
+                (Waarneming.nl) and sound records of Xeno-canto (www.xeno-canto.org).
+            </para>
+            <para>For information about the Naturalis records, please contact informatiemanagement@naturalis.nl. For the
+                data from the Obervations.org database contact Hisko de Vries at hiskodevries@gmail.com and for the
+                Xeno-canto data use: contact@xeno-canto.org
+            </para>
+        </abstract>
+        <keywordSet>
+            <keyword>Occurrence</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml
+            </keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated
+                them to the
+                <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode">
+                    <citetitle>Public Domain (CC0 1.0)</citetitle>
+                </ulink>
+                . Users may copy, modify, distribute and use the work, including for commercial purposes, without
+                restriction
+            </para>
+        </intellectualRights>
+        <coverage/>
+        <contact>
+            <individualName/>
+            <organizationName>Naturalis Biodiversity Center</organizationName>
+            <address>
+                <deliveryPoint>PO Box 9517</deliveryPoint>
+                <city>Leiden</city>
+                <administrativeArea>Zuid Holland</administrativeArea>
+                <postalCode>NL-2300 RA</postalCode>
+                <country>NL</country>
+            </address>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection</onlineUrl>
+        </contact>
+    </dataset>
 </eml:eml>
