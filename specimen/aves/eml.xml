@@ -22,9 +22,9 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone/>
-            <electronicMailAddress/>
-            <onlineUrl/>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection</onlineUrl>
         </creator>
         <creator>
             <individualName>
@@ -59,23 +59,16 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone/>
-            <electronicMailAddress/>
-            <onlineUrl/>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection</onlineUrl>
         </metadataProvider>
         <pubDate>
             2017-03-28
         </pubDate>
         <language>mul</language>
         <abstract>
-            <para>Database contains specimen records from the bird collection of the Naturalis Biodiversity Center
-                (Leiden, Netherlands). The specimens originate from the collection of the former Naturalis National
-                Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie) in Leiden and of the Zoological
-                Museum Amsterdam (ZMA) and new acquisitions. This database replaces and enlarges the dataset Naturalis
-                National Natural History Museum (NL) – Aves Types and Zoological Museum Amsterdam, University of
-                Amsterdam (NL) - Aves which were hosted earlier on the GBIF dataportal. Furthermore the dataset contains
-                many new and updated records, also from the ZMA collection. On request more information can be provided.
-            </para>
+            <para>Database contains specimen records from the bird collection of the Naturalis Biodiversity Center (Leiden, Netherlands). The specimens originate from the collection of the former Naturalis National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie) in Leiden and of the Zoological Museum Amsterdam (ZMA) and new acquisitions. This database replaces and enlarges the dataset Naturalis National Natural History Museum (NL) – Aves Types and Zoological Museum Amsterdam, University of Amsterdam (NL) - Aves which were hosted earlier on the GBIF dataportal. Furthermore the dataset contains many new and updated records, also from the ZMA collection. On request more information can be provided. </para>
         </abstract>
         <keywordSet>
             <keyword>Occurrence</keyword>
