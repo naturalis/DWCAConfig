@@ -22,9 +22,8 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone/>
-            <electronicMailAddress/>
-            <onlineUrl/>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
         </creator>
         <creator>
             <individualName>
@@ -59,21 +58,15 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone/>
-            <electronicMailAddress/>
-            <onlineUrl/>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
         </metadataProvider>
         <pubDate>
             2017-04-18
         </pubDate>
         <language>mul</language>
         <abstract>
-            <para>Database contains specimen records from the Amphibia and Reptilia collection of the Naturalis
-                Biodiversity Center (Leiden, Netherlands). These zoological specimens come from the National Museum of
-                Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History,
-                Naturalis in Leiden The Amphibia and Reptilia collection of the former Zoological Museum Amsterdam (ZMA)
-                is now also housed in Naturalis Biodiversity Center and the dataset was hosted earlier on the GBIF
-                dataportal as &quot;Zoological Museum Amsterdam, University of Amsterdam (NL) – Herpetology&quot;
+            <para>Database contains specimen records from the Amphibia and Reptilia collection of the Naturalis Biodiversity Center (Leiden, Netherlands). These zoological specimens come from the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden The Amphibia and Reptilia collection of the former Zoological Museum Amsterdam (ZMA) is now also housed in Naturalis Biodiversity Center and the dataset was hosted earlier on the GBIF dataportal as &quot;Zoological Museum Amsterdam, University of Amsterdam (NL) – Herpetology&quot;
             </para>
         </abstract>
         <keywordSet>
