@@ -22,9 +22,9 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone/>
-            <electronicMailAddress/>
-            <onlineUrl/>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </creator>
         <creator>
             <individualName>
@@ -40,9 +40,9 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone/>
-            <electronicMailAddress/>
-            <onlineUrl/>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </creator>
         <creator>
             <individualName>
@@ -77,9 +77,9 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone/>
-            <electronicMailAddress/>
-            <onlineUrl/>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </metadataProvider>
         <metadataProvider>
             <individualName>
@@ -95,23 +95,16 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone/>
-            <electronicMailAddress/>
-            <onlineUrl/>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </metadataProvider>
         <pubDate>
             2017-04-18
         </pubDate>
         <language>mul</language>
         <abstract>
-            <para>Database contains specimen records from the Chelicerata and Myriapoda collection of the Naturalis
-                Biodiversity Center (Leiden, Netherlands). The zoological specimens come from the National Museum of
-                Natural
-                History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History,
-                Naturalis
-                in Leiden and the Zoological Museum Amsterdam (ZMA) and new acquisitions. The old registration numbers
-                of
-                the former institutions (RMNH, ZMA) are also mentioned in the datase
+            <para>Database contains specimen records from the Chelicerata and Myriapoda collection of the Naturalis Biodiversity Center (Leiden, Netherlands). The zoological specimens come from the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden and the Zoological Museum Amsterdam (ZMA) and new acquisitions. The old registration numbers of the former institutions (RMNH, ZMA) are also mentioned in the datase
             </para>
         </abstract>
         <keywordSet>
