@@ -22,9 +22,9 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone/>
-            <electronicMailAddress/>
-            <onlineUrl/>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </creator>
         <creator>
             <individualName>
@@ -40,9 +40,9 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone/>
-            <electronicMailAddress/>
-            <onlineUrl/>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </creator>
         <creator>
             <individualName>
@@ -77,9 +77,9 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone/>
-            <electronicMailAddress/>
-            <onlineUrl/>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </metadataProvider>
         <metadataProvider>
             <individualName>
@@ -95,22 +95,16 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone/>
-            <electronicMailAddress/>
-            <onlineUrl/>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </metadataProvider>
         <pubDate>
             2017-04-18
         </pubDate>
         <language>mul</language>
         <abstract>
-            <para>Database contains specimen records from the Cnidaria collection of the Naturalis Biodiversity Center
-                (Leiden, Netherlands). These specimens originate from the collections of the National Museum of Natural
-                History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History,
-                Naturalis in Leiden and of the former Zoological Museum Amsterdam (ZMA).This dataset replaces the
-                dataset Naturalis National Natural History Museum (NL) – Coelenterata , and the dataset Zoological
-                Museum Amsterdam, University of Amsterdam (NL) - Coelenterata, which were earlier published on GBIF
-                portal. On request more information can be provided.
+            <para>Database contains specimen records from the Cnidaria collection of the Naturalis Biodiversity Center (Leiden, Netherlands). These specimens originate from the collections of the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden and of the former Zoological Museum Amsterdam (ZMA).This dataset replaces the dataset Naturalis National Natural History Museum (NL) – Coelenterata , and the dataset Zoological Museum Amsterdam, University of Amsterdam (NL) - Coelenterata, which were earlier published on GBIF portal. On request more information can be provided.
             </para>
         </abstract>
         <keywordSet>
@@ -144,6 +138,24 @@
                 </boundingCoordinates>
             </geographicCoverage>
         </coverage>
+        <contact>
+            <individualName>
+                <givenName>Jeroen</givenName>
+                <surName>Goud</surName>
+            </individualName>
+            <organizationName>Naturalis Biodiversity Center</organizationName>
+            <positionName>Curator</positionName>
+            <address>
+                <deliveryPoint>PO Box 9517</deliveryPoint>
+                <city>Leiden</city>
+                <administrativeArea>Zuid Holland</administrativeArea>
+                <postalCode>NL-2300 RA</postalCode>
+                <country>NL</country>
+            </address>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
+        </contact>
         <contact>
             <individualName>
                 <givenName>Bram</givenName>
