@@ -22,9 +22,9 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone/>
-            <electronicMailAddress/>
-            <onlineUrl/>
+            <phone>+31.71.7159600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection</onlineUrl>
         </creator>
         <creator>
             <individualName>
@@ -59,18 +59,16 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone/>
-            <electronicMailAddress/>
-            <onlineUrl/>
+            <phone>+31.71.7159600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection</onlineUrl>
         </metadataProvider>
         <pubDate>
             2017-04-18
         </pubDate>
         <language>mul</language>
         <abstract>
-            <para>Database contains specimen records from the Cainozoic mollusca collection of the Naturalis
-                Biodiversity Center (Leiden, Netherlands). This database includes the dataset Naturalis National Natural
-                History Museum (NL) – Mollusca fossils, which was hosted earlier on the GBIF dataportal.
+            <para>Database contains specimen records from the Cainozoic mollusca collection of the Naturalis Biodiversity Center (Leiden, Netherlands). This database includes the dataset Naturalis National Natural History Museum (NL) – Mollusca fossils, which was hosted earlier on the GBIF dataportal.
             </para>
         </abstract>
         <keywordSet>
