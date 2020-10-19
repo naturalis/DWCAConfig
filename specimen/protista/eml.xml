@@ -22,9 +22,9 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone />
-            <electronicMailAddress />
-            <onlineUrl />
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </creator>
         <creator>
             <individualName>
@@ -40,9 +40,9 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone />
-            <electronicMailAddress />
-            <onlineUrl />
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </creator>
         <creator>
             <individualName>
@@ -77,9 +77,9 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone />
-            <electronicMailAddress />
-            <onlineUrl />
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </metadataProvider>
         <metadataProvider>
             <individualName>
@@ -95,22 +95,16 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone />
-            <electronicMailAddress />
-            <onlineUrl />
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </metadataProvider>
         <pubDate>
             2020-02-20
         </pubDate>
         <language>mul</language>
         <abstract>
-            <para>Database contains specimen records from the Protozoa collection of the Naturalis Biodiversity Center
-                (Leiden, Netherlands). These specimens originate from the collections of the National Museum of Natural
-                History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History,
-                Naturalis in Leiden and of the former Zoological Museum Amsterdam (ZMA). Records of the dataset
-                Zoological Museum Amsterdam, University of Amsterdam (NL) - Protozoa
-                (https://www.gbif.org/dataset/f2836770-6166-11de-84bf-b8a03c50a862) are included in this dataset. On
-                request more information can be provided.
+            <para>Database contains specimen records from the Protozoa collection of the Naturalis Biodiversity Center (Leiden, Netherlands). These specimens originate from the collections of the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden and of the former Zoological Museum Amsterdam (ZMA). Records of the dataset Zoological Museum Amsterdam, University of Amsterdam (NL) - Protozoa (https://www.gbif.org/dataset/f2836770-6166-11de-84bf-b8a03c50a862) are included in this dataset. On request more information can be provided.
             </para>
         </abstract>
         <keywordSet>
