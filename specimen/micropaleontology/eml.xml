@@ -22,9 +22,9 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone />
-            <electronicMailAddress />
-            <onlineUrl />
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </creator>
         <creator>
             <individualName>
@@ -59,18 +59,16 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone />
-            <electronicMailAddress />
-            <onlineUrl />
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </metadataProvider>
         <pubDate>
             2017-04-18
         </pubDate>
         <language>mul</language>
         <abstract>
-            <para>Database contains specimen records from the Micropaleontological collection of the Naturalis
-                Biodiversity Center (Leiden, Netherlands). The specimens come from the former National Museum of Geology
-                and Mineralogy (RGM; Rijksmuseum voor Geologie en Mineralogie).
+            <para>Database contains specimen records from the Micropaleontological collection of the Naturalis Biodiversity Center (Leiden, Netherlands). The specimens come from the former National Museum of Geology and Mineralogy (RGM; Rijksmuseum voor Geologie en Mineralogie).
             </para>
         </abstract>
         <keywordSet>
