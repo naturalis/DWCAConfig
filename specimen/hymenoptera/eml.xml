@@ -22,9 +22,9 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone />
-            <electronicMailAddress />
-            <onlineUrl />
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </creator>
         <creator>
             <individualName>
@@ -59,24 +59,16 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone />
-            <electronicMailAddress />
-            <onlineUrl />
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </metadataProvider>
         <pubDate>
             2017-04-12
         </pubDate>
         <language>mul</language>
         <abstract>
-            <para>Database contains specimen records from the Hymenoptera collection of the Naturalis Biodiversity
-                Center (Leiden, Netherlands). The zoological specimens come from the National Museum of Natural History
-                (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in
-                Leiden and the Zoological Museum Amsterdam (ZMA) and new acquisitions. This database replaces the
-                dataset &quot;Zoological Museum Amsterdam, University of Amsterdam (NL) – Hymenoptera_Bombidae_Types&quot;
-                which was hosted earlier on GBIF dataportal and contains many new and updated records. The old
-                registration numbers of the former institutions (RMNH, ZMA) are also mentioned in the dataset. This
-                dataset is an abstract of the Naturalis production database (BRD) of 2012-12-12, with an update of
-                2014-03-25.
+            <para>Database contains specimen records from the Hymenoptera collection of the Naturalis Biodiversity Center (Leiden, Netherlands). The zoological specimens come from the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden and the Zoological Museum Amsterdam (ZMA) and new acquisitions. This database replaces the dataset &quot;Zoological Museum Amsterdam, University of Amsterdam (NL) – Hymenoptera_Bombidae_Types&quot; which was hosted earlier on GBIF dataportal and contains many new and updated records. The old registration numbers of the former institutions (RMNH, ZMA) are also mentioned in the dataset. This dataset is an abstract of the Naturalis production database (BRD) of 2012-12-12, with an update of 2014-03-25.
             </para>
         </abstract>
         <keywordSet>
@@ -116,10 +108,7 @@
                 </boundingCoordinates>
             </geographicCoverage>
             <taxonomicCoverage>
-                <generalTaxonomicCoverage>The collection contains Bumblebees (Genus: Bombus) and Sweat bees (Genus:
-                    Lasioglossum) worldwide. Many bumblebee specimens come from the Vogt collection, which was acquired
-                    in 1960. Also the whole bee collection (Apidae s.l.) from the Afrotropical region has been
-                    digitized.
+                <generalTaxonomicCoverage>The collection contains Bumblebees (Genus: Bombus) and Sweat bees (Genus: Lasioglossum) worldwide. Many bumblebee specimens come from the Vogt collection, which was acquired in 1960. Also the whole bee collection (Apidae s.l.) from the Afrotropical region has been digitized.
                 </generalTaxonomicCoverage>
                 <taxonomicClassification>
                     <taxonRankName>order</taxonRankName>
@@ -162,11 +151,7 @@
         <methods>
             <methodStep>
                 <description>
-                    <para>The original temporal information of the records includes both single dates and time intervals
-                        (e.g. 17 June 1980 or June 1980, which could be any date between 1980-06-01 and 1980-06-30).
-                        Since GBIF cannot handle time intervals, only the first day of a period is recorded in the
-                        eventDate term. The original date is stored in the verbatimEventDate term.
-                    </para>
+                    <para>The original temporal information of the records includes both single dates and time intervals (e.g. 17 June 1980 or June 1980, which could be any date between 1980-06-01 and 1980-06-30). Since GBIF cannot handle time intervals, only the first day of a period is recorded in the eventDate term. The original date is stored in the verbatimEventDate term. </para>
                 </description>
             </methodStep>
             <sampling>
