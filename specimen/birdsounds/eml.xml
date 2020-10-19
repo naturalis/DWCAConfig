@@ -78,19 +78,11 @@
         <pubDate>2019-01-16</pubDate>
         <language>en</language>
         <abstract>
-            <para>Xeno-canto (XC) is an online database that provides access to sound recordings of wild birds from
-                around the world. The recordings are shared by a growing community of thousands of recordists from
-                around the world, amateur birdwatchers and professionals alike. The aim of Xeno-canto is to have
-                representation of all bird sounds, meaning all taxa, to subspecies level, their complete repertoire, all
-                of the geographic variability, at all stages of development.
+            <para>Xeno-canto (XC) is an online database that provides access to sound recordings of wild birds from around the world. The recordings are shared by a growing community of thousands of recordists from around the world, amateur birdwatchers and professionals alike. The aim of Xeno-canto is to have representation of all bird sounds, meaning all taxa, to subspecies level, their complete repertoire, all of the geographic variability, at all stages of development.
             </para>
-            <para>The website of Xeno-canto (www.xeno-canto.org) was launched in 2005. It is run by the Xeno-canto
-                Foundation for Nature Sounds in The Netherlands, with support from Naturalis Biodiversity Center.
+            <para>The website of Xeno-canto (www.xeno-canto.org) was launched in 2005. It is run by the Xeno-canto Foundation for Nature Sounds in The Netherlands, with support from Naturalis Biodiversity Center.
             </para>
-            <para>Please note that the Xeno-canto dataset shared on GBIF is currently a subset of the entire XC
-                collection. Only the recordings by recordists who have given their permission to share recording
-                metadata with GBIF are shared at the moment. We expect the dataset to increase over time, as more
-                recordists give permission to share data with GBIF.
+            <para>Please note that the Xeno-canto dataset shared on GBIF is currently a subset of the entire XC collection. Only the recordings by recordists who have given their permission to share recording metadata with GBIF are shared at the moment. We expect the dataset to increase over time, as more recordists give permission to share data with GBIF.
             </para>
         </abstract>
         <keywordSet>
@@ -169,9 +161,7 @@
             </sampling>
             <qualityControl>
                 <description>
-                    <para>Identifications of recordings are subject to crowdsourced validation by the Xeno-canto
-                        community. Identifications can be discussed and flagged for review. When this is the case, the
-                        identification status is indicated in the occurrence data.
+                    <para>Identifications of recordings are subject to crowdsourced validation by the Xeno-canto community. Identifications can be discussed and flagged for review. When this is the case, the identification status is indicated in the occurrence data.
                     </para>
                 </description>
             </qualityControl>
@@ -208,15 +198,12 @@
             <gbif>
                 <dateStamp/>
                 <formationPeriod>1900-current</formationPeriod>
-                <citation>Vellinga, W.P., Planque, R. &amp; Xeno-canto foundation (2005- ), Xeno-canto - bird sounds
-                    from around the world. GBIF subset, accessed at ....
+                <citation>Vellinga, W.P., Planque, R. &amp; Xeno-canto foundation (2005- ), Xeno-canto - bird sounds from around the world. GBIF subset, accessed at ....
                 </citation>
                 <bibliography>
-                    <citation>Vellinga, W.P. &amp; R. Planque (2015). CLEF2015 Working Notes, CEUR Workshop proceedings
-                        Vol-1391.
+                    <citation>Vellinga, W.P. &amp; R. Planque (2015). CLEF2015 Working Notes, CEUR Workshop proceedings Vol-1391.
                     </citation>
-                    <citation>Vellinga, W.P., B. Planque, S. Pieterse &amp; J. Jongsma (2017). www.xeno-canto.org: a
-                        decade on. Neotropical Birding 21: 40-47.
+                    <citation>Vellinga, W.P., B. Planque, S. Pieterse &amp; J. Jongsma (2017). www.xeno-canto.org: a decade on. Neotropical Birding 21: 40-47.
                     </citation>
                 </bibliography>
                 <resourceLogoUrl/>
