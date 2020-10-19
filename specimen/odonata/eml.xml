@@ -22,9 +22,9 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone />
-            <electronicMailAddress />
-            <onlineUrl />
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </creator>
         <creator>
             <individualName>
@@ -40,9 +40,9 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone />
-            <electronicMailAddress />
-            <onlineUrl />
+            <phone/>
+            <electronicMailAddress/>
+            <onlineUrl/>
             <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
         </creator>
         <metadataProvider>
@@ -59,20 +59,16 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone />
-            <electronicMailAddress />
-            <onlineUrl />
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </metadataProvider>
         <pubDate>
             2017-03-28
         </pubDate>
         <language>mul</language>
         <abstract>
-            <para>Database contains specimen records from the Odonata collection of the Naturalis Biodiversity Center
-                (Leiden, Netherlands). These specimens originate from the collections of the National Museum of Natural
-                History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History,
-                Naturalis in Leiden and of the former Zoological Museum Amsterdam (ZMA). On request more information can
-                be provided.
+            <para>Database contains specimen records from the Odonata collection of the Naturalis Biodiversity Center (Leiden, Netherlands). These specimens originate from the collections of the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden and of the former Zoological Museum Amsterdam (ZMA). On request more information can be provided.
             </para>
         </abstract>
         <keywordSet>
