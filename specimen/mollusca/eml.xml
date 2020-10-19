@@ -22,9 +22,9 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone/>
-            <electronicMailAddress />
-            <onlineUrl />
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </creator>
         <creator>
             <individualName>
@@ -40,9 +40,9 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone />
-            <electronicMailAddress />
-            <onlineUrl />
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </creator>
         <creator>
             <individualName>
@@ -77,9 +77,9 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone />
-            <electronicMailAddress />
-            <onlineUrl />
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </metadataProvider>
         <metadataProvider>
             <individualName>
@@ -95,31 +95,16 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone />
-            <electronicMailAddress />
-            <onlineUrl />
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </metadataProvider>
         <pubDate>
             2017-04-18
         </pubDate>
         <language>mul</language>
         <abstract>
-            <para>Database contains specimen records from the Mollusca collection of the Naturalis Biodiversity Center
-                (Leiden, Netherlands). The zoological specimens come from the National Museum of Natural History (RMNH;
-                Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden
-                and the Zoological Museum Amsterdam (ZMA) and new acquisitions. This database replaces the dataset &quot;Zoological
-                Museum Amsterdam, University of Amsterdam (NL) – Mollusca_Conidae&quot;, &quot;Zoological Museum
-                Amsterdam, University of Amsterdam (NL) – Mollusca_Netherlands&quot;, and &quot;Zoological Museum Amsterdam,
-                University of Amsterdam (NL) – Mollusca_Pectinoidea&quot; which were hosted earlier on the GBIF dataportal and
-                contains many new and updated records, especially from the RMNH collection. This dataset is an abstract of the
-                Naturalis production database (BRD) of 2012-12-12. The datasets Zoological Museum Amsterdam, University
-                of Amsterdam (NL) – Mollusca_Types, and Naturalis National Natural History Museum (NL) – Mollusca fossils,
-                are still separately hosted at GBIF, and are not included in this dataset. The old registration numbers of
-                the former institutions (RMNH, ZMA) are also mentioned in the dataset. The Naturalis BC collection contains
-                over 42.000 species of Recent Mollusca. Locality data have only been added in part to this molluscan dataset.
-                Many identifications are original and can be as old as over a century. Many species level names were
-                recently (2011-2012) updated with the help of literature and web based taxonomic databases containing
-                synonymies.
+            <para>Database contains specimen records from the Mollusca collection of the Naturalis Biodiversity Center (Leiden, Netherlands). The zoological specimens come from the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden and the Zoological Museum Amsterdam (ZMA) and new acquisitions. This database replaces the dataset &quot;Zoological Museum Amsterdam, University of Amsterdam (NL) – Mollusca_Conidae&quot;, &quot;Zoological Museum Amsterdam, University of Amsterdam (NL) – Mollusca_Netherlands&quot;, and &quot;Zoological Museum Amsterdam, University of Amsterdam (NL) – Mollusca_Pectinoidea&quot; which were hosted earlier on the GBIF dataportal and contains many new and updated records, especially from the RMNH collection. This dataset is an abstract of the Naturalis production database (BRD) of 2012-12-12. The datasets Zoological Museum Amsterdam, University of Amsterdam (NL) – Mollusca_Types, and Naturalis National Natural History Museum (NL) – Mollusca fossils, are still separately hosted at GBIF, and are not included in this dataset. The old registration numbers of the former institutions (RMNH, ZMA) are also mentioned in the dataset. The Naturalis BC collection contains over 42.000 species of Recent Mollusca. Locality data have only been added in part to this molluscan dataset. Many identifications are original and can be as old as over a century. Many species level names were recently (2011-2012) updated with the help of literature and web based taxonomic databases containing synonymies.
             </para>
         </abstract>
         <keywordSet>
@@ -200,13 +185,7 @@
         <methods>
             <methodStep>
                 <description>
-                    <para>The original temporal information of the records includes both single dates and time intervals
-                        (e.g. 17 June 1980 or June 1980, which could be any date between 1980-06-01 and 1980-06-30).
-                        Since
-                        GBIF cannot handle time intervals, only the first day of a period is recorded in the eventDate
-                        term.
-                        The original date is stored in the verbatimEventDate term.
-                    </para>
+                    <para>The original temporal information of the records includes both single dates and time intervals (e.g. 17 June 1980 or June 1980, which could be any date between 1980-06-01 and 1980-06-30). Since GBIF cannot handle time intervals, only the first day of a period is recorded in the eventDate term. The original date is stored in the verbatimEventDate term. </para>
                 </description>
             </methodStep>
             <sampling>
