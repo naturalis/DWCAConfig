@@ -64,9 +64,7 @@
         <pubDate />
         <language>en</language>
         <abstract>
-            <para>This dataset contains occurrence data of flora and fauna species. From the Netherlands on a 5 x 5 km
-                scale, data from other countries are exact. Observations from Belgium are excluded and can be accessed
-                on GBIF through Natuurpunt and Natagora. It summarizes the observations recorded by >175.000 volunteers.
+            <para>This dataset contains occurrence data of flora and fauna species. From the Netherlands on a 5 x 5 km scale, data from other countries are exact. Observations from Belgium are excluded and can be accessed on GBIF through Natuurpunt and Natagora. It summarizes the observations recorded by >175.000 volunteers.
             </para>
         </abstract>
         <keywordSet>
@@ -260,9 +258,7 @@
         <methods>
             <methodStep>
                 <description>
-                    <para>Opportunistic records from the original database of Waarneming.nl and Observation.org.
-                        For the Netherlands the records in this dataset present the summed numbers of live individuals
-                        per 5 km square. Locations refer to the geographical center points of these squares.
+                    <para>Opportunistic records from the original database of Waarneming.nl and Observation.org. For the Netherlands the records in this dataset present the summed numbers of live individuals per 5 km square. Locations refer to the geographical center points of these squares.
                         Data from other countries are as exact as possible.
                     </para>
                 </description>
