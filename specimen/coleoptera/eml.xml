@@ -10,8 +10,8 @@
         <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Coleoptera</title>
         <creator>
             <individualName>
-                <givenName>Hans</givenName>
-                <surName>Huijbregts</surName>
+                <givenName>Oscar</givenName>
+                <surName>Vorst</surName>
             </individualName>
             <organizationName>Naturalis Biodiversity Center</organizationName>
             <positionName>Curator</positionName>
@@ -22,9 +22,9 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone/>
-            <electronicMailAddress/>
-            <onlineUrl/>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </creator>
         <creator>
             <individualName>
@@ -47,8 +47,8 @@
         </creator>
         <metadataProvider>
             <individualName>
-                <givenName>Hans</givenName>
-                <surName>Huijbregts</surName>
+                <givenName>Oscar</givenName>
+                <surName>Vorst</surName>
             </individualName>
             <organizationName>Naturalis Biodiversity Center</organizationName>
             <positionName>Curator</positionName>
@@ -59,26 +59,16 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone/>
-            <electronicMailAddress/>
-            <onlineUrl/>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </metadataProvider>
         <pubDate>
             2017-04-12
         </pubDate>
         <language>mul</language>
         <abstract>
-            <para>Database contains specimen records from the Coleoptera collection of the Naturalis Biodiversity Center
-                (Leiden, Netherlands). The specimens come from the National Museum of Natural History (RMNH; Rijksmuseum
-                voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden, Zoological
-                Museum Amsterdam (ZMA) (mostly not digitised) and Wageningen University. This dataset is an abstract of
-                the Naturalis production database (BRD) of 12-Dec-2012. The dataset &quot;Zoological Museum Amsterdam,
-                University of Amsterdam (NL) - Coleoptera_Types_Orient&quot; is still separately hosted at GBIF, and not
-                included in this dataset. The collection is largely arranged according to the Coleopterorum Catalogus
-                but the family classification is currently updated to Bouchard e.a. 2011. Therefore classification can
-                be inconsistent at the moment. The bulk of the data originate from a digitization project and need
-                further clean up. Many taxa are not digitised below generic level. Important collections come from the
-                Netherlands, the former Dutch East Indies (now Indonesia) and Surinam (formerly Dutch Guyana).
+            <para>Database contains specimen records from the Coleoptera collection of the Naturalis Biodiversity Center (Leiden, Netherlands). The specimens come from the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden, Zoological Museum Amsterdam (ZMA) (mostly not digitised) and Wageningen University. This dataset is an abstract of the Naturalis production database (BRD) of 12-Dec-2012. The dataset &quot;Zoological Museum Amsterdam, University of Amsterdam (NL) - Coleoptera_Types_Orient&quot; is still separately hosted at GBIF, and not included in this dataset. The collection is largely arranged according to the Coleopterorum Catalogus but the family classification is currently updated to Bouchard e.a. 2011. Therefore classification can be inconsistent at the moment. The bulk of the data originate from a digitization project and need further clean up. Many taxa are not digitised below generic level. Important collections come from the Netherlands, the former Dutch East Indies (now Indonesia) and Surinam (formerly Dutch Guyana).
             </para>
         </abstract>
         <keywordSet>
@@ -112,10 +102,7 @@
                 </boundingCoordinates>
             </geographicCoverage>
             <taxonomicCoverage>
-                <generalTaxonomicCoverage>The collection is largely arranged according to the Coleopterorum Catalogus
-                    but the family classification is currently updated to Bouchard e.a. 2011. Therefore classification
-                    can be inconsistent at the moment. The bulk of the data originate from a digitization project and
-                    need further clean up.
+                <generalTaxonomicCoverage>The collection is largely arranged according to the Coleopterorum Catalogus but the family classification is currently updated to Bouchard e.a. 2011. Therefore classification can be inconsistent at the moment. The bulk of the data originate from a digitization project and need further clean up.
                 </generalTaxonomicCoverage>
                 <taxonomicClassification>
                     <taxonRankName>order</taxonRankName>
@@ -126,8 +113,8 @@
         </coverage>
         <contact>
             <individualName>
-                <givenName>Hans</givenName>
-                <surName>Huijbregts</surName>
+                <givenName>Oscar</givenName>
+                <surName>Vorst</surName>
             </individualName>
             <organizationName>Naturalis Biodiversity Center</organizationName>
             <positionName>Curator</positionName>
@@ -145,11 +132,7 @@
         <methods>
             <methodStep>
                 <description>
-                    <para>The original temporal information of the records includes both single dates and time intervals
-                        (e.g. 17 June 1980 or June 1980, which could be any date between 1980-06-01 and 1980-06-30).
-                        Since GBIF cannot handle time intervals, only the first day of a period is recorded in the
-                        eventDate term. The original date is stored in the verbatimEventDate term.
-                    </para>
+                    <para>The original temporal information of the records includes both single dates and time intervals (e.g. 17 June 1980 or June 1980, which could be any date between 1980-06-01 and 1980-06-30). Since GBIF cannot handle time intervals, only the first day of a period is recorded in the eventDate term. The original date is stored in the verbatimEventDate term.</para>
                 </description>
             </methodStep>
             <sampling>
