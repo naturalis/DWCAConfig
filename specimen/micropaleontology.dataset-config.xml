@@ -26,9 +26,7 @@
                 <path>sourceSystemId</path>
             </field>
             <field name="basisOfRecord" term="http://rs.tdwg.org/dwc/terms/basisOfRecord">
-                <calculator>
-                    <java-class>RecordBasisCalculator</java-class>
-                </calculator>
+                <path>recordBasis</path>
             </field>
             <field name="collectionCode" term="http://rs.tdwg.org/dwc/terms/collectionCode">
                 <path>collectionType</path>
