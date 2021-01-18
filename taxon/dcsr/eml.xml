@@ -1,0 +1,81 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+         packageId="4dd32523-a3a3-43b7-84df-4cda02f15cf7" system="http://gbif.org" scope="system"
+         xml:lang="eng">
+
+<dataset>
+    <alternateIdentifier>4dd32523-a3a3-43b7-84df-4cda02f15cf7</alternateIdentifier>
+    <title xml:lang="eng">Checklist Dutch Caribbean Species Register</title>
+<creator>
+    <individualName>
+        <givenName>Jeroen</givenName>
+      <surName>Creuwels</surName>
+    </individualName>
+    <organizationName>Naturalis Biodiversity Center</organizationName>
+    <positionName>Data manager</positionName>
+    <address>
+        <deliveryPoint>PO Box 9517</deliveryPoint>
+        <city>Leiden</city>
+        <administrativeArea>Zuid Holland</administrativeArea>
+        <postalCode>NL-2300 RA</postalCode>
+        <country>NL</country>
+    </address>
+    <phone></phone>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
+    <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
+</creator>
+<metadataProvider>
+    <individualName>
+        <givenName>Sander</givenName>
+      <surName>Pieterse</surName>
+    </individualName>
+    <organizationName>Naturalis Biodiversity Center</organizationName>
+    <positionName>Project manager Nederlands Soortenregister</positionName>
+    <address>
+        <deliveryPoint>PO Box 9517</deliveryPoint>
+        <city>Leiden</city>
+        <administrativeArea>Zuid Holland</administrativeArea>
+        <postalCode>NL-2300 RA</postalCode>
+        <country>NL</country>
+    </address>
+    <phone></phone>
+    <electronicMailAddress></electronicMailAddress>
+    <onlineUrl></onlineUrl>
+</metadataProvider>
+<associatedParty />
+<pubDate>2021-03-01</pubDate>
+<language>English</language>
+<additionalInfo>concept</additionalInfo>
+<abstract>concept</abstract>
+<keywordSet>
+    <keyword>Checklist</keyword>
+	<keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+    <keyword>inventoryRegional</keyword>
+	<keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+</keywordSet>
+  <intellectualRights>
+    <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+  </intellectualRights>
+<purpose>
+  <para>You can download and use this checklist for any project in need of a (complete or partial) list of species occurring in The Netherlands. While not explicitly required by the license, we do appreciate seeing nice examples of how the checklist is used. You are welcome to contact us via e-mail.</para>
+</purpose>  
+  
+  <coverage>
+      <geographicCoverage>
+      </geographicCoverage>
+	  <taxonomicCoverage>
+	  </taxonomicCoverage>
+ </coverage>
+ <contact>
+ </contact>
+</dataset>
+  <additionalMetadata>
+    <metadata>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

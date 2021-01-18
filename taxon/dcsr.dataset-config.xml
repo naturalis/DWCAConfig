@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataset-config xmlns="http://data.naturalis.nl/nba-dataset-config">
+	<entity name="taxon">
+		<data-source>
+			<document>Taxon</document>
+			<query-spec>
+				<conditions>
+					<condition>
+						<field>sourceSystem.code</field>
+						<operator>EQUALS</operator>
+						<value>DCSR</value>
+					</condition>
+				</conditions>
+			</query-spec>
+		</data-source>
+		<mapping>
+			<field name="taxonID" term="http://rs.tdwg.org/dwc/terms/taxonID">
+				<path>sourceSystemId</path>
+			</field>
+			<field name="acceptedNameUsageId" term="http://rs.tdwg.org/dwc/terms/acceptedNameUsageId">
+				<constant></constant>
+			</field>
+			<field name="scientificName" term="http://rs.tdwg.org/dwc/terms/scientificName">
+				<path>acceptedName.fullScientificName</path>
+			</field>
+			<field name="scientificNameAuthorship" term="http://rs.tdwg.org/dwc/terms/scientificNameAuthorship">
+				<path>acceptedName.authorshipVerbatim</path>
+			</field>
+			<field name="taxonomicStatus" term="http://rs.tdwg.org/dwc/terms/taxonomicStatus">
+				<constant>accepted name</constant>
+			</field>
+			<field name="taxonRank" term="http://rs.tdwg.org/dwc/terms/taxonRank">
+				<path>taxonRank</path>
+			</field>
+			<field name="kingdom" term="http://rs.tdwg.org/dwc/terms/kingdom">
+				<path>defaultClassification.kingdom</path>
+			</field>
+			<field name="phylum" term="http://rs.tdwg.org/dwc/terms/phylum">
+				<path>defaultClassification.phylum</path>
+			</field>
+			<field name="class" term="http://rs.tdwg.org/dwc/terms/class">
+				<path>defaultClassification.className</path>
+			</field>
+			<field name="order" term="http://rs.tdwg.org/dwc/terms/order">
+				<path>defaultClassification.order</path>
+			</field>
+			<field name="family" term="http://rs.tdwg.org/dwc/terms/family">
+				<path>defaultClassification.family</path>
+			</field>
+			<field name="genus" term="http://rs.tdwg.org/dwc/terms/genus">
+				<path>defaultClassification.genus</path>
+			</field>
+			<field name="subgenus" term="http://rs.tdwg.org/dwc/terms/subgenus">
+				<path>defaultClassification.subgenus</path>
+			</field>
+			<field name="specificEpithet" term="http://rs.tdwg.org/dwc/terms/specificEpithet">
+				<path>defaultClassification.specificEpithet</path>
+			</field>
+			<field name="infraspecificEpithet" term="http://rs.tdwg.org/dwc/terms/infraspecificEpithet">
+				<path>defaultClassification.infraspecificEpithet</path>
+			</field>
+			<field name="occurrenceStatus" term="http://rs.tdwg.org/dwc/terms/occurrenceStatus">
+				<path>occurrenceStatusVerbatim</path>
+			</field>
+			<field name="references" term="http://purl.org/dc/terms/references">
+				<path>recordURI</path>
+			</field>
+		</mapping>
+	</entity>
+	<entity name="synonym">	
+		<data-source>
+			<document>Taxon</document>
+			<query-spec>
+				<conditions>
+					<condition>
+						<field>sourceSystem.code</field>
+						<operator>EQUALS</operator>
+						<value>NSR</value>
+					</condition>
+				</conditions>
+			</query-spec>
+		</data-source>
+		<path>synonyms</path>
+		<mapping>
+			<field name="taxonID" term="http://rs.tdwg.org/dwc/terms/taxonID">
+				<calculator>
+					<java-class>SynonymIdCalculator</java-class>
+				</calculator>
+			</field>
+			<field name="acceptedNameUsageId" term="http://rs.tdwg.org/dwc/terms/acceptedNameUsageId">
+				<path>sourceSystemId</path>
+			</field>
+			<field name="scientificName" term="http://rs.tdwg.org/dwc/terms/scientificName">
+				<path relative="true">fullScientificName</path>
+			</field>
+			<field name="scientificNameAuthorship" term="http://rs.tdwg.org/dwc/terms/scientificNameAuthorship">
+				<path relative="true">authorshipVerbatim</path>
+			</field>
+			<field name="taxonomicStatus" term="http://rs.tdwg.org/dwc/terms/taxonomicStatus">
+	<!--			<constant>synonym</constant> -->
+				<path relative="true">taxonomicStatus</path>
+			</field>
+			<field name="taxonRank" term="http://rs.tdwg.org/dwc/terms/taxonRank">
+				<constant></constant>
+			</field>
+			<field name="kingdom" term="http://rs.tdwg.org/dwc/terms/kingdom">
+				<path>defaultClassification.kingdom</path>
+			</field>
+			<field name="phylum" term="http://rs.tdwg.org/dwc/terms/phylum">
+				<constant></constant>
+			</field>
+			<field name="class" term="http://rs.tdwg.org/dwc/terms/class">
+				<constant></constant>
+			</field>
+			<field name="order" term="http://rs.tdwg.org/dwc/terms/order">
+				<constant></constant>
+			</field>
+			<field name="family" term="http://rs.tdwg.org/dwc/terms/family">
+				<constant></constant>
+			</field>
+			<field name="genus" term="http://rs.tdwg.org/dwc/terms/genus">
+				<path relative="true">genusOrMonomial</path>
+			</field>
+			<field name="subgenus" term="http://rs.tdwg.org/dwc/terms/subgenus">
+				<path relative="true">subgenus</path>
+			</field>
+			<field name="specificEpithet" term="http://rs.tdwg.org/dwc/terms/specificEpithet">
+				<path relative="true">specificEpithet</path>
+			</field>
+			<field name="infraspecificEpithet" term="http://rs.tdwg.org/dwc/terms/infraspecificEpithet">
+				<path relative="true">infraspecificEpithet</path>
+			</field>
+			<field name="occurrenceStatus" term="http://rs.tdwg.org/dwc/terms/occurrenceStatus">
+				<constant></constant>
+			</field>
+			<field name="references" term="http://purl.org/dc/terms/references">
+				<constant></constant>
+			</field>
+		</mapping>
+	</entity>
+	<entity name="vernacular_name">
+		<data-source>
+			<document>Taxon</document>
+			<query-spec>
+				<conditions>
+					<condition>
+						<field>sourceSystem.code</field>
+						<operator>EQUALS</operator>
+						<value>NSR</value>
+					</condition>
+				</conditions>
+			</query-spec>
+		</data-source>
+		<path>vernacularNames</path>
+		<filter>
+			<java-class>SimpleEntityFilter</java-class>
+			<arg name="path">language</arg>
+			<arg name="values">Dutch</arg>
+		</filter>
+		<mapping>
+			<field name="taxonID" term="http://rs.tdwg.org/dwc/terms/taxonID">
+				<path>sourceSystemId</path>
+			</field>
+			<field name="vernacularName" term="http://rs.tdwg.org/dwc/terms/vernacularName">
+				<path relative="true">name</path>
+			</field>
+			<field name="isPreferredName" term="http://rs.gbif.org/terms/1.0/isPreferredName">
+				<path relative="true">preferred</path>
+			</field>
+			<field name="language" term="http://purl.org/dc/terms/language">
+				<path relative="true">language</path>
+			</field>
+		</mapping>
+	</entity>
+	<entity name="multimedia">
+		<data-source>
+			<document>MultiMediaObject</document>
+			<query-spec>
+				<conditions>
+					<condition>
+						<field>sourceSystem.code</field>
+						<operator>EQUALS</operator>
+						<value>NSR</value>
+					</condition>
+					<condition>
+						<field>associatedTaxonReference</field>
+						<operator>NOT_EQUALS</operator>
+						<value />
+					</condition>
+				</conditions>
+			</query-spec>
+		</data-source>
+		<mapping>
+			<field name="id">
+				<calculator>
+					<java-class>AssociatedTaxonReferenceIdCalculator</java-class>
+				</calculator>
+			</field>
+			<field name="Identifier" term="http://purl.org/dc/terms/identifier">
+				<path>serviceAccessPoints.0.accessUri</path>
+			</field>
+			<field name="type" term="http://purl.org/dc/elements/1.1/type">
+				<calculator>
+					<java-class>MultiMediaTypeCalculator</java-class>
+				</calculator>
+			<!-- later path: type  -->
+			</field>
+			<field name="rightsHolder" term="http://ns.adobe.com/xap/1.0/rights/Owner">
+				<path>creator</path>
+			</field>
+			<field name="creator" term="http://purl.org/dc/elements/1.1/creator">
+				<path>creator</path>
+			</field>
+			<field name="CreateDate" term="http://ns.adobe.com/xap/1.0/CreateDate">
+				<path>gatheringEvents.0.dateTimeBegin</path>
+			</field>
+			<field name="accessURI" term="http://rs.tdwg.org/ac/terms/accessURI">
+				<path>serviceAccessPoints.0.accessUri</path>
+			</field>
+			<field name="format" term="http://purl.org/dc/terms/format">
+				<path>serviceAccessPoints.0.format</path>
+			</field>								    
+			<field name="variant" term="http://rs.tdwg.org/ac/terms/variant">
+				<constant>ac:BestQuality</constant>
+			</field>
+			<field name="LocationShown" term="http://iptc.org/std/Iptc4xmpExt/2008-02-29/LocationShown">
+				<path>gatheringEvents.0.localityText</path>
+			</field>
+			<field name="comments" term="http://rs.tdwg.org/ac/terms/comments">
+				<path>description</path>
+			</field>
+			<field name="license" term="http://purl.org/dc/terms/rights">
+				<path>license</path>
+			</field>
+		</mapping>
+	</entity> 
+</dataset-config>
