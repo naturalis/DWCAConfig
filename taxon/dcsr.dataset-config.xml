@@ -60,7 +60,7 @@
 				<path>defaultClassification.infraspecificEpithet</path>
 			</field>
 			<field name="occurrenceStatus" term="http://rs.tdwg.org/dwc/terms/occurrenceStatus">
-				<path>occurrenceStatusVerbatim</path>
+				<constant />
 			</field>
 			<field name="references" term="http://purl.org/dc/terms/references">
 				<path>recordURI</path>
