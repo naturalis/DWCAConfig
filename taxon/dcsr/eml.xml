@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:dc="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="XXXXXXXXXXXXXXXXXXXXXXX" scope="system" system="http://gbif.org" xml:lang="eng" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd">
+
+<dataset>
+    <alternateIdentifier>XXXXXXXXXXXXXXXXXXX</alternateIdentifier>
+    <title xml:lang="eng">Checklist Dutch Caribbean Species Register</title>
+<creator>
+    <individualName>
+        <givenName>Jeroen</givenName>
+        <surName>Creuwels</surName>
+    </individualName>
+    <organizationName>Naturalis Biodiversity Center</organizationName>
+    <positionName>Data manager</positionName>
+    <address>
+        <deliveryPoint>PO Box 9517</deliveryPoint>
+        <city>Leiden</city>
+        <administrativeArea>Zuid Holland</administrativeArea>
+        <postalCode>NL-2300 RA</postalCode>
+        <country>NL</country>
+    </address>
+    <phone></phone>
+    <electronicMailAddress>speciesregister@naturalis.nl</electronicMailAddress>
+    <onlineUrl></onlineUrl>
+    <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
+</creator>
+<metadataProvider>
+    <individualName>
+        <givenName>Sander</givenName>
+      <surName>Pieterse</surName>
+    </individualName>
+    <organizationName>Naturalis Biodiversity Center</organizationName>
+    <positionName>Product owner Dutch Caribbean Species Register</positionName>
+    <address>
+        <deliveryPoint>PO Box 9517</deliveryPoint>
+        <city>Leiden</city>
+        <administrativeArea>Zuid Holland</administrativeArea>
+        <postalCode>NL-2300 RA</postalCode>
+        <country>NL</country>
+    </address>
+    <phone></phone>
+    <electronicMailAddress>speciesregister@naturalis.nl</electronicMailAddress>
+    <onlineUrl>https://www.dutchcaribbeanspecies.org</onlineUrl>
+</metadataProvider>
+<associatedParty />
+<pubDate>2021-03-01</pubDate>
+<language>English</language>
+<additionalInfo>If you require a more detailed export than provided by this GBIF checklist dataset, you can contact the editorial team of Dutch Caribbean Species Register via email.</additionalInfo>
+<abstract>
+  <para>The Dutch Caribbean Species Register provides a current and comprehensive overview of Dutch biodiversity. It is based on numerous published papers, reports, books and checklists provided by experts, covering all aspects of the flora and fauna of the Dutch Caribbean (the islands of Aruba, Bonaire, Curaçao, Saba, Sint Eustatius and Sint Maarten). The Dutch Caribbean Species Register combines this information into an authoritative and frequently updated national checklist.</para> 
+  <para>All multicellular animals, plants and fungi are included in the checklist, with the exception of species under direct supervision of humans (e.g. pets) and species not recorded since 1758 (i.e. subfossil and fossil species).</para> 
+  <para>The checklist includes available synonyms and Dutch, English and Papiamento names and higher classification, including associated source and expert.</para>  
+  <para>The Dutch Caribbean Species Register is coordinated and hosted by Naturalis Biodiversity Center. A number of scientific institutions, individual experts and organizations of volunteer recorders have contributed to the Dutch Caribbean Species Register.</para>
+</abstract>
+<keywordSet>
+  <keyword>Checklist</keyword>
+  <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+  <keyword>inventoryRegional</keyword>
+  <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+</keywordSet>
+  <intellectualRights>
+    <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+  </intellectualRights>
+<purpose>
+  <para>You can download and use this checklist for any project in need of a (complete or partial) list of species occurring in the Dutch Caribbean. While not explicitly required by the license, we do appreciate seeing nice examples of how the checklist is used. You are welcome to contact us via e-mail.</para>
+</purpose>  
+  
+  <coverage>
+      <geographicCoverage>Dutch Caribbean (the islands of Aruba, Bonaire, Curaçao, Saba, Sint Eustatius and Sint Maarten)
+          <boundingCoordinates>
+            <westBoundingCoordinate>-70</westBoundingCoordinate>
+		    <eastBoundingCoordinate>-63</eastBoundingCoordinate>
+		    <northBoundingCoordinate>18</northBoundingCoordinate>
+            <southBoundingCoordinate>12</southBoundingCoordinate>
+          </boundingCoordinates>
+	  </geographicCoverage>
+	  <taxonomicCoverage></taxonomicCoverage>
+ </coverage>
+ <contact>
+    <individualName>
+        <givenName>Sander</givenName>
+      <surName>Pieterse</surName>
+    </individualName>
+    <organizationName>Naturalis Biodiversity Center</organizationName>
+    <positionName>Product owner Dutch Caribbean Species Register</positionName>
+    <address>
+        <deliveryPoint>PO Box 9517</deliveryPoint>
+        <city>Leiden</city>
+        <administrativeArea>Zuid Holland</administrativeArea>
+        <postalCode>NL-2300 RA</postalCode>
+        <country>NL</country>
+    </address>
+    <phone></phone>
+    <electronicMailAddress>speciesregister@naturalis.nl</electronicMailAddress>
+    <onlineUrl>https://www.dutchcaribbeanspecies.org</onlineUrl>
+ </contact>
+</dataset>
+  <additionalMetadata>
+    <metadata>
+      <gbif>
+          <dateStamp></dateStamp>
+          <hierarchyLevel>dataset</hierarchyLevel>
+          <resourceLogoUrl>http://ipt.nlbif.nl/resources/logo_Naturalis_rood.png</resourceLogoUrl>
+          <formationPeriod>1758-current</formationPeriod>
+          <dc:replaces/>
+      </gbif>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
