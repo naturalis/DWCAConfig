@@ -41,7 +41,7 @@
     <onlineUrl>https://www.dutchcaribbeanspecies.org</onlineUrl>
 </metadataProvider>
 <associatedParty />
-<pubDate>2021-03-01</pubDate>
+<pubDate>2021-02-08</pubDate>
 <language>English</language>
 <additionalInfo>If you require a more detailed export than provided by this GBIF checklist dataset, you can contact the editorial team of Dutch Caribbean Species Register via email.</additionalInfo>
 <abstract>
@@ -78,11 +78,11 @@
  </coverage>
  <contact>
     <individualName>
-        <givenName>Sander</givenName>
-      <surName>Pieterse</surName>
+        <givenName>Alice</givenName>
+      <surName>van Duijn</surName>
     </individualName>
     <organizationName>Naturalis Biodiversity Center</organizationName>
-    <positionName>Product owner Dutch Caribbean Species Register</positionName>
+    <positionName>Editor Dutch Caribbean Species Register</positionName>
     <address>
         <deliveryPoint>PO Box 9517</deliveryPoint>
         <city>Leiden</city>
