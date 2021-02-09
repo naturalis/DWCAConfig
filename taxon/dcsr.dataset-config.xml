@@ -152,11 +152,13 @@
 			</query-spec>
 		</data-source>
 		<path>vernacularNames</path>
+		<!--
 		<filter>
 			<java-class>SimpleEntityFilter</java-class>
 			<arg name="path">language</arg>
 			<arg name="values">Dutch</arg>
 		</filter>
+-->
 		<mapping>
 			<field name="taxonID" term="http://rs.tdwg.org/dwc/terms/taxonID">
 				<path>sourceSystemId</path>
