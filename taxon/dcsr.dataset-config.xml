@@ -48,7 +48,7 @@
 				<path>defaultClassification.family</path>
 			</field>
 			<field name="genus" term="http://rs.tdwg.org/dwc/terms/genus">
-				<path>acceptedName.genus</path>
+				<path>acceptedName.genusOrMonomial</path>
 			</field>
 			<field name="subgenus" term="http://rs.tdwg.org/dwc/terms/subgenus">
 				<path>acceptedName.subgenus</path>
