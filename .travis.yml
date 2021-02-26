@@ -1,4 +1,7 @@
 language: shell
 
+before_install:
+    - sudo apt-get install libxml2-utils
+
 script: 
  - ./scripts/validate-xml.sh
