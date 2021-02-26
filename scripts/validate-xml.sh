@@ -1,18 +1,20 @@
 #!/bin/bash
 
-# @file tools/travis/validate-xml.sh
-#
-# Copyright (c) 2014 Simon Fraser University Library
-# Copyright (c) 2010-2014 John Willinsky
-# Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
-#
-# Script to validate all XML files in the repository (unless excluded).
-#
+# validate-xml.sh : Script to validate all XML files in the DWCA repository
 
-set -xe # Fail on first error
+ERRORS=false
 
-# Search for all XML files in the current directory
-REPOSITORY_DIR="."
+# Search for all XML files in the specimen and taxon directory
+XML_FILES=( `find {./specimen/,./taxon/} -name \*.xml` )
 
-/usr/bin/xmllint --noout --valid `find $REPOSITORY_DIR -name \*.xml | fgrep -v -f $REPOSITORY_DIR/scripts/xmllint-exclusions.txt`
+for file in ${XML_FILES[@]}; do
+  /usr/bin/xmllint --noout $file
+  if [ $? -gt 0 ]; then
+      ERRORS=true;
+  fi
+done
+
+if [ ERRORS ]; then
+  exit 1
+fi
 
