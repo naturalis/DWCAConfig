@@ -7,6 +7,7 @@ ERRORS=false
 # Search for all XML files in the specimen and taxon directory
 XML_FILES=( `find {./specimen/,./taxon/} -name \*.xml` )
 
+# Validate all XML files
 for file in ${XML_FILES[@]}; do
   /usr/bin/xmllint --noout $file
   if [ $? -gt 0 ]; then
@@ -14,7 +15,7 @@ for file in ${XML_FILES[@]}; do
   fi
 done
 
-if [ ERRORS ]; then
+if $ERRORS; then
   exit 1
 fi
 
