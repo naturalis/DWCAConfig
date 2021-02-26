@@ -1,3 +1,4 @@
 language: shell
 
-script: ./scripts/validate-xml.sh
+script: 
+ - ./scripts/validate-xml.sh
