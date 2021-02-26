@@ -1,7 +1,7 @@
 language: shell
 
 notifications:
-  slack: naturalis:ezcm1O2U6hlcJ5tWsWrBAqRF
+  slack: naturalis:QHKSl3FfLskZbOMEM8JDDDrD
 
 before_install:
     - sudo apt-get install libxml2-utils
