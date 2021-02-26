@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+acceptedName<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataset-config xmlns="http://data.naturalis.nl/nba-dataset-config">
 	<entity name="taxon">
 		<data-source>
@@ -48,16 +48,16 @@
 				<path>defaultClassification.family</path>
 			</field>
 			<field name="genus" term="http://rs.tdwg.org/dwc/terms/genus">
-				<path>defaultClassification.genus</path>
+				<path>acceptedName.genus</path>
 			</field>
 			<field name="subgenus" term="http://rs.tdwg.org/dwc/terms/subgenus">
-				<path>defaultClassification.subgenus</path>
+				<path>acceptedName.subgenus</path>
 			</field>
 			<field name="specificEpithet" term="http://rs.tdwg.org/dwc/terms/specificEpithet">
-				<path>defaultClassification.specificEpithet</path>
+				<path>acceptedName.specificEpithet</path>
 			</field>
 			<field name="infraspecificEpithet" term="http://rs.tdwg.org/dwc/terms/infraspecificEpithet">
-				<path>defaultClassification.infraspecificEpithet</path>
+				<path>acceptedName.infraspecificEpithet</path>
 			</field>
 			<field name="occurrenceStatus" term="http://rs.tdwg.org/dwc/terms/occurrenceStatus">
 				<path>occurrenceStatusVerbatim</path>
