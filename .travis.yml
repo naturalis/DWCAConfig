@@ -1,0 +1,10 @@
+language: shell
+
+notifications:
+  slack: naturalis:QHKSl3FfLskZbOMEM8JDDDrD
+
+before_install:
+    - sudo apt-get install libxml2-utils
+
+script: 
+ - ./scripts/validate-xml.sh
