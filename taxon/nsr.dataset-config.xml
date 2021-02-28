@@ -8,7 +8,7 @@ acceptedName<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 					<condition>
 						<field>sourceSystem.code</field>
 						<operator>EQUALS</operator>
-						<value>NSR</value>
+						<value>nsr</value>
 					</condition>
 				</conditions>
 			</query-spec>
