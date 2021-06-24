@@ -68,8 +68,8 @@
         </pubDate>
         <language>mul</language>
         <abstract>
-            <para>Database contains specimen records from the Pisces collection of the Naturalis Biodiversity Center (Leiden, Netherlands). These specimens originate from the collections of the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden and of the former Zoological Museum Amsterdam (ZMA). The earlier published dataset at GBIF: "Zoological Museum Amsterdam, University of Amsterdam (NL) - Pisces_Types", doi.org/10.15468/ygch9c, with 1851 occurrences has been merged with this new dataset. On request more information can be provided.
-            </para>
+            <para>Database contains specimen records from the Pisces collection of the Naturalis Biodiversity Center (Leiden, Netherlands). These specimens originate from the collections of the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden and of the former Zoological Museum Amsterdam (ZMA).</para> 
+            <para>Earlier published datasets at GBIF are now incorporated in this dataset: "Zoological Museum Amsterdam, University of Amsterdam (NL) - Pisces_Types", doi.org/10.15468/ygch9c and "Naturalis National Natural History Museum (NL) – Pisces_Cichlidae of Lake Victoria", doi.org/10.15468/fsgdbe. On request more information on dataset or Pisces collection can be provided.</para>
         </abstract>
         <keywordSet>
             <keyword>Occurrence</keyword>
