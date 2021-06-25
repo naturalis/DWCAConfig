@@ -8,19 +8,6 @@
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
-<<<<<<< HEAD
-=======
-                        <value>Paleontology Invertebrates</value>
-                    </condition>
-                    <condition>
-                        <field>collectionType</field>
-                        <operator>EQUALS</operator>
-                        <value>Micropaleontology</value>
-                    </condition>
-                    <condition>
-                        <field>collectionType</field>
-                        <operator>EQUALS</operator>
->>>>>>> 2824856 (Rename paleontology.xml to paleontology.dataset-config.xml)
                         <value>Macro Vertebrates</value>
                     </condition>
                     <condition>
@@ -31,20 +18,16 @@
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
-<<<<<<< HEAD
                         <value>Micropaleontology</value>
                     </condition>
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
-=======
->>>>>>> 2824856 (Rename paleontology.xml to paleontology.dataset-config.xml)
                         <value>Paleobotany</value>
                     </condition>
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
-<<<<<<< HEAD
                         <value>Paleontology</value>
                     </condition>
                     <condition>
@@ -55,21 +38,11 @@
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
-=======
->>>>>>> 2824856 (Rename paleontology.xml to paleontology.dataset-config.xml)
                         <value>Paleontology Vertebrates</value>
                     </condition>
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
-<<<<<<< HEAD
-=======
-                        <value>Paleontology</value>
-                    </condition>
-                    <condition>
-                        <field>collectionType</field>
-                        <operator>EQUALS</operator>
->>>>>>> 2824856 (Rename paleontology.xml to paleontology.dataset-config.xml)
                         <value>Paleozoic Invertebrates</value>
                     </condition>
                 </conditions>
@@ -217,7 +190,6 @@
                 <path>gatheringEvent.biotopeText</path>
             </field>
             <field name="altitude" term="http://rs.tdwg.org/dwc/terms/verbatimElevation">
-<<<<<<< HEAD
               <!--  <path>gatheringEvent.altitude</path> -->
                 <calculator>
                     <java-class>ConcatenateCalculator</java-class>
@@ -232,12 +204,6 @@
                         <arg name="fields">gatheringEvent.depth|gatheringEvent.depthUnitOfMeasurement</arg>
                         <arg name="separator"> </arg>
                 </calculator>
-=======
-                <path>gatheringEvent.altitude</path>
-            </field>
-            <field name="depth" term="http://rs.tdwg.org/dwc/terms/verbatimDepth">
-                <path>gatheringEvent.depth</path>
->>>>>>> 2824856 (Rename paleontology.xml to paleontology.dataset-config.xml)
             </field>
             <!-- Calculator RecordedBy -->
             <field name="recordedBy" term="http://rs.tdwg.org/dwc/terms/recordedBy">
@@ -285,7 +251,6 @@
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
-<<<<<<< HEAD
                         <value>Macro Vertebrates</value>
                         <and>
                             <field>associatedSpecimenReference</field>
@@ -302,38 +267,21 @@
                             <operator>NOT_EQUALS</operator>
                             <value />
                         </and>
-=======
-                        <value>Paleontology Invertebrates</value>
->>>>>>> 2824856 (Rename paleontology.xml to paleontology.dataset-config.xml)
                     </condition>
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
                         <value>Micropaleontology</value>
-<<<<<<< HEAD
                         <and>
                             <field>associatedSpecimenReference</field>
                             <operator>NOT_EQUALS</operator>
                             <value />
                         </and>
-=======
-                    </condition>
-                    <condition>
-                        <field>collectionType</field>
-                        <operator>EQUALS</operator>
-                        <value>Macro Vertebrates</value>
-                    </condition>
-                    <condition>
-                        <field>collectionType</field>
-                        <operator>EQUALS</operator>
-                        <value>Micro Vertebrates</value>
->>>>>>> 2824856 (Rename paleontology.xml to paleontology.dataset-config.xml)
                     </condition>
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
                         <value>Paleobotany</value>
-<<<<<<< HEAD
                         <and>
                             <field>associatedSpecimenReference</field>
                             <operator>NOT_EQUALS</operator>
@@ -359,43 +307,26 @@
                             <operator>NOT_EQUALS</operator>
                             <value />
                         </and>
-=======
->>>>>>> 2824856 (Rename paleontology.xml to paleontology.dataset-config.xml)
                     </condition>
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
                         <value>Paleontology Vertebrates</value>
-<<<<<<< HEAD
                         <and>
                             <field>associatedSpecimenReference</field>
                             <operator>NOT_EQUALS</operator>
                             <value />
                         </and>
-=======
-                    </condition>
-                    <condition>
-                        <field>collectionType</field>
-                        <operator>EQUALS</operator>
-                        <value>Paleontology</value>
->>>>>>> 2824856 (Rename paleontology.xml to paleontology.dataset-config.xml)
                     </condition>
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
                         <value>Paleozoic Invertebrates</value>
-<<<<<<< HEAD
                         <and>
                             <field>associatedSpecimenReference</field>
                             <operator>NOT_EQUALS</operator>
                             <value />
                         </and>
-=======
-                    </condition>
-                    <condition>
-                        <field>associatedSpecimenReference</field>
-                        <operator>NOT_EQUALS</operator>
->>>>>>> 2824856 (Rename paleontology.xml to paleontology.dataset-config.xml)
                     </condition>
                 </conditions>
             </query-spec>
