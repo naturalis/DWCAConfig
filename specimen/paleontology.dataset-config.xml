@@ -8,16 +8,6 @@
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
-                        <value>Paleontology Invertebrates</value>
-                    </condition>
-                    <condition>
-                        <field>collectionType</field>
-                        <operator>EQUALS</operator>
-                        <value>Micropaleontology</value>
-                    </condition>
-                    <condition>
-                        <field>collectionType</field>
-                        <operator>EQUALS</operator>
                         <value>Macro Vertebrates</value>
                     </condition>
                     <condition>
@@ -28,17 +18,27 @@
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
+                        <value>Micropaleontology</value>
+                    </condition>
+                    <condition>
+                        <field>collectionType</field>
+                        <operator>EQUALS</operator>
                         <value>Paleobotany</value>
                     </condition>
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
-                        <value>Paleontology Vertebrates</value>
+                        <value>Paleontology</value>
                     </condition>
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
-                        <value>Paleontology</value>
+                        <value>Paleontology Invertebrates</value>
+                    </condition>
+                    <condition>
+                        <field>collectionType</field>
+                        <operator>EQUALS</operator>
+                        <value>Paleontology Vertebrates</value>
                     </condition>
                     <condition>
                         <field>collectionType</field>
@@ -241,46 +241,82 @@
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
-                        <value>Paleontology Invertebrates</value>
-                    </condition>
-                    <condition>
-                        <field>collectionType</field>
-                        <operator>EQUALS</operator>
-                        <value>Micropaleontology</value>
-                    </condition>
-                    <condition>
-                        <field>collectionType</field>
-                        <operator>EQUALS</operator>
                         <value>Macro Vertebrates</value>
+                        <and>
+                            <field>associatedSpecimenReference</field>
+                            <operator>NOT_EQUALS</operator>
+                            <value />
+                        </and>
                     </condition>
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
                         <value>Micro Vertebrates</value>
+                        <and>
+                            <field>associatedSpecimenReference</field>
+                            <operator>NOT_EQUALS</operator>
+                            <value />
+                        </and>
+                    </condition>
+                    <condition>
+                        <field>collectionType</field>
+                        <operator>EQUALS</operator>
+                        <value>Micropaleontology</value>
+                        <and>
+                            <field>associatedSpecimenReference</field>
+                            <operator>NOT_EQUALS</operator>
+                            <value />
+                        </and>
                     </condition>
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
                         <value>Paleobotany</value>
-                    </condition>
-                    <condition>
-                        <field>collectionType</field>
-                        <operator>EQUALS</operator>
-                        <value>Paleontology Vertebrates</value>
+                        <and>
+                            <field>associatedSpecimenReference</field>
+                            <operator>NOT_EQUALS</operator>
+                            <value />
+                        </and>
                     </condition>
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
                         <value>Paleontology</value>
+                        <and>
+                            <field>associatedSpecimenReference</field>
+                            <operator>NOT_EQUALS</operator>
+                            <value />
+                        </and>
+                    </condition>
+                    <condition>
+                        <field>collectionType</field>
+                        <operator>EQUALS</operator>
+                        <value>Paleontology Invertebrates</value>
+                        <and>
+                            <field>associatedSpecimenReference</field>
+                            <operator>NOT_EQUALS</operator>
+                            <value />
+                        </and>
+                    </condition>
+                    <condition>
+                        <field>collectionType</field>
+                        <operator>EQUALS</operator>
+                        <value>Paleontology Vertebrates</value>
+                        <and>
+                            <field>associatedSpecimenReference</field>
+                            <operator>NOT_EQUALS</operator>
+                            <value />
+                        </and>
                     </condition>
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
                         <value>Paleozoic Invertebrates</value>
-                    </condition>
-                    <condition>
-                        <field>associatedSpecimenReference</field>
-                        <operator>NOT_EQUALS</operator>
+                        <and>
+                            <field>associatedSpecimenReference</field>
+                            <operator>NOT_EQUALS</operator>
+                            <value />
+                        </and>
                     </condition>
                 </conditions>
             </query-spec>
