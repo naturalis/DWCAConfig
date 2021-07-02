@@ -64,12 +64,14 @@
             <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </metadataProvider>
         <pubDate>
-            2021-05-25
+            2021-07-12
         </pubDate>
         <language>mul</language>
         <abstract>
-            <para>Database contains paleontology specimen records from of the Naturalis Biodiversity Center (Leiden, Netherlands). The specimens come from the former National Museum of Geology and Mineralogy (RGM; Rijksmuseum voor Geologie en Mineralogie).
+            <para>The paleontology dataset contains all registered paleontological specimens of the Naturalis Biodiversity Center (Leiden, Netherlands), excluding the Caenozoic mollusca, which has been published at GBIF as another dataset . Datasets of parts of the Naturalis paleontology collection that have been published before at GBIF are fully incorporated in this dataset. These published subcollections at Naturalis are the following: Paleobotany (https://doi.org/10.15468/rns2vl), Paleontology Invertebrates (https://doi.org/10.15468/qjqpob), Micropaleontology (https://doi.org/10.15468/utqe8q) and will be deactivated soon.
             </para>
+	   <para>The specimens come from the former National Museum of Geology and Mineralogy (RGM; Rijksmuseum voor Geologie en Mineralogie) and National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, which is now Naturalis.
+            </para>     
         </abstract>
         <keywordSet>
             <keyword>Occurrence</keyword>
@@ -124,7 +126,7 @@
     <additionalMetadata>
         <metadata>
             <gbif>
-                <dateStamp>2014-03-26T12:21:26.148+00:00</dateStamp>
+                <dateStamp></dateStamp>
                 <hierarchyLevel>dataset</hierarchyLevel>
                 <resourceLogoUrl>http://ipt.nlbif.nl/resources/logo_Naturalis_rood.png</resourceLogoUrl>
                 <dc:replaces />
