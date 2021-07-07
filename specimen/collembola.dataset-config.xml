@@ -172,6 +172,7 @@
                         <arg name="separator"> </arg>
                 </calculator>
             <!-- Calculator RecordedBy -->
+            </field>
             <field name="recordedBy" term="http://rs.tdwg.org/dwc/terms/recordedBy">
                 <calculator>
                     <java-class>RecordedByCalculator</java-class>
