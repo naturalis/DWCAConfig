@@ -171,6 +171,7 @@
                         <arg name="fields">gatheringEvent.depth|gatheringEvent.depthUnitOfMeasurement</arg>
                         <arg name="separator"> </arg>
                 </calculator>
+            </field>
             <!-- Calculator RecordedBy -->
             <field name="recordedBy" term="http://rs.tdwg.org/dwc/terms/recordedBy">
                 <calculator>
