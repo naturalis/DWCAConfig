@@ -2,16 +2,16 @@
          xmlns:dc="http://purl.org/dc/terms/"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
-         packageId="19828488-7ebf-43f8-88af-6461d8afef9e" system="http://gbif.org" scope="system"
+         packageId="xxxxxxxxxxxxxxxxxxxx" system="http://gbif.org" scope="system"
          xml:lang="eng">
 
     <dataset>
-        <alternateIdentifier>doi:10.15468/evijly</alternateIdentifier>
-        <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Pisces</title>
+        <alternateIdentifier></alternateIdentifier>
+        <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Micropaleontology</title>
         <creator>
             <individualName>
-                <givenName>Esther</givenName>
-                <surName>Dondorp</surName>
+                <givenName>Natasja</givenName>
+                <surName>den Ouden</surName>
             </individualName>
             <organizationName>Naturalis Biodiversity Center</organizationName>
             <positionName>Curator</positionName>
@@ -24,7 +24,7 @@
             </address>
             <phone>+31.71.7519600</phone>
             <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
-            <onlineUrl>https://naturalis.nl/en/collection</onlineUrl>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </creator>
         <creator>
             <individualName>
@@ -40,15 +40,15 @@
                 <postalCode>NL-2300 RA</postalCode>
                 <country>NL</country>
             </address>
-            <phone></phone>
-            <electronicMailAddress></electronicMailAddress>
-            <onlineUrl></onlineUrl>
+            <phone />
+            <electronicMailAddress />
+            <onlineUrl />
             <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
         </creator>
         <metadataProvider>
             <individualName>
-                <givenName>Esther</givenName>
-                <surName>Dondorp</surName>
+                <givenName>Natasja</givenName>
+                <surName>den Ouden</surName>
             </individualName>
             <organizationName>Naturalis Biodiversity Center</organizationName>
             <positionName>Curator</positionName>
@@ -61,15 +61,17 @@
             </address>
             <phone>+31.71.7519600</phone>
             <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
-            <onlineUrl>https://naturalis.nl/en/collection</onlineUrl>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </metadataProvider>
         <pubDate>
-            2019-07-30
+            2021-07-12
         </pubDate>
         <language>mul</language>
         <abstract>
-            <para>Database contains specimen records from the Pisces collection of the Naturalis Biodiversity Center (Leiden, Netherlands). These specimens originate from the collections of the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden and of the former Zoological Museum Amsterdam (ZMA).</para> 
-            <para>Earlier published datasets at GBIF are now incorporated in this dataset: "Zoological Museum Amsterdam, University of Amsterdam (NL) - Pisces_Types", doi.org/10.15468/ygch9c and "Naturalis National Natural History Museum (NL) – Pisces_Cichlidae of Lake Victoria", doi.org/10.15468/fsgdbe. On request more information on dataset or Pisces collection can be provided.</para>
+            <para>The paleontology dataset contains all registered paleontological specimens of the Naturalis Biodiversity Center (Leiden, Netherlands), excluding the Caenozoic mollusca, which has been published at GBIF as another dataset . Datasets of parts of the Naturalis paleontology collection that have been published before at GBIF are fully incorporated in this dataset. These published subcollections at Naturalis are the following: Paleobotany (https://doi.org/10.15468/rns2vl), Paleontology Invertebrates (https://doi.org/10.15468/qjqpob), Micropaleontology (https://doi.org/10.15468/utqe8q) and will be deactivated soon.
+            </para>
+	   <para>The specimens come from the former National Museum of Geology and Mineralogy (RGM; Rijksmuseum voor Geologie en Mineralogie) and National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, which is now Naturalis.
+            </para>     
         </abstract>
         <keywordSet>
             <keyword>Occurrence</keyword>
@@ -88,12 +90,12 @@
                     <citetitle>Public Domain (CC0 1.0)</citetitle>
                 </ulink>
                 . Users may copy, modify, distribute and use the work, including for commercial purposes, without
-                restriction
+                restriction.
             </para>
         </intellectualRights>
         <coverage>
             <geographicCoverage>
-                <geographicDescription>Global coverage</geographicDescription>
+                <geographicDescription>Global description</geographicDescription>
                 <boundingCoordinates>
                     <westBoundingCoordinate>-180</westBoundingCoordinate>
                     <eastBoundingCoordinate>180</eastBoundingCoordinate>
@@ -104,8 +106,8 @@
         </coverage>
         <contact>
             <individualName>
-                <givenName>Esther</givenName>
-                <surName>Dondorp</surName>
+                <givenName>Natasja</givenName>
+                <surName>den Ouden</surName>
             </individualName>
             <organizationName>Naturalis Biodiversity Center</organizationName>
             <positionName>Curator</positionName>
@@ -118,13 +120,13 @@
             </address>
             <phone>+31.71.7519600</phone>
             <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
-            <onlineUrl>https://naturalis.nl/en/collection</onlineUrl>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </contact>
     </dataset>
     <additionalMetadata>
         <metadata>
             <gbif>
-                <dateStamp>2016-08-03T09:00:00.000+01:00</dateStamp>
+                <dateStamp></dateStamp>
                 <hierarchyLevel>dataset</hierarchyLevel>
                 <resourceLogoUrl>http://ipt.nlbif.nl/resources/logo_Naturalis_rood.png</resourceLogoUrl>
                 <dc:replaces />

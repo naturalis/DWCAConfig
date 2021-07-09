@@ -157,10 +157,20 @@
                 <path>gatheringEvent.biotopeText</path>
             </field>
             <field name="altitude" term="http://rs.tdwg.org/dwc/terms/verbatimElevation">
-                <path>gatheringEvent.altitude</path>
+              <!--  <path>gatheringEvent.altitude</path> -->
+                <calculator>
+                    <java-class>ConcatenateCalculator</java-class>
+                        <arg name="fields">gatheringEvent.altitude|gatheringEvent.altitudeUnifOfMeasurement</arg>
+                        <arg name="separator"> </arg>
+                </calculator>
             </field>
             <field name="depth" term="http://rs.tdwg.org/dwc/terms/verbatimDepth">
-                <path>gatheringEvent.depth</path>
+              <!--  <path>gatheringEvent.depth</path> -->
+                <calculator>
+                    <java-class>ConcatenateCalculator</java-class>
+                        <arg name="fields">gatheringEvent.depth|gatheringEvent.depthUnitOfMeasurement</arg>
+                        <arg name="separator"> </arg>
+                </calculator> 
             </field>
             <!-- Calculator RecordedBy -->
             <field name="recordedBy" term="http://rs.tdwg.org/dwc/terms/recordedBy">

@@ -155,10 +155,11 @@
                 </calculator>
             </field>
             <!-- Calculator verbatimEventDate -->
-            <field name="verbatimEventDate" term="http://rs.tdwg.org/dwc/terms/verbatimEventDate">
-                <calculator>
+             <field name="verbatimEventDate" term="http://rs.tdwg.org/dwc/terms/verbatimEventDate">
+             <!--  <calculator>
                     <java-class>VerbatimEventDateCalculator</java-class>
-                </calculator>
+                </calculator> -->
+               <path>gatheringEvent.dateText</path>
             </field>
             <!-- Calculator higherClassification -->
             <field name="higherClassification" term="http://rs.tdwg.org/dwc/terms/higherClassification">
