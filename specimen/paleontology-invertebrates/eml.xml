@@ -67,7 +67,8 @@
         </pubDate>
         <language>mul</language>
         <abstract>
-            <para>Database contains specimen records from the Paleontology Invertebrate collection of the Naturalis Biodiversity Center (Leiden, Netherlands). The zoological specimens come from the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden. </para>
+            <para>Database contains specimen records from the Paleontology Invertebrate collection of the Naturalis Biodiversity Center (Leiden, Netherlands). The zoological specimens come from the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden.</para>
+            <para>This dataset is now fully incorporated in the Naturalis Paleontology dataset (https://doi.org/10.15468/57f7n4).</para>
         </abstract>
         <keywordSet>
             <keyword>Occurrence</keyword>
