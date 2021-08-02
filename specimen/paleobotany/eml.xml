@@ -70,6 +70,7 @@
         <abstract>
             <para>Database contains specimen records from the Paleobotany collection of the Naturalis Biodiversity Center (Leiden, Netherlands). On request more information can be provided.
             </para>
+            <para>This dataset is now fully incorporated in the Naturalis Paleontology dataset (https://doi.org/10.15468/57f7n4).</para>
         </abstract>
         <keywordSet>
             <keyword>Occurrence</keyword>

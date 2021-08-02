@@ -2,12 +2,12 @@
          xmlns:dc="http://purl.org/dc/terms/"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
-         packageId="xxxxxxxxxxxxxxxxxxxx" system="http://gbif.org" scope="system"
+         packageId="ea233ece-c4fb-4fb8-bf98-f16235c4144c" system="http://gbif.org" scope="system"
          xml:lang="eng">
 
     <dataset>
         <alternateIdentifier></alternateIdentifier>
-        <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Micropaleontology</title>
+        <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Paleontology</title>
         <creator>
             <individualName>
                 <givenName>Natasja</givenName>
