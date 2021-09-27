@@ -1,0 +1,181 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+         packageId="TO-BE-ADDED" system="http://gbif.org" scope="system"
+         xml:lang="eng">
+
+    <dataset>
+        <alternateIdentifier>TO-BE-ADDED</alternateIdentifier>
+        <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Entomology Miscellaneous</title>
+        <creator>
+            <individualName>
+                <givenName>Frederique</givenName>
+                <surName>Bakker</surName>
+            </individualName>
+            <organizationName>Naturalis</organizationName>
+            <positionName>Curator</positionName>
+            <address>
+                <deliveryPoint>PO Box 9517</deliveryPoint>
+                <city>Leiden</city>
+                <administrativeArea>Zuid Holland</administrativeArea>
+                <postalCode>NL-2300 RA</postalCode>
+                <country>NL</country>
+            </address>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Jeroen</givenName>
+                <surName>Creuwels</surName>
+            </individualName>
+            <organizationName>Naturalis Biodiversity Center</organizationName>
+            <positionName>Data manager</positionName>
+            <address>
+                <deliveryPoint>PO Box 9517</deliveryPoint>
+                <city>Leiden</city>
+                <administrativeArea>Zuid Holland</administrativeArea>
+                <postalCode>NL-2300 RA</postalCode>
+                <country>NL</country>
+            </address>
+            <phone />
+            <electronicMailAddress />
+            <onlineUrl />
+            <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
+        </creator>
+        <metadataProvider>
+            <individualName>
+                <givenName>Frederique</givenName>
+                <surName>Bakker</surName>
+            </individualName>
+            <organizationName>Naturalis</organizationName>
+            <positionName>Curator</positionName>
+            <address>
+                <deliveryPoint>PO Box 9517</deliveryPoint>
+                <city>Leiden</city>
+                <administrativeArea>Zuid Holland</administrativeArea>
+                <postalCode>NL-2300 RA</postalCode>
+                <country>NL</country>
+            </address>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
+        </metadataProvider>
+        <pubDate>
+            2021-10-01
+        </pubDate>
+        <language>mul</language>
+        <abstract>
+            <para>Database contains specimen records from the Ento collection of the Naturalis Biodiversity Center (Leiden, Netherlands). The specimens come from the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden and the Zoological Museum Amsterdam (ZMA) and new acquisitions.The old registration numbers of the former institutions (RMNH, ZMA) are also mentioned in the dataset. 
+            </para>
+        </abstract>
+        <keywordSet>
+            <keyword></keyword>
+            <keyword></keyword>
+            <keyword/>
+            <keywordThesaurus>n/a</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Occurrence</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml
+            </keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Specimen</keyword>
+            <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml
+            </keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated
+                them to the
+                <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode">
+                    <citetitle>Public Domain (CC0 1.0)</citetitle>
+                </ulink>
+                . Users may copy, modify, distribute and use the work, including for commercial purposes, without
+                restriction
+            </para>
+        </intellectualRights>
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>Global coverage</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>-180</westBoundingCoordinate>
+                    <eastBoundingCoordinate>180</eastBoundingCoordinate>
+                    <northBoundingCoordinate>90</northBoundingCoordinate>
+                    <southBoundingCoordinate>-90</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <taxonomicCoverage>
+                <generalTaxonomicCoverage>The collection contains blablabla
+                </generalTaxonomicCoverage>
+                <taxonomicClassification>
+                    <taxonRankName></taxonRankName>
+                    <taxonRankValue></taxonRankValue>
+                    <commonName></commonName>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName></taxonRankName>
+                    <taxonRankValue></taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName></taxonRankName>
+                    <taxonRankValue></taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName></taxonRankName>
+                    <taxonRankValue></taxonRankValue>
+                    <commonName></commonName>
+                </taxonomicClassification>
+            </taxonomicCoverage>
+        </coverage>
+        <contact>
+            <individualName>
+                <givenName>Frederique</givenName>
+                <surName>Bakker</surName>
+            </individualName>
+            <organizationName>Naturalis</organizationName>
+            <positionName>Curator</positionName>
+            <address>
+                <deliveryPoint>PO Box 9517</deliveryPoint>
+                <city>Leiden</city>
+                <administrativeArea>Zuid Holland</administrativeArea>
+                <postalCode>NL-2300 RA</postalCode>
+                <country>NL</country>
+            </address>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <para>The original temporal information of the records includes both single dates and time intervals (e.g. 17 June 1980 or June 1980, which could be any date between 1980-06-01 and 1980-06-30). Since GBIF cannot handle time intervals, only the first day of a period is recorded in the eventDate term. The original date is stored in the verbatimEventDate term. </para>
+                </description>
+            </methodStep>
+            <sampling>
+                <studyExtent>
+                    <description>
+                        <para>n/a</para>
+                    </description>
+                </studyExtent>
+                <samplingDescription>
+                    <para>n/a</para>
+                </samplingDescription>
+            </sampling>
+        </methods>
+    </dataset>
+    <additionalMetadata>
+        <metadata>
+            <gbif>
+                <dateStamp></dateStamp>
+                <hierarchyLevel>dataset</hierarchyLevel>
+                <resourceLogoUrl>http://ipt.nlbif.nl/resources/logo_Naturalis_rood.png</resourceLogoUrl>
+                <formationPeriod></formationPeriod>
+                <livingTimePeriod></livingTimePeriod>
+                <dc:replaces />
+            </gbif>
+        </metadata>
+    </additionalMetadata>
+</eml:eml>
