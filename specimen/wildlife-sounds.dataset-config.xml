@@ -31,6 +31,12 @@
             <field name="collectionCode" term="http://rs.tdwg.org/dwc/terms/collectionCode">
                 <path>collectionType</path>
             </field>
+            <field name="dynamicProperties" term="http://rs.tdwg.org/dwc/terms/dynamicProperties">
+                <path>dynamicProperties</path>
+            </field>
+            <field name="catalogNumber" term="http://rs.tdwg.org/dwc/terms/catalogNumber">
+                <path>previousUnitsText</path>
+            </field>
             <!-- TAXONOMY FIELDS -->
             <field name="genus" term="http://rs.tdwg.org/dwc/terms/genus">
                 <path>identifications.0.scientificName.genusOrMonomial</path>
@@ -119,6 +125,15 @@
             <field name="behavior" term="http://rs.tdwg.org/dwc/terms/behavior">
                 <path>gatheringEvent.behavior</path>
             </field>
+            <field name="sex" term="http://rs.tdwg.org/dwc/terms/sex">
+                <path>sex</path>
+            </field>
+            <field name="lifeStage" term="http://rs.tdwg.org/dwc/terms/lifeStage">
+                <path>phaseOrStage</path>
+            </field>
+            <field name="preparations" term="http://rs.tdwg.org/dwc/terms/preparations">
+                <path>preparationType</path>
+            </field>
             <!-- Calculator associatedMedia -->
             <field name="associatedMedia" term="http://rs.tdwg.org/dwc/terms/associatedMedia">
                 <calculator>
@@ -150,7 +165,7 @@
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
-                        <value>Bird sounds</value>
+                        <value>Wildlife sounds</value>
                     </condition>
                     <condition>
                         <field>associatedSpecimenReference</field>
@@ -197,6 +212,12 @@
             </field>
             <field name="resourceCreationTechnique" term="http://rs.tdwg.org/ac/terms/resourceCreationTechnique">
                 <path>resourceCreationTechnique</path>
+            </field>
+            <field name="captureDevice" term="http://rs.tdwg.org/ac/terms/captureDevice">
+                <path>captureDevice</path>
+            </field>
+            <field name="physicalSetting" term="http://rs.tdwg.org/ac/terms/physicalSetting">
+                <path>physicalSetting</path>
             </field>
             <field name="license" term="http://purl.org/dc/terms/rights">
                 <path>license</path>
