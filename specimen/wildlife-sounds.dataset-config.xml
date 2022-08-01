@@ -134,7 +134,7 @@
             <field name="preparations" term="http://rs.tdwg.org/dwc/terms/preparations">
                 <path>preparationType</path>
             </field>
-            <!-- Calculator associatedMedia --> <!-- Marie advised to remove this -->
+            <!-- Calculator associatedMedia -->
             <field name="associatedMedia" term="http://rs.tdwg.org/dwc/terms/associatedMedia">
                <calculator>
                    <java-class>SpecimenMultiMediaCalculator</java-class>
