@@ -167,7 +167,9 @@
                 <path>recordURI</path>
             </field>
             <field name="type" term="http://purl.org/dc/elements/1.1/type">
-                <path>type</path>
+                <calculator>
+                    <java-class>MultiMediaTypeCalculator</java-class>
+                </calculator>
             </field>
             <field name="Rating" term="http://ns.adobe.com/xap/1.0/Rating">
                 <path>rating</path>
