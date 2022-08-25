@@ -29,7 +29,7 @@
                 <surName>Vellinga</surName>
             </individualName>
             <organizationName>Stichting Xeno-canto voor Natuurgeluiden</organizationName>
-            <positionName/>
+            <positionName>Chair<positionName/>
             <address>
                 <deliveryPoint/>
                 <city/>
@@ -39,7 +39,8 @@
             </address>
             <phone/>
             <electronicMailAddress>wp@xeno-canto.org</electronicMailAddress>
-            <onlineUrl/>
+            <userId directory="http://orcid.org/">0000-0003-3886-5088</userId>
+            <onlineUrl>www.xeno-canto.org</onlineUrl>
         </metadataProvider>
         <associatedParty>
             <individualName>
@@ -96,16 +97,15 @@
         </associatedParty>
         <pubDate>2019-01-16</pubDate>
         <language>en</language>
-        <abstract>
-            <para>Xeno-canto (XC) is an online database that provides access to sound recordings of wild birds from around the world. The recordings are shared by a growing community of thousands of recordists from around the world, amateur birdwatchers and professionals alike. The aim of Xeno-canto is to have representation of all bird sounds, meaning all taxa, to subspecies level, their complete repertoire, all of the geographic variability, at all stages of development.
+        <para>Xeno-canto (XC) is an online database that provides access to sound recordings of wildlife from around the world. The recordings are shared by a growing community of thousands of recordists from around the world, amateurs and professionals alike. The aim of Xeno-canto is to eventually represent sounds of all animals, meaning of all taxa, to subspecies level, of their complete repertoire, with all of the geographic variability, at all stages of development.
             </para>
-            <para>The website of Xeno-canto (www.xeno-canto.org) was launched in 2005. It is run by the Xeno-canto Foundation for Nature Sounds in The Netherlands, with support from Naturalis Biodiversity Center.
+            <para>The website of Xeno-canto (www.xeno-canto.org) was launched in 2005, and initially focussed on Neotropical birds. The scope of Xeno-canto is gradually widening. It is run by the Xeno-canto Foundation for Nature Sounds in The Netherlands, with support from Naturalis Biodiversity Center.
             </para>
-            <para>Please note that the Xeno-canto dataset shared on GBIF is currently a subset of the entire XC collection. Only the recordings by recordists who have given their permission to share recording metadata with GBIF are shared at the moment. We expect the dataset to increase over time, as more recordists give permission to share data with GBIF.
+            <para>Please note that the Xeno-canto dataset shared on GBIF is currently a subset of the entire XC collection that is available on www.xeno-canto.org. Only the recordings by recordists who have given their permission to share recording metadata with GBIF are shared at the moment. We expect the dataset to increase over time, as more recordists give permission to share data with GBIF.
             </para>
         </abstract>
         <keywordSet>
-            <keyword>aves, birds, bird sounds</keyword>
+            <keyword>aves, birds, bird sounds, orthoptera, orthoptera sounds, animalia, animal sounds, wildlife sounds</keyword>
             <keywordThesaurus>n/a</keywordThesaurus>
         </keywordSet>
         <keywordSet>
@@ -140,7 +140,7 @@
                 </boundingCoordinates>
             </geographicCoverage>
             <taxonomicCoverage>
-                <generalTaxonomicCoverage>Birds, with taxonomy based on IOC World Bird List.</generalTaxonomicCoverage>
+                <generalTaxonomicCoverage>Aves (taxonomy based on IOC World Bird List), Orthoptera (taxonomy based on Orthoptera Species File).</generalTaxonomicCoverage>
                 <taxonomicClassification>
                     <taxonRankName>Class</taxonRankName>
                     <taxonRankValue>Aves</taxonRankValue>
@@ -198,7 +198,8 @@
                 <para/>
             </abstract>
             <funding>
-                <para/>
+                <para>Transfer of metadata to GBIF has been in large part funded by NLBIF in projects Natu161220is01 and nlbif2020.004.
+				</para>
             </funding>
             <studyAreaDescription>
                 <descriptor citableClassificationSystem="false" name="generic">
@@ -217,7 +218,7 @@
             <gbif>
                 <dateStamp/>
                 <formationPeriod>1900-current</formationPeriod>
-                <citation>Vellinga, W.P., Planque, R. &amp; Xeno-canto foundation (2005- ), Xeno-canto - bird sounds from around the world. GBIF subset, accessed at ....
+                <citation>Vellinga, W.P., Planque, R. &amp; Xeno-canto foundation (2005- ), Xeno-canto - wildlife sounds from around the world. GBIF subset, accessed at ....
                 </citation>
                 <bibliography>
                     <citation>Vellinga, W.P. &amp; R. Planque (2015). CLEF2015 Working Notes, CEUR Workshop proceedings Vol-1391.
