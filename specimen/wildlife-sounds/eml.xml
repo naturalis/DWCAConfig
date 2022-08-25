@@ -29,11 +29,7 @@
                 <surName>Vellinga</surName>
             </individualName>
             <organizationName>Stichting Xeno-canto voor Natuurgeluiden</organizationName>
-<<<<<<< HEAD
             <positionName>Chair</positionName>
-=======
-            <positionName>Chair<positionName/>
->>>>>>> 843a17b (Update eml.xml)
             <address>
                 <deliveryPoint/>
                 <city/>
@@ -101,12 +97,8 @@
         </associatedParty>
         <pubDate>2019-01-16</pubDate>
         <language>en</language>
-<<<<<<< HEAD
         <abstract>
 	    <para>Xeno-canto (XC) is an online database that provides access to sound recordings of wildlife from around the world. The recordings are shared by a growing community of thousands of recordists from around the world, amateurs and professionals alike. The aim of Xeno-canto is to eventually represent sounds of all animals, meaning of all taxa, to subspecies level, of their complete repertoire, with all of the geographic variability, at all stages of development.
-=======
-        <para>Xeno-canto (XC) is an online database that provides access to sound recordings of wildlife from around the world. The recordings are shared by a growing community of thousands of recordists from around the world, amateurs and professionals alike. The aim of Xeno-canto is to eventually represent sounds of all animals, meaning of all taxa, to subspecies level, of their complete repertoire, with all of the geographic variability, at all stages of development.
->>>>>>> 843a17b (Update eml.xml)
             </para>
             <para>The website of Xeno-canto (www.xeno-canto.org) was launched in 2005, and initially focussed on Neotropical birds. The scope of Xeno-canto is gradually widening. It is run by the Xeno-canto Foundation for Nature Sounds in The Netherlands, with support from Naturalis Biodiversity Center.
             </para>
@@ -213,11 +205,7 @@
             </abstract>
             <funding>
                 <para>Transfer of metadata to GBIF has been in large part funded by NLBIF in projects Natu161220is01 and nlbif2020.004.
-<<<<<<< HEAD
 		</para>
-=======
-				</para>
->>>>>>> 843a17b (Update eml.xml)
             </funding>
             <studyAreaDescription>
                 <descriptor citableClassificationSystem="false" name="generic">
