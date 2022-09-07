@@ -179,7 +179,7 @@
                 <path>associatedSpecimenReference</path>
             </field>
             <field name="Identifier" term="http://purl.org/dc/terms/identifier">
-                <path>recordURI</path>
+                <path>serviceAccessPoints.0.accessUri</path>
             </field>
             <field name="type" term="http://purl.org/dc/elements/1.1/type">
                 <path>type</path>
