@@ -147,6 +147,11 @@
                     <taxonRankValue>Aves</taxonRankValue>
                     <commonName>Birds</commonName>
                 </taxonomicClassification>
+		 <taxonomicClassification>
+                    <taxonRankName>Order</taxonRankName>
+                    <taxonRankValue>Orthoptera</taxonRankValue>
+                    <commonName>Grasshoppers</commonName>
+                </taxonomicClassification>    
             </taxonomicCoverage>
             <!-- No <temporalCoverage></temporalCoverage> because Formation period has been used -->
         </coverage>
