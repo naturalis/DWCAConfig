@@ -178,6 +178,9 @@
             <field name="CoreId" term="CoreId">
                 <path>associatedSpecimenReference</path>
             </field>
+             <field name="associatedObservationReference" term="http://rs.tdwg.org/ac/terms/associatedObservationReference">
+                <path>recordURI</path>
+            </field>
             <field name="Identifier" term="http://purl.org/dc/terms/identifier">
                 <path>serviceAccessPoints.0.accessUri</path>
             </field>
