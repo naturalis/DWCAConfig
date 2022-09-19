@@ -34,8 +34,8 @@
             <field name="dynamicProperties" term="http://rs.tdwg.org/dwc/terms/dynamicProperties">
                 <path>dynamicProperties</path>
             </field>
-            <field name="catalogNumber" term="http://rs.tdwg.org/dwc/terms/catalogNumber">
-                <path>previousUnitsText</path>
+            <field name="otherCatalogNumbers" term="http://rs.tdwg.org/dwc/terms/otherCatalogNumbers">                
+                <path>previousUnitsText</path>            
             </field>
             <!-- TAXONOMY FIELDS -->
             <field name="genus" term="http://rs.tdwg.org/dwc/terms/genus">
