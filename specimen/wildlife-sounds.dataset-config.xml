@@ -135,11 +135,11 @@
                 <path>preparationType</path>
             </field>
             <!-- Calculator associatedMedia --> <!-- Marie advised to remove this -->
-            <!-- <field name="associatedMedia" term="http://rs.tdwg.org/dwc/terms/associatedMedia"> -->
-            <!--    <calculator> -->
-            <!--        <java-class>SpecimenMultiMediaCalculator</java-class> -->
-            <!--    </calculator> -->
-            <!--</field> -->
+            <field name="associatedMedia" term="http://rs.tdwg.org/dwc/terms/associatedMedia">
+               <calculator>
+                   <java-class>SpecimenMultiMediaCalculator</java-class>
+               </calculator>
+            </field>
             <!-- OTHER FIELDS -->
             <field name="references" term="http://purl.org/dc/terms/references">
                 <path>unitGUID</path>
