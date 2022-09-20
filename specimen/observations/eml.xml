@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         packageId="INVULLEN" scope="system" system="http://gbif.org" xml:lang="en"
+         packageId="8a863029-f435-446a-821e-275f4f641165" scope="system" system="http://gbif.org" xml:lang="en"
          xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd">
     <dataset>
         <alternateIdentifier />
@@ -42,25 +42,6 @@
             <onlineUrl>https://observation.org</onlineUrl>
             <role />
         </metadataProvider>
-        <associatedParty>
-            <individualName>
-                <givenName>Timo</givenName>
-                <surName>Roeke</surName>
-            </individualName>
-            <organizationName>Observation International</organizationName>
-            <positionName>Project Leader</positionName>
-            <address>
-                <deliveryPoint>Oude Deldensestraat 8</deliveryPoint>
-                <city>Borne</city>
-                <administrativeArea>Overijssel</administrativeArea>
-                <postalCode>7622 LP</postalCode>
-                <country>Netherlands</country>
-            </address>
-            <phone>+316 415 21 260</phone>
-            <electronicMailAddress>timo@waarneming.nl</electronicMailAddress>
-            <onlineUrl />
-            <role />
-        </associatedParty>
         <pubDate />
         <language>en</language>
         <abstract>
@@ -226,16 +207,7 @@
                     <commonName />
                 </taxonomicClassification>
             </taxonomicCoverage>
-            <temporalCoverage>
-                <rangeOfDates>
-                    <beginDate>
-                        <calendarDate>1900-01-01</calendarDate>
-                    </beginDate>
-                    <endDate>
-                        <calendarDate>2020-01-01</calendarDate>
-                    </endDate>
-                </rangeOfDates>
-            </temporalCoverage>
+            <temporalCoverage/>
         </coverage>
         <contact>
             <individualName>
@@ -312,6 +284,7 @@
                     <citation />
                 </bibliography>
                 <resourceLogoUrl />
+                <formationPeriod>1900-present</formationPeriod>
             </gbif>
         </metadata>
     </additionalMetadata>
