@@ -8,7 +8,7 @@
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
-                        <value>Bird sounds</value>
+                        <value>Wildlife sounds</value>
                     </condition>
                 </conditions>
             </query-spec>
@@ -30,6 +30,12 @@
             </field>
             <field name="collectionCode" term="http://rs.tdwg.org/dwc/terms/collectionCode">
                 <path>collectionType</path>
+            </field>
+            <field name="dynamicProperties" term="http://rs.tdwg.org/dwc/terms/dynamicProperties">
+                <path>dynamicProperties</path>
+            </field>
+            <field name="otherCatalogNumbers" term="http://rs.tdwg.org/dwc/terms/otherCatalogNumbers">                
+                <path>previousUnitsText</path>            
             </field>
             <!-- TAXONOMY FIELDS -->
             <field name="genus" term="http://rs.tdwg.org/dwc/terms/genus">
@@ -119,11 +125,20 @@
             <field name="behavior" term="http://rs.tdwg.org/dwc/terms/behavior">
                 <path>gatheringEvent.behavior</path>
             </field>
-            <!-- Calculator associatedMedia -->
+            <field name="sex" term="http://rs.tdwg.org/dwc/terms/sex">
+                <path>sex</path>
+            </field>
+            <field name="lifeStage" term="http://rs.tdwg.org/dwc/terms/lifeStage">
+                <path>phaseOrStage</path>
+            </field>
+            <field name="preparations" term="http://rs.tdwg.org/dwc/terms/preparations">
+                <path>preparationType</path>
+            </field>
+            <!-- Calculator associatedMedia --> <!-- Marie advised to remove this -->
             <field name="associatedMedia" term="http://rs.tdwg.org/dwc/terms/associatedMedia">
-                <calculator>
-                    <java-class>SpecimenMultiMediaCalculator</java-class>
-                </calculator>
+               <calculator>
+                   <java-class>SpecimenMultiMediaCalculator</java-class>
+               </calculator>
             </field>
             <!-- OTHER FIELDS -->
             <field name="references" term="http://purl.org/dc/terms/references">
@@ -150,7 +165,7 @@
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS</operator>
-                        <value>Bird sounds</value>
+                        <value>Wildlife sounds</value>
                     </condition>
                     <condition>
                         <field>associatedSpecimenReference</field>
@@ -163,13 +178,14 @@
             <field name="CoreId" term="CoreId">
                 <path>associatedSpecimenReference</path>
             </field>
-            <field name="Identifier" term="http://purl.org/dc/terms/identifier">
+             <field name="associatedObservationReference" term="http://rs.tdwg.org/ac/terms/associatedObservationReference">
                 <path>recordURI</path>
             </field>
+            <field name="Identifier" term="http://purl.org/dc/terms/identifier">
+                <path>serviceAccessPoints.0.accessUri</path>
+            </field>
             <field name="type" term="http://purl.org/dc/elements/1.1/type">
-                <calculator>
-                    <java-class>MultiMediaTypeCalculator</java-class>
-                </calculator>
+                <path>type</path>
             </field>
             <field name="Rating" term="http://ns.adobe.com/xap/1.0/Rating">
                 <path>rating</path>
@@ -197,6 +213,12 @@
             </field>
             <field name="resourceCreationTechnique" term="http://rs.tdwg.org/ac/terms/resourceCreationTechnique">
                 <path>resourceCreationTechnique</path>
+            </field>
+            <field name="captureDevice" term="http://rs.tdwg.org/ac/terms/captureDevice">
+                <path>captureDevice</path>
+            </field>
+            <field name="physicalSetting" term="http://rs.tdwg.org/ac/terms/physicalSetting">
+                <path>physicalSetting</path>
             </field>
             <field name="license" term="http://purl.org/dc/terms/rights">
                 <path>license</path>
