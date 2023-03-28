@@ -34,7 +34,7 @@
                 <path>collectionType</path>
             </field>
             <field name="datasetName" term="http://rs.tdwg.org/dwc/terms/datasetName">
-                <path>previousSourceID</path>
+                <path>previousSourceID.0</path>
             </field>
             <field name="typeStatus" term="http://rs.tdwg.org/dwc/terms/typeStatus">
                 <path>identifications.0.typeStatus</path>
