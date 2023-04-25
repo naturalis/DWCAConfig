@@ -7,7 +7,7 @@
                 <conditions>
                     <condition>
                         <field>collectionType</field>
-                        <operator>EQUALS</operator>
+                        <operator>EQUALS_IC</operator>
                         <value>Wildlife sounds - Grasshoppers</value>
                     </condition>
                 </conditions>
