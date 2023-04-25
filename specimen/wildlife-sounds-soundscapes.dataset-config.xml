@@ -8,7 +8,7 @@
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS_IC</operator>
-                        <value>Wildlife sounds - Grasshoppers</value>
+                        <value>Wildlife sounds - Soundscape</value>
                     </condition>
                 </conditions>
             </query-spec>
@@ -164,8 +164,8 @@
                 <conditions>
                     <condition>
                         <field>collectionType</field>
-                        <operator>EQUALS</operator>
-                        <value>Wildlife sounds - Grasshoppers</value>
+                        <operator>EQUALS_IC</operator>
+                        <value>Wildlife sounds - Soundscape</value>
                     </condition>
                     <condition>
                         <field>associatedSpecimenReference</field>
