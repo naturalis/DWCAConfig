@@ -164,7 +164,7 @@
                 <conditions>
                     <condition>
                         <field>collectionType</field>
-                        <operator>EQUALS</operator>
+                        <operator>STARTS_WITH_IC</operator>
                         <value>Wildlife sounds</value>
                     </condition>
                     <condition>
