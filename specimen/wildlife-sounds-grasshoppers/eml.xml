@@ -96,7 +96,7 @@
             <onlineUrl>https://www.naturalis.nl</onlineUrl>
             <role>DISTRIBUTOR</role>
         </associatedParty>
-        <pubDate>2023-XX-XX</pubDate>
+        <pubDate>2023-04-25</pubDate>
         <language>en</language>
         <abstract>
             <para>Xeno-canto (XC) is an online database that provides access to sound recordings of wildlife from around the world. The recordings are shared by a growing community of thousands of recordists from around the world, amateurs and professionals alike. The aim of Xeno-canto is to eventually represent sounds of all animals, meaning of all taxa, to subspecies level, of their complete repertoire, with all of the geographic variability, at all stages of development. </para>
@@ -217,7 +217,6 @@
             <gbif>
                 <dateStamp/>
                 <formationPeriod>1900-current</formationPeriod>
-                <citation></citation>
                 <bibliography>
                     <citation>Vellinga, W.P. &amp; R. Planqué (2015). CLEF2015 Working Notes, CEUR Workshop proceedings Vol-1391.
                     </citation>
