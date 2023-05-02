@@ -134,7 +134,6 @@
             <field name="preparations" term="http://rs.tdwg.org/dwc/terms/preparations">
                 <path>preparationType</path>
             </field>
-            </field>
             <!-- OTHER FIELDS -->
             <field name="references" term="http://purl.org/dc/terms/references">
                 <path>unitGUID</path>
