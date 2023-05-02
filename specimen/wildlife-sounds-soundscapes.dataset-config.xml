@@ -8,7 +8,7 @@
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS_IC</operator>
-                        <value>Wildlife sounds - Soundscape</value>
+                        <value>Wildlife sounds - Soundscapes</value>
                     </condition>
                 </conditions>
             </query-spec>
