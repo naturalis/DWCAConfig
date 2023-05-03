@@ -159,7 +159,7 @@
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS_IC</operator>
-                        <value>Wildlife sounds - Soundscapes</value>
+                        <value>Wildlife sounds - Soundscape</value>
                     </condition>
                     <condition>
                         <field>associatedSpecimenReference</field>
