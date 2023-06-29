@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- packageId="XXXXXXX" scope="system" system="http://gbif.org" xml:lang="en" 
- xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="b1047888-ae52-4179-9dd5-5448ea342a24" scope="system" system="http://gbif.org" xml:lang="en" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd">
     <dataset>
         <alternateIdentifier/>
         <title>Xeno-canto - Bird sounds from around the world</title>
@@ -60,7 +57,6 @@
             <onlineUrl>https://www.nlbif.nl</onlineUrl>
             <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
             <role>PROGRAMMER</role>
-        </associatedParty>
         <associatedParty>
             <individualName>
                 <givenName>Niels</givenName>
@@ -79,29 +75,13 @@
             <userId directory="http://orcid.org/">0000-0002-4329-4892</userId>																  
             <role>PROCESSOR</role>
         </associatedParty>
-        <associatedParty>
-            <individualName>
-                <givenName/>
-                <surName/>
-            </individualName>
-            <organizationName>Naturalis</organizationName>
-            <positionName/>
-            <address>
-                <deliveryPoint>P.O. Box 9517</deliveryPoint>
-                <city>Leiden</city>
-                <postalCode>NL-2300 RA</postalCode>
-                <country>NETHERLANDS</country>
-            </address>
-            <electronicMailAddress>informatiemanagement@naturalis.nl</electronicMailAddress>
-            <onlineUrl>https://www.naturalis.nl</onlineUrl>
-            <role>DISTRIBUTOR</role>
-        </associatedParty>
-        <pubDate>2023-XX-XX</pubDate>
+        <pubDate>2023-06-12</pubDate>
         <language>en</language>
         <abstract>
-            <para>Xeno-canto (XC) is an online database that provides access to sound recordings of wildlife from around the world. The recordings are shared by a growing community of thousands of recordists from around the world, amateurs and professionals alike. The aim of Xeno-canto is to eventually represent sounds of all animals, meaning of all taxa, to subspecies level, of their complete repertoire, with all of the geographic variability, at all stages of development. </para>
-            <para>The website of Xeno-canto (www.xeno-canto.org) was launched in 2005, and initially focussed on Neotropical birds. The scope of Xeno-canto is gradually widening. It is run by the Xeno-canto Foundation for Nature Sounds in The Netherlands, with support from Naturalis Biodiversity Center. </para>
-            <para>Please note that the Xeno-canto dataset shared on GBIF is a subset of the entire collection that is available on www.xeno-canto.org. Only the recordings by recordists who have given their permission to share recording metadata with GBIF are shared at the moment.</para>
+          <para>This dataset covers the sounds of the Bird sound collection of Xeno-canto (XC). </para> 
+			<para>XC is an online database that provides access to sound recordings of wildlife from around the world. The recordings are shared by a growing community of thousands of recordists from around the world, amateurs and professionals alike. The aim of Xeno-canto is to eventually represent sounds of all animals, meaning of all taxa, to subspecies level, of their complete repertoire, with all of the geographic variability, at all stages of development.</para>
+            <para>The website of Xeno-canto (xeno-canto.org) was launched in 2005, and initially focussed on Neotropical birds. The scope of Xeno-canto is gradually widening. XC is run by the Xeno-canto Foundation for Nature Sounds in The Netherlands, with support from Naturalis Biodiversity Center. </para>
+            <para>Please note that the Bird sound dataset shared on GBIF is a subset of the entire collection that is available on https://xeno-canto.org/?gid=1. Only the recordings by recordists who have given their permission to share recording metadata with GBIF are shared here.</para>
         </abstract>
         <keywordSet>
             <keyword>aves, birds, bird sounds</keyword>
@@ -179,7 +159,7 @@
             </sampling>
             <qualityControl>
                 <description>
-                    <para>Identifications of sounds on recordings are subject to continuous review by the Xeno-canto community. This means that current identifications can always later be challenged/questioned. The current identification status (either "not questioned", "questioned" or "questioned and resolved" is shown on xeno-canto) Currently questioned recordings are not shared with GBIF.
+                    <para>Identifications of sounds on recordings are subject to continuous review by the Xeno-canto community. This means that current identifications can always later be challenged/questioned. The current identification status (either "not questioned", "questioned" or "questioned and resolved" is shown on xeno-canto.org). Currently questioned recordings are not shared with GBIF.
                     </para>
                 </description>
             </qualityControl>
@@ -197,8 +177,7 @@
                 <para/>
             </abstract>
             <funding>
-                <para>Transfer of metadata to GBIF has been in large part funded by NLBIF in projects Natu161220is01 and nlbif2020.004.
-                </para>
+                <para/>
             </funding>
             <studyAreaDescription>
                 <descriptor citableClassificationSystem="false" name="generic">
