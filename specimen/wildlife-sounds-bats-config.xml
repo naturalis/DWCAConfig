@@ -159,7 +159,7 @@
                     <condition>
                         <field>collectionType</field>
                         <operator>EQUALS_IC</operator>
-                        <value>Wildlife sounds - Grasshoppers</value>
+                        <value>Wildlife sounds - Bats</value>
                     </condition>
                     <condition>
                         <field>associatedSpecimenReference</field>
