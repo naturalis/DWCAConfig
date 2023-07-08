@@ -74,7 +74,7 @@
             <onlineUrl>https://www.nlbif.nl</onlineUrl>
             <role>PROCESSOR</role>
         </associatedParty>
-        <pubDate>2023-07-10</pubDate>
+        <pubDate>2023-06-12</pubDate>
         <language>en</language>
         <abstract>
 	    <para>This dataset covers the soundscapes in the sound collection of Xeno-canto (XC). Soundscapes are recordings for which no primary/focal species has been defined, but any number of species as "background" species.</para> 
@@ -118,11 +118,8 @@
                 </boundingCoordinates>
             </geographicCoverage>
             <taxonomicCoverage>
-                <generalTaxonomicCoverage>Animalia.</generalTaxonomicCoverage>
+                <generalTaxonomicCoverage>Animalia</generalTaxonomicCoverage>
                 <taxonomicClassification>
-                    <taxonRankName>Order</taxonRankName>
-                    <taxonRankValue>Chiroptera</taxonRankValue>
-                    <commonName>Bats</commonName>
                 </taxonomicClassification>
             </taxonomicCoverage>
         </coverage>
