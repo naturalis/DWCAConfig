@@ -57,6 +57,7 @@
             <onlineUrl>https://www.nlbif.nl</onlineUrl>
             <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
             <role>PROGRAMMER</role>
+        </associatedParty>
         <associatedParty>
             <individualName>
                 <givenName>Niels</givenName>
