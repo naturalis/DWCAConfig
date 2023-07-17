@@ -57,7 +57,8 @@
             <onlineUrl>https://www.nlbif.nl</onlineUrl>
             <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
             <role>PROGRAMMER</role>
-        <associatedParty>
+	</associatedParty>
+	<associatedParty>
             <individualName>
                 <givenName>Niels</givenName>
                 <surName>Raes</surName>
@@ -77,8 +78,8 @@
         <pubDate>2023-04-25</pubDate>
         <language>en</language>
         <abstract>
-         	<para>This dataset covers the sounds of the Orthoptera sound collection of Xeno-canto (XC). </para> 
-			<para>XC is an online database that provides access to sound recordings of wildlife from around the world. The recordings are shared by a growing community of thousands of recordists from around the world, amateurs and professionals alike. The aim of Xeno-canto is to eventually represent sounds of all animals, meaning of all taxa, to subspecies level, of their complete repertoire, with all of the geographic variability, at all stages of development.</para>
+            <para>This dataset covers the sounds of the Orthoptera sound collection of Xeno-canto (XC). </para> 
+	    <para>XC is an online database that provides access to sound recordings of wildlife from around the world. The recordings are shared by a growing community of thousands of recordists from around the world, amateurs and professionals alike. The aim of Xeno-canto is to eventually represent sounds of all animals, meaning of all taxa, to subspecies level, of their complete repertoire, with all of the geographic variability, at all stages of development.</para>
             <para>The website of Xeno-canto (www.xeno-canto.org) was launched in 2005, and initially focussed on Neotropical birds. The scope of Xeno-canto has gradually widening and the Orthoptera sound collection was started in 2022. XC is run by the Xeno-canto Foundation for Nature Sounds in The Netherlands, with support from Naturalis Biodiversity Center. </para>
             <para>Please note that the Chiroptera sound dataset shared on GBIF is a subset of the entire collection that is available on https://xeno-canto.org/?gid=3. Only the recordings by recordists who have given their permission to share recording metadata with GBIF are shared here.</para>
         </abstract>
