@@ -95,8 +95,11 @@
             <field name="phylum" term="http://rs.tdwg.org/dwc/terms/phylum">
                 <path>identifications.0.defaultClassification.phylum</path>
             </field>
+             <!-- Calculator Preparations  -->
             <field name="preparations" term="http://rs.tdwg.org/dwc/terms/preparations">
-                <path>preparationType</path>
+                  <calculator>
+                    <java-class>PreparationsCalculator</java-class>
+                </calculator>
             </field>
             <!-- Calculator RecordedBy -->
             <field name="recordedBy" term="http://rs.tdwg.org/dwc/terms/recordedBy">
