@@ -109,7 +109,7 @@
             </field>
             <!-- Calculator Preparations  -->
             <field name="preparations" term="http://rs.tdwg.org/dwc/terms/preparations">
-                  <calculator>
+                <calculator>
                     <java-class>PreparationsCalculator</java-class>
                 </calculator>
             </field>
