@@ -107,9 +107,11 @@
                     <java-class>AssociatedTaxaNameCalculator</java-class>
                 </calculator>
             </field>
-            <field name="preparations" term="http://rs.tdwg.org/dwc/terms/preparations">
-                <path>preparationType</path>
-            </field>
+            <!-- Calculator Preparations  -->
+            <field name="preparations" term="<http://rs.tdwg.org/dwc/terms/preparations">>
+              <calculator>
+                <java-class>PreparationsCalculator</java-class>
+            </calculator>
             <!-- Calculator latitudeDecimal -->
             <field name="latitudeDecimal" term="http://rs.tdwg.org/dwc/terms/decimalLatitude">
                 <calculator>
