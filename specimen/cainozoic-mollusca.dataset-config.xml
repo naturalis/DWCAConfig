@@ -106,10 +106,11 @@
                 </calculator>
             </field>
             <!-- Calculator Preparations  -->
-        <field name="preparations" term="<http://rs.tdwg.org/dwc/terms/preparations">>
-              <calculator>
-                <java-class>PreparationsCalculator</java-class>
-            </calculator>
+            <field name="preparations" term="http://rs.tdwg.org/dwc/terms/preparations">
+                  <calculator>
+                    <java-class>PreparationsCalculator</java-class>
+                </calculator>
+            </field>
             <!-- Calculator latitudeDecimal -->
             <field name="latitudeDecimal" term="http://rs.tdwg.org/dwc/terms/decimalLatitude">
                 <calculator>
