@@ -7,38 +7,38 @@
         <title>Observation.org, Nature data from around the World</title>
         <creator>
             <individualName>
-                <givenName>Hisko</givenName>
-                <surName>de Vries</surName>
+                <givenName></givenName>
+                <surName></surName>
             </individualName>
-            <organizationName>Observation International</organizationName>
-            <positionName>Manager</positionName>
+            <organizationName>Observation.org</organizationName>
+            <positionName></positionName>
             <address>
-                <deliveryPoint>Pieter Nieuwlandstraat 46</deliveryPoint>
-                <city>Utrecht</city>
-                <administrativeArea>Utrecht</administrativeArea>
-                <postalCode>3514 HJ</postalCode>
+                <deliveryPoint>Oostkanaalweg 5</deliveryPoint>
+                <city>Aarlanderveen</city>
+                <administrativeArea></administrativeArea>
+                <postalCode>2445 BA</postalCode>
                 <country>Netherlands</country>
             </address>
-            <phone>+316 13 44 86 63</phone>
-            <electronicMailAddress>hiskodevries@gmail.com</electronicMailAddress>
-            <onlineUrl>https://waarneming.nl</onlineUrl>
+            <phone></phone>
+            <electronicMailAddress>info@observation.org</electronicMailAddress>
+            <onlineUrl>https://observation.org/</onlineUrl>
         </creator>
         <metadataProvider>
             <individualName>
-                <givenName>Martine</givenName>
-                <surName>Lemmens</surName>
+                <givenName></givenName>
+                <surName></surName>
             </individualName>
-            <organizationName>Observation International</organizationName>
-            <positionName>Business development</positionName>
+            <organizationName>Observation.org</organizationName>
+            <positionName></positionName>
             <address>
-                <deliveryPoint>Kapellerpoort 1</deliveryPoint>
-                <city>Roermond</city>
-                <administrativeArea>Limburg</administrativeArea>
-                <postalCode>6041 HZ</postalCode>
+                <deliveryPoint>Oostkanaalweg 5</deliveryPoint>
+                <city>Aarlanderveen</city>
+                <administrativeArea></administrativeArea>
+                <postalCode></postalCode>
                 <country>Netherlands</country>
             </address>
-            <phone>+31638271326</phone>
-            <electronicMailAddress>martine@waarneming.nl</electronicMailAddress>
+            <phone></phone>
+            <electronicMailAddress>info@observation.org</electronicMailAddress>
             <onlineUrl>https://observation.org</onlineUrl>
             <role />
         </metadataProvider>
@@ -211,21 +211,21 @@
         </coverage>
         <contact>
             <individualName>
-                <givenName>Hisko</givenName>
-                <surName>de Vries</surName>
+                <givenName></givenName>
+                <surName></surName>
             </individualName>
             <organizationName>Observation.org</organizationName>
-            <positionName>Manager</positionName>
+            <positionName></positionName>
             <address>
-                <deliveryPoint>P. Nieuwlandstraat 46</deliveryPoint>
-                <city>Utrecht</city>
-                <administrativeArea>Utrecht</administrativeArea>
-                <postalCode>3514HJ</postalCode>
+                <deliveryPoint>Oostkanaalweg 5</deliveryPoint>
+                <city>Aarlanderveen</city>
+                <administrativeArea></administrativeArea>
+                <postalCode>2445 BA</postalCode>
                 <country>Netherlands</country>
             </address>
-            <phone>+316 13 44 86 63</phone>
-            <electronicMailAddress>hiskodevries@gmail.com</electronicMailAddress>
-            <onlineUrl>https://waarneming.nl</onlineUrl>
+            <phone></phone>
+            <electronicMailAddress>info@observation.org</electronicMailAddress>
+            <onlineUrl>https://observation.org/</onlineUrl>
         </contact>
         <methods>
             <methodStep>
@@ -236,13 +236,15 @@
                 </description>
             </methodStep>
             <sampling>
-                <studyExtent>n/a</studyExtent>
+                <studyExtent>Observations can be recorded by anyone who has created an account on the platform. Users can add observations on the websites Waarneming.nl and Observation.org or by using the apps ObsMapp, iObs and ObsIdentify.</studyExtent>
                 <description>n/a</description>
                 <samplingDescription>n/a</samplingDescription>
             </sampling>
             <qualityControl>
                 <description>
-                    <para>All records are validated by staff or machine</para>
+                    <para>All records in this dataset have been validated. A record can be validated by either a species expert (1) or by machine (2).</para>
+                    <para>1. Observations accompanied by photo and/or sound files can be looked at by a species expert. The expert will look at the proof provided and approve or reject an observation. They can also ask the observer for more information if necessary. There are several hundreds of species experts connected to the Observation.org platform. Species experts have demonstrable experience in the species group(s) they validate, and become a validator for the platform on invitation or their own initiative. One does not need to be a professional species expert to become a validator on the platform.</para>
+                    <para>2. To help species experts process the enormous amounts of data, Observation.org has automated validation in two ways. Firstly, species experts can set up validation rules for observations without proof for common species. These rules can be very detailed, taking into account information like migration and life stage. For example, species experts could set up automatic approval for observations of the common chiffchaff (Phylloscopus collybita) in the Netherlands in summer, but not in winter. Secondly, the image recognition software Nature Identification API (NIA) supports species experts with validation. When a NIA identification is certain and the observation fits the rules of the automated validation, also observations with photos can be automatically approved.</para>
                 </description>
             </qualityControl>
         </methods>
@@ -283,7 +285,7 @@
                 <bibliography>
                     <citation />
                 </bibliography>
-                <resourceLogoUrl />
+                <resourceLogoUrl>https://observation.org/static/img/logo/logo-observation-org.svg</resourceLogoUrl>
                 <formationPeriod>1900-present</formationPeriod>
             </gbif>
         </metadata>
