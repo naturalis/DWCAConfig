@@ -28,8 +28,8 @@
         </creator>
         <creator>
             <individualName>
-                <givenName>Marnel</givenName>
-                <surName>Scherrenberg</surName>
+                <givenName>Susana</givenName>
+                <surName>Arias Guerrero</surName>
             </individualName>
             <organizationName>Naturalis Biodiversity Center</organizationName>
             <positionName>Curator</positionName>
@@ -83,8 +83,8 @@
         </metadataProvider>
         <metadataProvider>
             <individualName>
-                <givenName>Marnel</givenName>
-                <surName>Scherrenberg</surName>
+                <givenName>Susana</givenName>
+                <surName>Arias Guerrero</surName>
             </individualName>
             <organizationName>Naturalis Biodiversity Center</organizationName>
             <positionName>Curator</positionName>
@@ -149,24 +149,6 @@
             <individualName>
                 <givenName>Roxali</givenName>
                 <surName>Bijmoer</surName>
-            </individualName>
-            <organizationName>Naturalis Biodiversity Center</organizationName>
-            <positionName>Curator</positionName>
-            <address>
-                <deliveryPoint>PO Box 9517</deliveryPoint>
-                <city>Leiden</city>
-                <administrativeArea>Zuid Holland</administrativeArea>
-                <postalCode>NL-2300 RA</postalCode>
-                <country>NL</country>
-            </address>
-            <phone>+31.71.7519600</phone>
-            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
-            <onlineUrl>https://naturalis.nl/en/collection</onlineUrl>
-        </contact>
-        <contact>
-            <individualName>
-                <givenName>Marnel</givenName>
-                <surName>Scherrenberg</surName>
             </individualName>
             <organizationName>Naturalis Biodiversity Center</organizationName>
             <positionName>Curator</positionName>
