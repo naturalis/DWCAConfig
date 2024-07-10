@@ -2,7 +2,7 @@
          xmlns:dc="http://purl.org/dc/terms/"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
-         packageId="xxxxxxxxxxxxxxxxxxxxx" system="http://gbif.org" scope="system"
+         packageId="cc3acca7-e7cb-4eae-9cc1-853f66881bba" system="http://gbif.org" scope="system"
          xml:lang="eng">
 
     <dataset>
@@ -10,8 +10,26 @@
         <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Vermes</title>
         <creator>
             <individualName>
-                <givenName>Joke</givenName>
-                <surName>Bleeker</surName>
+                <givenName>Hannco</givenName>
+                <surName>Bakker</surName>
+            </individualName>
+            <organizationName>Naturalis</organizationName>
+            <positionName>Curator</positionName>
+            <address>
+                <deliveryPoint>PO Box 9517</deliveryPoint>
+                <city>Leiden</city>
+                <administrativeArea>Zuid Holland</administrativeArea>
+                <postalCode>NL-2300 RA</postalCode>
+                <country>NL</country>
+            </address>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Arike</givenName>
+                <surName>Gill</surName>
             </individualName>
             <organizationName>Naturalis</organizationName>
             <positionName>Curator</positionName>
@@ -47,8 +65,26 @@
         </creator>
         <metadataProvider>
             <individualName>
-                <givenName>Joke</givenName>
-                <surName>Bleeker</surName>
+                <givenName>Hannco</givenName>
+                <surName>Bakker</surName>
+            </individualName>
+            <organizationName>Naturalis</organizationName>
+            <positionName>Curator</positionName>
+            <address>
+                <deliveryPoint>PO Box 9517</deliveryPoint>
+                <city>Leiden</city>
+                <administrativeArea>Zuid Holland</administrativeArea>
+                <postalCode>NL-2300 RA</postalCode>
+                <country>NL</country>
+            </address>
+            <phone>+31.71.7519600</phone>
+            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
+        </metadataProvider>
+        <metadataProvider>
+            <individualName>
+                <givenName>Arike</givenName>
+                <surName>Gill</surName>
             </individualName>
             <organizationName>Naturalis</organizationName>
             <positionName>Curator</positionName>
@@ -106,8 +142,8 @@
         </coverage>
         <contact>
             <individualName>
-                <givenName>Joke</givenName>
-                <surName>Bleeker</surName>
+                <givenName>Hannco</givenName>
+                <surName>Bakker</surName>
             </individualName>
             <organizationName>Naturalis</organizationName>
             <positionName>Curator</positionName>
