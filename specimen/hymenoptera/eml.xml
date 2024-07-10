@@ -116,8 +116,8 @@
                     <commonName>sawflies, wasps, bees and ants</commonName>
                 </taxonomicClassification>
                 <taxonomicClassification>
-                    <taxonRankName>family</taxonRankName>
-                    <taxonRankValue>Apidae</taxonRankValue>
+                    <taxonRankName>superfamily</taxonRankName>
+                    <taxonRankValue>Apoidea</taxonRankValue>
                 </taxonomicClassification>
                 <taxonomicClassification>
                     <taxonRankName>genus</taxonRankName>
