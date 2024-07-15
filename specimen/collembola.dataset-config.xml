@@ -200,7 +200,7 @@
                 <constant/>
             </field>
             <field name="institutionID" term="http://rs.tdwg.org/dwc/terms/institutionID">
-                <constant>"https://ror.org/0566bfb96"</constant>
+                <constant>https://ror.org/0566bfb96</constant>
             </field>
             <field name="institutionCode" term="http://rs.tdwg.org/dwc/terms/institutionCode">
                 <path>sourceInstitutionID</path>
