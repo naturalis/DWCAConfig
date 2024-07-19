@@ -203,7 +203,7 @@
                 <constant>https://ror.org/0566bfb96</constant>
             </field>
             <field name="institutionCode" term="http://rs.tdwg.org/dwc/terms/institutionCode">
-                <path>sourceInstitutionID</path>
+                <constant>Naturalis</constant>
             </field>
             <field name="rightsHolder" term="http://purl.org/dc/terms/rightsHolder">
                 <path>owner</path>
