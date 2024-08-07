@@ -200,7 +200,7 @@
                 <constant/>
             </field>
             <field name="institutionID" term="http://rs.tdwg.org/dwc/terms/institutionID">
-                <path>sourceInstitutionID</path>
+                <constant>https://ror.org/0566bfb96</constant>
             </field>
             <field name="rightsHolder" term="http://purl.org/dc/terms/rightsHolder">
                 <path>owner</path>
