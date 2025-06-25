@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<dataset-config xmlns="http://data.naturalis.nl/nba-dataset-config">
+<dataset-config xmlns="http://data.naturalis.nl/nba-dataset-confsig">
     <entity name="specimen">
         <data-source>
             <document>Specimen</document>
@@ -23,7 +23,7 @@
                 <path>unitGUID</path>
             </field>
             <field name="catalogNumber" term="http://rs.tdwg.org/dwc/terms/catalogNumber">
-                <path>sourceSystemId</path>
+                <path>unitID</path>
             </field>
             <field name="basisOfRecord" term="http://rs.tdwg.org/dwc/terms/basisOfRecord">
                 <calculator>
@@ -258,7 +258,7 @@
                 <path>license</path>
             </field>
             <field name="caption" term="http://rs.tdwg.org/ac/terms/caption">
-                <path>sourceSystemId</path>
+                <path>unitID</path>
             </field>
         </mapping>
     </entity>
