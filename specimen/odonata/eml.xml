@@ -7,7 +7,7 @@
 
     <dataset>
         <alternateIdentifier>doi:10.15468/aw4q6q</alternateIdentifier>
-        <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Hemiptera</title>
+        <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Odonata</title>
         <creator>
             <individualName>
                 <givenName>Charlotte</givenName>
@@ -168,3 +168,4 @@
         </metadata>
     </additionalMetadata>
 </eml:eml>
+
