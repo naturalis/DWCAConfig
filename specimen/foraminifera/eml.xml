@@ -7,7 +7,7 @@
 
     <dataset>
         <alternateIdentifier>doi:10.15468/z5z7w7</alternateIdentifier>
-        <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Echinodermata</title>
+        <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Foraminifera</title>
         <creator>
             <individualName>
                 <givenName>Hannco</givenName>
@@ -59,7 +59,7 @@
                 <country>NL</country>
             </address>
             <phone />
-            <electronicMailAddress />
+            <electronicMailAddress/>
             <onlineUrl />
             <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
         </creator>
@@ -104,7 +104,7 @@
         </pubDate>
         <language>mul</language>
         <abstract>
-            <para>Database contains specimen records from the Echinodermata collection of the Naturalis Biodiversity Center (Leiden, Netherlands). These specimens originate from the collections of the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden and of the former Zoological Museum Amsterdam (ZMA). On request more information can be provided.
+            <para>Database contains specimen records from the Foraminifera collection of the Naturalis Biodiversity Center (Leiden, Netherlands). These specimens originate from the collections of the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden and of the former Zoological Museum Amsterdam (ZMA). On request more information can be provided.
             </para>
         </abstract>
         <keywordSet>
