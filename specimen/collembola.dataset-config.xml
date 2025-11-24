@@ -23,7 +23,7 @@
                 <path>unitGUID</path>
             </field>
             <field name="catalogNumber" term="http://rs.tdwg.org/dwc/terms/catalogNumber">
-                <path>sourceSystemId</path>
+                <path>unitID</path>
             </field>
             <field name="basisOfRecord" term="http://rs.tdwg.org/dwc/terms/basisOfRecord">
                 <calculator>
@@ -261,7 +261,7 @@
                 <path>license</path>
             </field>
             <field name="caption" term="http://rs.tdwg.org/ac/terms/caption">
-                <path>sourceSystemId</path>
+                <path>unitID</path>
             </field>
         </mapping>
     </entity>
