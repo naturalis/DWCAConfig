@@ -8,29 +8,10 @@
     <dataset>
         <alternateIdentifier></alternateIdentifier>
         <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Bryozoa</title>
-
         <creator>
             <individualName>
                 <givenName>Hannco</givenName>
                 <surName>Bakker</surName>
-            </individualName>
-            <organizationName>Naturalis Biodiversity Center</organizationName>
-            <positionName>Curator</positionName>
-            <address>
-                <deliveryPoint>PO Box 9517</deliveryPoint>
-                <city>Leiden</city>
-                <administrativeArea>Zuid Holland</administrativeArea>
-                <postalCode>NL-2300 RA</postalCode>
-                <country>NL</country>
-            </address>
-            <phone>+31.71.7519600</phone>
-            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
-            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
-        </creator>
-        <creator>
-            <individualName>
-                <givenName>Arike</givenName>
-                <surName>Gill</surName>
             </individualName>
             <organizationName>Naturalis Biodiversity Center</organizationName>
             <positionName>Curator</positionName>
@@ -82,31 +63,13 @@
             <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
             <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
         </metadataProvider>
-        <metadataProvider>
-            <individualName>
-                <givenName>Arike</givenName>
-                <surName>Gill</surName>
-            </individualName>
-            <organizationName>Naturalis Biodiversity Center</organizationName>
-            <positionName>Curator</positionName>
-            <address>
-                <deliveryPoint>PO Box 9517</deliveryPoint>
-                <city>Leiden</city>
-                <administrativeArea>Zuid Holland</administrativeArea>
-                <postalCode>NL-2300 RA</postalCode>
-                <country>NL</country>
-            </address>
-            <phone>+31.71.7519600</phone>
-            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
-            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
-        </metadataProvider>
         <pubDate>
             2026-01-08
         </pubDate>
         <language>mul</language>
         <abstract>
-            <para>Database contains specimen records from the Bryozoa collection of the Naturalis Biodiversity Center (Leiden, Netherlands). These specimens originate from the collections of the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden and of the former Zoological Museum Amsterdam (ZMA). On request more information can be provided.
-            </para>
+            <para>Database contains specimen records from the Bryozoa collection of the Naturalis Biodiversity Center (Leiden, Netherlands). These specimens originate from the collections of the National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie), later National Museum of Natural History, Naturalis in Leiden and of the former Zoological Museum Amsterdam (ZMA). On request more information can be provided.</para>
+            <para>This collection has a strong core in specimens from around Indonesia through historical expeditions such as the Siboga Expedition 1899-1900, Snellius-I 1929-1930 and Snellius-II 1984. Large collections were also made in the Atlantic around the Canary Islands, Cape Verde and Azores and the Caribbean by various collectors and expeditions. There is also a large backlog of hundreds up to a thousand records, yet unavailable on GBIF. In regard to collectors, this collection dates back to the 18th century, or even before. There are various dried specimens that originated from Botanical Gardens, often recognized by the name "Lugdunum Batavorum".</para>
         </abstract>
         <keywordSet>
             <keyword>Occurrence</keyword>
