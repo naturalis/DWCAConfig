@@ -57,6 +57,7 @@
             <onlineUrl>https://www.nlbif.nl</onlineUrl>
             <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
             <role>PROGRAMMER</role>
+        </associatedParty>
         <associatedParty>
             <individualName>
                 <givenName>Eva</givenName>
@@ -197,8 +198,8 @@
                 <formationPeriod>1900-current</formationPeriod>
                 <citation></citation>
                 <bibliography>
-                    <citation>Vellinga, W.P. & R. Planqué (2015). The Xeno-canto collection and its relation to sound recognition and classification, CLEF2015 Working Notes, CEUR Workshop proceedings Vol-1391.</citation>
-                    <citation>Vellinga, W.P., B. Planqué, S. Pieterse & J. Jongsma (2017). www.xeno-canto.org: a decade on. Neotropical Birding 21: 40-47.</citation>
+                    <citation>Vellinga, W.P. &amp; R. Planqué (2015). The Xeno-canto collection and its relation to sound recognition and classification, CLEF2015 Working Notes, CEUR Workshop proceedings Vol-1391.</citation>
+                    <citation>Vellinga, W.P., B. Planqué, S. Pieterse &amp; J. Jongsma (2017). www.xeno-canto.org: a decade on. Neotropical Birding 21: 40-47.</citation>
                 </bibliography>
                 <resourceLogoUrl/>
             </gbif>
