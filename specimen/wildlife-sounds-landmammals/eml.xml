@@ -4,11 +4,11 @@
         <title>Xeno-canto - Land mammal sounds from around the world</title>
         <creator>
             <individualName>
-                <givenName>Willem-Pier</givenName>
+                <givenName>Willem Pier</givenName>
                 <surName>Vellinga</surName>
             </individualName>
-            <organizationName>Xeno-canto Foundation for Nature Sounds</organizationName>
-            <positionName>Chair</positionName>
+            <organizationName>Stichting Xeno-canto voor Natuurgeluiden</organizationName>
+            <positionName>Founder & Chair</positionName>
             <address>
                 <deliveryPoint/>
                 <city/>
@@ -21,13 +21,32 @@
             <userId directory="http://orcid.org/">0000-0003-3886-5088</userId>
             <onlineUrl>www.xeno-canto.org</onlineUrl>
         </creator>
+		<creator>
+            <individualName>
+                <givenName>Bob</givenName>
+                <surName>Planqué</surName>
+            </individualName>
+            <organizationName>Stichting Xeno-canto voor Natuurgeluiden</organizationName>
+            <positionName>Founder & Treasurer</positionName>
+            <address>
+                <deliveryPoint/>
+                <city/>
+                <administrativeArea/>
+                <postalCode/>
+                <country/>
+            </address>
+            <phone/>
+            <electronicMailAddress>bob@xeno-canto.org</electronicMailAddress>
+			<userId directory="http://orcid.org/">0000-0002-0489-5425</userId> 
+            <onlineUrl>www.xeno-canto.org</onlineUrl>
+        </creator>
         <metadataProvider>
             <individualName>
                 <givenName>Willem-Pier</givenName>
                 <surName>Vellinga</surName>
             </individualName>
-            <organizationName>Xeno-canto Foundation for Nature Sounds</organizationName>
-            <positionName>Chair</positionName>
+            <organizationName>Stichting Xeno-canto voor Natuurgeluiden</organizationName>
+            <positionName>Founder & Chair</positionName>
             <address>
                 <deliveryPoint/>
                 <city/>
@@ -57,33 +76,25 @@
             <onlineUrl>https://www.nlbif.nl</onlineUrl>
             <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
             <role>PROGRAMMER</role>
-        <associatedParty>
-            <individualName>
-                <givenName>Eva</givenName>
-                <surName>Alonso</surName>
-            </individualName>
-            <organizationName>NLBIF</organizationName>
-            <positionName>Node manager</positionName>
-            <address>
-                <deliveryPoint>P.O. Box 9517</deliveryPoint>
-                <city>Leiden</city>
-                <postalCode>NL-2300 RA</postalCode>
-                <country>NETHERLANDS</country>
-            </address>
-            <electronicMailAddress>nlbif@naturalis.nl</electronicMailAddress>
-            <onlineUrl>https://www.nlbif.nl</onlineUrl>
-            <role>PROCESSOR</role>
-        </associatedParty>
-        <pubDate>2025-10-06</pubDate>
+		</associatedParty>
+        <pubDate>2026-04-15</pubDate>
         <language>en</language>
         <abstract>
-			<para>This dataset covers the sounds of the Land mammal sound collection of Xeno-canto (XC). </para> 
-			<para>XC is an online database that provides access to sound recordings of wildlife from around the world. The recordings are shared by a growing community of thousands of recordists from all over the world, amateurs and professionals alike. The aim of Xeno-canto is to eventually represent sounds of all animals, meaning of all taxa, to subspecies level, of their complete repertoire, with all of the geographic variability, at all stages of development.</para>
-            <para>The website of Xeno-canto (www.xeno-canto.org) was launched in 2005, and initially focussed on Neotropical birds. The scope of Xeno-canto is gradually widening and the Land mammal sound collection was started in January 2025. XC is run by the Xeno-canto Foundation for Nature Sounds in The Netherlands, with support from Naturalis Biodiversity Center. </para>
-            <para>Please note that the Land mammal sound dataset shared on GBIF is a subset of the entire collection that is available on https://xeno-canto.org/?gid=3. Only the recordings by recordists who have given their permission to share recording metadata with GBIF are shared here.</para>
+			<para>
+                This dataset covers the sounds of the Land mammal sound collection of Xeno-canto (XC). 
+            </para> 
+			<para>
+                Xeno-canto (XC) is an online database and sound archive that provides access to sound recordings of wildlife from around the world. The recordings are shared by a worldwide growing community of thousands of recordists, amateurs and professionals alike. The aim of Xeno-canto is to eventually represent sounds of all animals, meaning of all taxa, to subspecies level, of their complete repertoire, with all of the geographic variability, at all stages of development. As of march 2026 the metadata also includes annotations of individual sounds in recordings, whenever they have been shared on XC.
+            </para>
+            <para>
+                The website of Xeno-canto (xeno-canto.org) was launched in 2005, and initially focussed on Neotropical birds. The scope of Xeno-canto is gradually widening. As of march 2026 the metadata also includes annotations of individual sounds in recordings. (For the annotation format see bibliography). It is run by the Xeno-canto Foundation for Nature Sounds in The Netherlands, with important and generous support from Naturalis Biodiversity Center. Transfer of metadata to GBIF has been in large part funded by NLBIF initially with grant nlbif2020.004. The extension of the metadata to include annotations has been made possible by NLBIF grant nlbif2024.010.
+            </para>
+            <para>
+                Please note that the Land mammal sound dataset shared on GBIF is a subset of the entire collection that is available on https://xeno-canto.org/?gid=5. Only the recordings by recordists who have given their permission to share recording metadata with GBIF are shared here.
+            </para>
         </abstract>
         <keywordSet>
-            <keyword>Mammalia, Land mammals,land mammal sounds</keyword>
+            <keyword>Mammalia,Land mammals,land mammal sounds</keyword>
             <keywordThesaurus>n/a</keywordThesaurus>
         </keywordSet>
         <keywordSet>
@@ -195,10 +206,15 @@
             <gbif>
                 <dateStamp/>
                 <formationPeriod>1900-current</formationPeriod>
-                <citation></citation>
+                <citation>Vellinga, W.P., Planqué, R. &amp; Xeno-canto foundation (2005- ), Xeno-canto - wildlife sounds from around the world. GBIF subset, accessed at ....
+                </citation>
                 <bibliography>
-                    <citation>Vellinga, W.P. & R. Planqué (2015). The Xeno-canto collection and its relation to sound recognition and classification, CLEF2015 Working Notes, CEUR Workshop proceedings Vol-1391.</citation>
-                    <citation>Vellinga, W.P., B. Planqué, S. Pieterse & J. Jongsma (2017). www.xeno-canto.org: a decade on. Neotropical Birding 21: 40-47.</citation>
+                    <citation>Vellinga, W.P. &amp; R. Planqué (2015). CLEF2015 Working Notes, CEUR Workshop proceedings Vol-1391. https://ceur-ws.org/Vol-1391/166-CR.pdf
+                    </citation>
+                    <citation>Vellinga, W.P., B.Planqué, S. Pieterse &amp; J. Jongsma (2017). www.xeno-canto.org: a decade on. Neotropical Birding 21: 40-47.
+                    </citation>
+                    <citation>Vellinga, W.P., B.Planqué (2026), Annota-JSON: a JSON format for annotation of sound recordings, https://xeno-canto.org/article/321
+                    </citation>
                 </bibliography>
                 <resourceLogoUrl/>
             </gbif>
