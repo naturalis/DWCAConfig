@@ -76,8 +76,25 @@
             <onlineUrl>https://www.nlbif.nl</onlineUrl>
             <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
             <role>PROGRAMMER</role>
-		</associatedParty>
-        <pubDate>2026-04-15</pubDate>
+        </associatedParty>
+        <associatedParty>
+            <individualName>
+                <givenName>Eva</givenName>
+                <surName>Alonso</surName>
+            </individualName>
+            <organizationName>NLBIF</organizationName>
+            <positionName>Node manager</positionName>
+            <address>
+                <deliveryPoint>P.O. Box 9517</deliveryPoint>
+                <city>Leiden</city>
+                <postalCode>NL-2300 RA</postalCode>
+                <country>NETHERLANDS</country>
+            </address>
+            <electronicMailAddress>nlbif@naturalis.nl</electronicMailAddress>
+            <onlineUrl>https://www.nlbif.nl</onlineUrl>
+            <role>PROCESSOR</role>
+        </associatedParty>
+        <pubDate>2025-10-06</pubDate>
         <language>en</language>
         <abstract>
 			<para>
