@@ -22,9 +22,7 @@
         <postalCode>NL-2300 RA</postalCode>
         <country>NL</country>
     </address>
-    <phone></phone>
     <electronicMailAddress></electronicMailAddress>
-    <onlineUrl></onlineUrl>
     <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
 </creator>
 <metadataProvider>
@@ -41,9 +39,7 @@
         <postalCode>NL-2300 RA</postalCode>
         <country>NL</country>
     </address>
-    <phone></phone>
     <electronicMailAddress></electronicMailAddress>
-    <onlineUrl></onlineUrl>
 </metadataProvider>
 <associatedParty>
     <individualName>
@@ -60,7 +56,6 @@
         <postalCode>NL-2300 RA</postalCode>
         <country>NL</country>
     </address>
-    <phone></phone>
     <electronicMailAddress>soortenregister@naturalis.nl</electronicMailAddress>
     <onlineUrl>http://www.eis-nederland.nl</onlineUrl>
 </associatedParty>
