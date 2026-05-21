@@ -17,9 +17,7 @@
         <postalCode>NL-2300 RA</postalCode>
         <country>NL</country>
     </address>
-    <phone></phone>
     <electronicMailAddress>speciesregister@naturalis.nl</electronicMailAddress>
-    <onlineUrl></onlineUrl>
     <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
 </creator>
 <metadataProvider>
@@ -36,11 +34,9 @@
         <postalCode>NL-2300 RA</postalCode>
         <country>NL</country>
     </address>
-    <phone></phone>
     <electronicMailAddress>speciesregister@naturalis.nl</electronicMailAddress>
     <onlineUrl>https://www.dutchcaribbeanspecies.org</onlineUrl>
 </metadataProvider>
-<associatedParty />
 <pubDate>2021-05-04</pubDate>
 <language>English</language>
 <additionalInfo>If you require a more detailed export than provided by this GBIF checklist dataset, you can contact the editorial team of Dutch Caribbean Species Register via email.</additionalInfo>
@@ -91,7 +87,6 @@
         <postalCode>NL-2300 RA</postalCode>
         <country>NL</country>
     </address>
-    <phone></phone>
     <electronicMailAddress>speciesregister@naturalis.nl</electronicMailAddress>
     <onlineUrl>https://www.dutchcaribbeanspecies.org</onlineUrl>
  </contact>
