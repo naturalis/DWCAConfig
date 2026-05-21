@@ -66,7 +66,8 @@
 </purpose>  
   
   <coverage>
-      <geographicCoverage>Dutch Caribbean (the islands of Aruba, Bonaire, Curaçao, Saba, Sint Eustatius and Sint Maarten)
+      <geographicCoverage>
+		  <geographicDescription>Dutch Caribbean (the islands of Aruba, Bonaire, Curaçao, Saba, Sint Eustatius and Sint Maarten)</geographicDescription>
           <boundingCoordinates>
             <westBoundingCoordinate>-70</westBoundingCoordinate>
 		    <eastBoundingCoordinate>-63</eastBoundingCoordinate>
