@@ -10,26 +10,8 @@
         <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Chelicerata and Myriapoda</title>
         <creator>
             <individualName>
-                <givenName>Hannco</givenName>
-                <surName>Bakker</surName>
-            </individualName>
-            <organizationName>Naturalis Biodiversity Center</organizationName>
-            <positionName>Curator</positionName>
-            <address>
-                <deliveryPoint>PO Box 9517</deliveryPoint>
-                <city>Leiden</city>
-                <administrativeArea>Zuid Holland</administrativeArea>
-                <postalCode>NL-2300 RA</postalCode>
-                <country>NL</country>
-            </address>
-            <phone>+31.71.7519600</phone>
-            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
-            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
-        </creator>
-        <creator>
-            <individualName>
-                <givenName>Arike</givenName>
-                <surName>Gill</surName>
+                <givenName>Mónica</givenName>
+                <surName>Guimarães Cruz</surName>
             </individualName>
             <organizationName>Naturalis Biodiversity Center</organizationName>
             <positionName>Curator</positionName>
@@ -65,26 +47,8 @@
         </creator>
         <metadataProvider>
             <individualName>
-                <givenName>Hannco</givenName>
-                <surName>Bakker</surName>
-            </individualName>
-            <organizationName>Naturalis Biodiversity Center</organizationName>
-            <positionName>Curator</positionName>
-            <address>
-                <deliveryPoint>PO Box 9517</deliveryPoint>
-                <city>Leiden</city>
-                <administrativeArea>Zuid Holland</administrativeArea>
-                <postalCode>NL-2300 RA</postalCode>
-                <country>NL</country>
-            </address>
-            <phone>+31.71.7519600</phone>
-            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
-            <onlineUrl>https://naturalis.nl/en/collection/</onlineUrl>
-        </metadataProvider>
-        <metadataProvider>
-            <individualName>
-                <givenName>Arike</givenName>
-                <surName>Gill</surName>
+                <givenName>Mónica</givenName>
+                <surName>Guimarães Cruz</surName>
             </individualName>
             <organizationName>Naturalis Biodiversity Center</organizationName>
             <positionName>Curator</positionName>
@@ -147,8 +111,8 @@
         </coverage>
         <contact>
             <individualName>
-                <givenName>Hannco</givenName>
-                <surName>Bakker</surName>
+                <givenName>Mónica</givenName>
+                <surName>Guimarães Cruz</surName>
             </individualName>
             <organizationName>Naturalis Biodiversity Center</organizationName>
             <positionName>Curator</positionName>
