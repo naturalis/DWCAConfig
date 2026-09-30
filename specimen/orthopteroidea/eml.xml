@@ -8,25 +8,7 @@
     <dataset>
         <alternateIdentifier>doi:10.15468/i4jjzm</alternateIdentifier>
         <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Orthopteroidea</title>
-        <creator>
-            <individualName>
-                <givenName>Luc</givenName>
-                <surName>Willemse</surName>
-            </individualName>
-            <organizationName>Naturalis</organizationName>
-            <positionName>Curator</positionName>
-            <address>
-                <deliveryPoint>PO Box 9517</deliveryPoint>
-                <city>Leiden</city>
-                <administrativeArea>Zuid Holland</administrativeArea>
-                <postalCode>NL-2300 RA</postalCode>
-                <country>NL</country>
-            </address>
-            <phone>+31.71.7519600</phone>
-            <electronicMailAddress>collectie@naturalis.nl</electronicMailAddress>
-            <onlineUrl>https://science.naturalis.nl/en/collection/naturalis-collections/</onlineUrl>
-        </creator>
-        <creator>
+         <creator>
             <individualName>
                 <givenName>Charlotte</givenName>
                 <surName>Hartong</surName>
@@ -63,24 +45,6 @@
             <onlineUrl />
             <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
         </creator>
-        <metadataProvider>
-            <individualName>
-                <givenName>Luc</givenName>
-                <surName>Willemse</surName>
-            </individualName>
-            <organizationName>Naturalis</organizationName>
-            <positionName>Curator</positionName>
-            <address>
-                <deliveryPoint>PO Box 9517</deliveryPoint>
-                <city>Leiden</city>
-                <administrativeArea>Zuid Holland</administrativeArea>
-                <postalCode>NL-2300 RA</postalCode>
-                <country>NL</country>
-            </address>
-            <phone>+31.71.7519600</phone>
-            <electronicMailAddress>collectie@naturalis.nl</electronicMailAddress>
-            <onlineUrl>https://science.naturalis.nl/en/collection/naturalis-collections/</onlineUrl>
-        </metadataProvider>
         <metadataProvider>
             <individualName>
                 <givenName>Charlotte</givenName>
