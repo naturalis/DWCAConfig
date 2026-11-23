@@ -15,7 +15,7 @@
 	<entity name="taxon">
 		<mapping>
 			<field name="taxonID" term="http://rs.tdwg.org/dwc/terms/taxonID">
-				<path>sourceSystemId</path>
+				<path>sourceSystemID</path>
 			</field>
 			<field name="acceptedNameUsageId" term="http://rs.tdwg.org/dwc/terms/acceptedNameUsageId">
 				<constant></constant>
@@ -76,7 +76,7 @@
 				</calculator>
 			</field>
 			<field name="acceptedNameUsageId" term="http://rs.tdwg.org/dwc/terms/acceptedNameUsageId">
-				<path>sourceSystemId</path>
+				<path>sourceSystemID</path>
 			</field>
 			<field name="scientificName" term="http://rs.tdwg.org/dwc/terms/scientificName">
 				<path relative="true">fullScientificName</path>
@@ -134,7 +134,7 @@
 		</filter>
 		<mapping>
 			<field name="taxonID" term="http://rs.tdwg.org/dwc/terms/taxonID">
-				<path>sourceSystemId</path>
+				<path>sourceSystemID</path>
 			</field>
 			<field name="vernacularName" term="http://rs.tdwg.org/dwc/terms/vernacularName">
 				<path relative="true">name</path>
