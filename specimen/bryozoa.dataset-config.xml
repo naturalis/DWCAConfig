@@ -215,7 +215,7 @@
     </entity>
     <entity name="multimedia">
         <data-source>
-            <document>MultiMediaObject</document>
+            <document>Media</document>
             <query-spec>
                 <conditions>
                     <condition>
